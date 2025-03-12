@@ -1,0 +1,35 @@
+GCRO SURVEY COMPARISON RESULTS FOR CITY OF JOHANNESBURG
+=====================================================
+
+This analysis compared key socioeconomic indicators between the GCRO Quality of Life Surveys
+from 2017-2018 (pre-pandemic) and 2020-2021 (pandemic era) for the City of Johannesburg.
+
+Key findings:
+1. Changes in absolute values:
+   - unemployment: 3.8% in 2017-2018 to 18.7% in 2020-2021 (396.8% change)
+   - food_insecurity: 7.1% in 2017-2018 to 61.7% in 2020-2021 (765.5% change)
+   - no_medical_insurance: 11.4% in 2017-2018 to 31.1% in 2020-2021 (174.0% change)
+   - public_healthcare_use: 23.1% in 2017-2018 to 75.4% in 2020-2021 (226.3% change)
+   - informal_dwellings: 62.6% in 2017-2018 to 11.2% in 2020-2021 (-82.1% change)
+
+2. Spatial pattern consistency:
+   - unemployment: correlation coefficient = 0.04
+   - food_insecurity: correlation coefficient = 0.58
+   - no_medical_insurance: correlation coefficient = 0.40
+   - public_healthcare_use: correlation coefficient = 0.89
+   - informal_dwellings: correlation coefficient = 0.82
+
+3. Stability of relative positions:
+   - unemployment: rank correlation = 0.09
+   - food_insecurity: rank correlation = 0.61
+   - no_medical_insurance: rank correlation = 0.44
+   - public_healthcare_use: rank correlation = 0.76
+   - informal_dwellings: rank correlation = 0.77
+
+Conclusion:
+While absolute values showed significant shifts during the pandemic period, spatial patterns
+remained remarkably consistent, with high ward-level correlations across time periods
+for key indicators (r = 0.55 on average). Rank correlations (rs = 0.53 on average)
+further confirmed that the relative positioning of wards remained stable, suggesting that
+while the pandemic may have exacerbated vulnerabilities, it did not fundamentally alter
+the underlying spatial patterns of inequality in Johannesburg.

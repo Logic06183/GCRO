@@ -1,0 +1,30 @@
+GCRO SURVEY VARIABLE IDENTIFICATION RESULTS
+===========================================
+
+This file contains the results of our variable identification process for the GCRO surveys.
+It lists potential columns in both datasets that correspond to our key variables of interest.
+
+WARD IDENTIFIERS:
+2020-2021 dataset: ward_code, q12_2_1_ward 
+2017-2018 dataset: ward 
+
+EMPLOYMENT STATUS:
+2020-2021 dataset: q5_14_1_work, q7_15_14_work, q8_6_gov_work_well, q8_15a_job_search, q10_2_working, q10_3_new_job, q10_4_unemployed, q13_7_health_work, q13_13_1_job 
+2017-2018 dataset: Q10_07_job_finding_difficulty, Q11_07_employees, Q11_12_working, Q11_13_new_job, Q11_14_unemployment_status, Q11_15_unemployed, Q11_16_looked_for_work, Q11_17_search_work, Q11_19_period_unemployed, Q11_20_employment, Q11_22_work, Q11_23_hours_work, Q11_24_last_job, Q11_25_imporant_job_consider, Q14_12_work 
+
+FOOD INSECURITY:
+2020-2021 dataset: q1_19_4_heat, q6_4_skip_meal, q6_6_food, q6_6_6_meat, q6_7_food_satis, q6_8_food_exp, q13_16_food_parcel 
+2017-2018 dataset: Q7_04_meal, Q7_06_benefit_food_scheme, Q7_08_monthly_expenditure_food, Q8_18_treated_respectfully 
+
+MEDICAL INSURANCE:
+2020-2021 dataset: q7_15_5_health, q13_1_healthcare, q13_3_health_proxim, q13_4_health_satis, q13_5_medical_aid, q13_6_health_status, q13_7_health_work, q13_8_health_soc, q13_13_6_healthcare, F5health 
+2017-2018 dataset: Q2_13_Health, Q14_01_healthcare_services, Q14_02_nonuse_public_health, Q14_03_health_services, Q14_06_reason_health_behavior, Q14_08_visited_health_woker, Q14_11_health 
+
+HOUSING/DWELLING CONDITIONS:
+2020-2021 dataset: a3_dwelling_type, a3_dwelling_type_recode, q1_2c_rooms, q1_2d_households, q2_1_dwelling, q3_8_prev_dwelling_type 
+2017-2018 dataset: dwelling_count, A3_dwelling, A3_dwelling_recode, Q1_02_rooms, Q1_03_households, Q2_01_dwelling, Q2_02_dwelling_dissatisfaction 
+
+MUNICIPALITY/LOCATION:
+2020-2021 dataset: District_municipality, municipality_coded, Planning_region, Planning_region_code, Any_electricity, Generating_electricity, Generate_own_electricity, q3_6a_municipality, q7_12_munic_comm 
+2017-2018 dataset: munic, munic_recode, region, Q1_26_electricity_supplier, Q1_28_electricity_expenditure, Q1_33_electricity, Q2_07_munic_cost, Q6_05_municipal_broadband, Q8_22_municipal_communication, Q8_24_munic_listens, Q8_25_munic_does, Q8_26_munic_cares, Q8_29_munic_belief, Q8_30_munic_info 
+
