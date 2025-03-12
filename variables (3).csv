@@ -1,0 +1,3161 @@
+var,description
+pospcr_nasal_r2,pospcr_nasal
+dc_ill_med1_freq_v2_3,Frequency
+sx_pulse,Pulse rate
+pospcr_sob_qresol,Is symptom (sob) resolution date known?
+d14_serum_13_tim,
+dc_ill_med1_dose_v2_3,Dosage
+d364_smell_st_v3_2,Start date
+d7_chills,
+d56_oth2_st_v3_2,Start date
+icf_ad_dat_v1_0,Date of informed consent
+conmeds5_v2_3,5. GENERIC NAME
+dc_pv_smell_1_v2_3,Day 1
+icf_re_dat_v3_0,Date of main consent
+prevac_ns_2a___1,
+pospcr_data_sources___4,
+icf_sc_stor_tim_v3_0,Time of consent
+med_stop_mo_32_v2_3,Stop Date - Month
+pv60_temp,
+dc_ill_smell_1_v2_3,Loss of sense of smell Day 1
+pospcr_spo2,pospcr_spo2
+med_start_yr_2_v2_3,Start Date - Year
+dc_pv_med1_freq_v2_3,Frequency
+vacc_date_2,Second vaccination date
+un_arm,Initial randomization arm
+ev_run_st,
+pe_complain_v2_3,Current complaints
+icf_re_oth_sp_v3_0,Other version of ICF
+exam_resp_v2_3,Respiratory
+d364_oxy_v3_2,Oxygen saturation
+d3_diarr,
+scr_id,
+d7_redness_comment,
+dc_ill_oth1_7_v2_3,Other 1 Day 7
+ae_yes_sae_21_v2_3___1,
+icf_locked_date_v2_3,Locked date
+ae_yes_sae_7_v2_3___1,
+dc_pv_bruis_6_v2_3,Day 6
+ev_oth_det_cs,
+med_start_mo_34_v2_3,Start Date - Month
+eos_death_location_oth_v2_3,Place of death:
+d28_diarr,
+d7_cyt_13___1,
+scr_group,
+medication_name_9_v2_3,Mediation Name or Therapy
+med_ongoing_end_23_v2_3___1,
+dc_ill_med11_dose_v2_3,Dosage
+dc_pv_bruis_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+medication_tmt_30_v2_3,Prophylaxis or Treatment
+pospcr_symptoms_r2___18,
+d364_neut_3_v3_2___1,
+s6_cmi___1,
+ae_name_29_v2_3,Adverse event name
+dc_ill_body_2_v2_3,Body aches Day 2
+sc_ns_3___1,
+d42_body_v3_2,Body aches
+d28_resp,
+ae_sae_12_v2_3,"If ticked, specify reason"
+ae_og_15_v2_3___1,
+ae_og_14_v2_3___1,
+med_stop_day_14_v2_3,Stop Date - Day
+prevac_sal_3___1,
+pospcr_condition___5,
+ae_yes_sae_32_v2_3___1,
+allergen1_v2_3,1. Allergen1
+dc_ill_add_det_v2_3,Please add details of illness not captured in table above
+pospcr_hightemp_r2,"Please record the highest body temperature documented during episode     ( °C, 1dp):"
+s6_musclepains,Muscle pains
+s1_musclepains,Muscle pains
+medication_route_25_v2_3,Route Code
+d28_head,
+medhist_psych_det_v2_3,Details
+ae_yes_sae_34_v2_3___1,
+sc_hiv_1___1,
+s6_serum___1,
+ae_related_34_v2_3,Relationship to Study Vaccine
+d364_app_st_v3_2,Start date
+med_start_mo_21_v2_3,Start Date - Month
+d14_sys,
+med_stop_yr_7_v2_3,Stop Date - Year
+travelhist_country1_start_mo_v2_3,Start Date - Month
+incl3,
+medication_name_17_v2_3,Mediation Name or Therapy
+d56_conmed_v3_2,7. Did the participant take any concomitant medication since previous visit?
+sc_proof_contr_v2_3,"If Yes, proof of contraception available to copy?"
+pospcr_data_sources___5,
+medhist_eyes_det_v2_3,Details
+med_start_mo_14_v2_3,Start Date - Month
+ae_sev_18_v2_3,Severity
+pospcr_symptoms___5,
+medhist_eyes_v2_3,Eyes
+med_stop_mo_25_v2_3,Stop Date - Month
+pospcr_appetite_onset,Date of onset (Loss of appetite):
+tmt,
+ae_sae_4_v2_3,"If ticked, specify reason"
+d56_serum_2b_v3_2___1,
+dc_pv_head_5_v2_3,Day 5
+d14_naus_vom,
+d182_weak_v3_2,Fatigue/Weakness
+dc_ill_throat_10_v2_3,Sore throat Day 10
+medication_dose_31_v2_3,Dose
+excl11,
+d14_smell_st,
+d28_serum_2b_tim,
+medication_route_35_v2_3,Route Code
+dc_pv_sweat_visit_v2_3,Medical visit
+d3_redness,
+dc_pv_bruis_visit_v2_3,Medical visit
+d56_sys_v3_2,Systolic BP
+d56_serum_2b_tim_v3_2,Time
+ae_llt_v3,LLT
+medication_route_20_v2_3,Route Code
+icf_sc_hiv_copy_v3_0,11. Was a copy of the HIV testing consent form given to the participant?
+pospcr_diarr,pospcr_diarr
+dc_pv_muscle_med_v2_3,Medication
+d14_loc,
+pospcr_symptoms___9,
+med_start_date_26_v2_3,
+med_ongoing_end_13_v2_3___1,
+med_stop_yr_11_v2_3,Stop Date - Year
+pospcr_asymptomatic_r2,Was the COVID-19 infection entirely asymptomatic?
+unblinding_form_complete,
+pospcr_fever_onset_r2,Date of onset (fever):
+icf_sc_hiv_v3_0,10. Did the participant give permission for HIV and hepatitis testing?
+d364_othsamp_sp_v3_2,Specify other sample
+d56_ue_13_v3_2___1,
+s1_vacc_route_sp,"If other, specify"
+med_start_yr_10_v2_3,Start Date - Year
+dc_ill_body_9_v2_3,Body aches Day 9
+medhist_resp_det_v2_3,Details
+d42_eyes_st_v3_2,Start date
+med_stop_mo_14_v2_3,Stop Date - Month
+dc_pv_itch_med_v2_3,Medication
+dc_pv_cough_visit_v2_3,Medical visit
+pospcr_chills_qresol_r2,Is symptom (chills) resolution date known?
+pe_tim_v2_3,Time
+s1_gen_det_ncs,General - Abnormal NCS details
+med_ongoing_end_18_v2_3___1,
+dc_pv_redness_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+med_start_mo_9_v2_3,Start Date - Month
+d182_oxy_v3_2,Oxygen saturation
+d7_resp,
+medication_route_30_v2_3,Route Code
+dc_ill_eyes_9_v2_3,Redness of the eyes Day 9
+pospcr_chestpain_dur_r2,How long was the 'Chest pain' symptom present (needs not be contiguous days)? 
+dc_pv_med5_dose_v2_3,Dosage
+ae_og_6_v2_3___1,
+pospcr_headache_qresol_r2,Is symptom (headache) resolution date known?
+pv60_itch,
+sx_sal_tim,Time
+d14_chills,
+d3_smell,
+s1_skin_det_ncs,Skin - Abnormal NCS details
+d3_oth2_sp,
+d42_sae_v3_2,6. Has there been any serious reactions or hospitalizations since previous visit?
+ae_related_3_v2_3,Relationship to Study Vaccine
+ae_outcome_27_v2_3,Outcome
+ae_yes_sae_31_v2_3___1,
+medication_frequency_35_v2_3,Frequency
+dc_pv_joint_2_v2_3,Day 2
+d364_weak_st_v3_2,Start date
+ae_sev_26_v2_3,Severity
+s6_resp_det_ncs,Respiratory - Abnormal NCS details
+ae_sev_14_v2_3,Severity
+med_start_day_34_v2_3,Start Date - Day
+d3_throat,
+med_start_mo_13_v2_3,Start Date - Month
+ev_resp_det_cs,
+med_stop_yr_26_v2_3,Stop Date - Year
+dc_ill_eyes_6_v2_3,Redness of the eyes Day 6
+s1_abdo_det_ns,Abdomen - Abnormal CS details
+dc_pv_breath_med_v2_3,Medication
+med_stop_mo_27_v2_3,Stop Date - Month
+d56_body_v3_2,Body aches
+vacc_date_r2,Vaccination date
+ae_sae_7_v2_3,"If ticked, specify reason"
+s1_vacc_site,Site
+s6_inject_det_ncs,Injection site - Abnormal NCS details
+d182_resp_v3_2,Respiratory rate
+pospcr_anosmia_dur_r2,How long was the 'Anosmia' symptom present (needs not be contiguous days)? 
+pospcr_symptoms___4,
+dc_pv_cough_2_v2_3,Day 2
+ae_yes_sae_25_v2_3___1,
+pospcr_vomit_dur_r2,How long was the 'Nausea or vomiting' symptom present (needs not be contiguous days)? 
+medhist_haem_v2_3,Haematological
+med_ongoing_end_27_v2_3___1,
+fu_np_datetime1,
+excl27,
+travelhist_country1_start_day_v2_3,Start Date - Day
+d28_lft_13___1,
+ae_related_9_v2_3,Relationship to Study Vaccine
+ev_nasal,
+herbal3_ind_v2_3,Indication
+medication_dose_26_v2_3,Dose
+d28_family_add,
+ae_related_14_v2_3,Relationship to Study Vaccine
+ae_date_13_v2_3,Start Date
+s6_lymph_det_cs,Lymphatic - Abnormal CS details
+mh_sos,SOS
+ev_inject_det_ncs,
+pospcr_fever_r2,pospcr_fever
+ae_sdate_16_v2_3,Stop Date
+pospcr_lrtd_level_r2,Any evidence of significant LRTI (including one of the following list):
+pospcr_norb_onset,Date of onset (New onset rapid breathing):
+d364_serum_2b_tim_v3_2,Time
+medication_route_10_v2_3,Route Code
+dc_ill_naus_vom_1_v2_3,Nausea and/or vomitting Day 1
+icf_sc_stor_v3_0,12. Did the participant give permission for samples storage for future use?
+icf_re_file_v3_0,Was a copy of the ICF placed in the participant file
+dc_pv_med4_dat_v2_3,Date taken
+vac_crf_status,
+dc_ill_eyes_7_v2_3,Redness of the eyes Day 7
+icf_sc_stor_copy_v3_0,13. Was a copy of the sample storage form given to the participant?
+d7_rapid,
+pe_locked_date_v2_3,Locked date
+dc_pv_weak_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+d42_neut_2b_v3_2___1,
+travelhist_country3_start_day_v2_3,Start Date - Day
+pospcr_cough_qresol,Is symptom (cough) resolution date known?
+informed_consent_v2_3_complete,
+s6_ent_det_cs,ENT - Abnormal CS details
+ae_sdate_24_v2_3,Stop Date
+med_stop_day_21_v2_3,Stop Date - Day
+start_date_event_r2,"<div class=""rich-text-field-label""><p>Enter the start date for this event (symptom onset or date of first positive PCR, whichever comes first)<br /><br /><em>Enter date as: DD-MM-YYYY e.g. 19-08-2020</em></p></div>"
+pospcr_nose_onset,Date of onset (Runny nose):
+med_ongoing_end_30_v2_3___1,
+mh_hlt,HLT
+medication_dis_13_v2_3,Disease Indication
+dc_ill_breath_3_v2_3,Shortness of breath Day 3
+dc_pv_weak_6_v2_3,Day 6
+medication_dose_unit_10_v2_3,Unit Code
+ae_date_35_v2_3,Start Date
+dc_pv_redness_1_v2_3,Day 1
+dc_ill_med5_freq_v2_3,Frequency
+medication_route_5_v2_3,Route Code
+dc_ill_med3_freq_v2_3,Frequency
+prevac_serum_3_tim,
+pospcr_chestpain_onset,Date of onset (chest pain):
+sc_last_period_date_mo_v2_3,Month
+vital_locked_date_v2_3,Locked date
+dc_pv_head_1_v2_3,Day 1
+pospcr_tired_dur_r2,How long was the 'Tiredness (or fatigue or weakness)' symptom present (needs not be contiguous days)? 
+s6_ns___1,
+dc_pv_feverish_2_v2_3,Day 2
+medication_tmt_1_v2_3,Prophylaxis or Treatment
+medhist_psych_v2_3,Psychiatric
+medication_dis_16_v2_3,Disease Indication
+d28_oth2_sp,
+pv60_dressing_2,
+icf_vers_v2_3,Version
+d7_bld_13_tim,
+dc_pv_med6_freq_v2_3,Frequency
+med_start_day_32_v2_3,Start Date - Day
+d14_temp,
+med_start_date_34_v2_3,
+d28_cough_st,
+exam_ent_det_cs_v2_3,ENT - Abnormal CS details
+herbal1_st_mo_v2_3,Start Date Month
+icf_re_visit_dat_v3_0,Date of visit
+pospcr_throat_dur,How long was the 'Sore throat' symptom present (needs not be contiguous days)? 
+ev_chills.1,
+dc_ill_chill_6_v2_3,Chills Day 6
+dc_ill_body_1_v2_3,Body aches Day 1
+ae_name_32_v2_3,Adverse event name
+d364_sae_v3_2,6. Has there been any serious reactions or hospitalizations since previous visit?
+d182_run_st_v3_2,Start date
+dc_pv_med6_dose_v2_3,Dosage
+d364_oth1_st_v3_2,Start date
+dc_pv_med4_dose_v2_3,Dosage
+d7_eyes_st,
+dc_ill_diarr_1_v2_3,Diarrhoea Day 1
+pospcr_chestpain_dur,How long was the 'Chest pain' symptom present (needs not be contiguous days)? 
+med_start_yr_11_v2_3,Start Date - Year
+medhist_cancer_v2_3,Cancer
+d182_oth2_v3_2,Other
+d182_sys_v3_2,Systolic BP
+dc_pv_itch_2_v2_3,Day 2
+medication_frequency_15_v2_3,Frequency
+med_start_yr_3_v2_3,Start Date - Year
+ae_outcome_18_v2_3,Outcome
+medhist_surgery_v2_3,Surgical
+d182_othsamp_v3_2___1,
+dc_ill_cough_1_v2_3,Cough Day 1
+pospcr_other_onset,Date of onset (Other):
+s1_itch,Itch
+s1_resp_2,Respiratory rate
+med_start_yr_5_v2_3,Start Date - Year
+icf_vc_wit_sign_v3_0,"If yes, did witness sign ICF?"
+dc_ill_date_v2_3,Date for first symptoms
+cm_med_id,MED ID
+vs_un_bp_dia_v2_3,Diastolic BP
+d182_nasal_st_v3_2,Start date
+ev_rapid.1,
+ae_outcome_10_v2_3,Outcome
+ae_related_33_v2_3,Relationship to Study Vaccine
+herbal2_st_yr_v2_3,Start Date Year
+herbal1_st_day_v2_3,Start Date - Day
+ae_og_30_v2_3___1,
+med_start_day_21_v2_3,Start Date - Day
+incl6,
+icf_sc_stor_vers_v3_0,Version
+dc_ill_cough_10_v2_3,Cough Day 10
+d28_temp,
+medication_tmt_35_v2_3,Prophylaxis or Treatment
+medication_route_11_v2_3,Route Code
+conmeds2_st_mo_v2_3,Start Date Month
+ae_date_33_v2_3,Start Date
+icf_re_lit_v3_0, Is the participant literate? 
+med_start_mo_19_v2_3,Start Date - Month
+dc_pv_head_med_v2_3,Medication
+medication_dose_unit_12_v2_3,Unit Code
+dc_pv_bruis_3_v2_3,Day 3
+dc_pv_swelling_2_v2_3,Day 2
+dc_ill_med10_dat_v2_3,Date taken
+cm_who_drug_code_complete,
+excl14,
+ae_sae_2_v2_3,"If ticked, specify reason"
+dc_pv_sweat_0_v2_3,Day 0
+pospcr_chestpain,pospcr_chestpain
+dc_pv_tenderness_0_v2_3,Day 0
+dc_ill_med12_v2_3,Name of medication
+dc_ill_med5_dose_v2_3,Dosage
+d28_sys,
+dc_pv_smell_0_v2_3,Day 0
+dc_pv_itch_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+med_stop_yr_22_v2_3,Stop Date - Year
+dc_ill_fatigure_10_v2_3,Fatigue/weakness Day 10
+d364_ns_3_v3_2___1,
+icf_re_wit_v3_0,Is a witness needed to the informed consent process (if illiterate)?
+d182_cough_st_v3_2,Start date
+med_start_mo_27_v2_3,Start Date - Month
+sx_temp,Oral temperature
+pcr_asymptomatic,Asymptomatic outcome
+d3_body_st,
+dc_ill_oth1_10_v2_3,Other 1 Day 10
+dc_ill_taste_9_v2_3,Loss of sense of taste Day 9
+pospcr_condition_r2___2,
+dc_ill_taste_2_v2_3,Loss of sense of taste Day 2
+pospcr_fever_qresol_r2,Is symptom (fever) resolution date known?
+medication_dose_20_v2_3,Dose
+dc_pv_temp_2_v2_3,Day 2
+med_stop_mo_31_v2_3,Stop Date - Month
+d28_breath_st,
+medication_tmt_32_v2_3,Prophylaxis or Treatment
+med_start_day_15_v2_3,Start Date - Day
+med_start_mo_22_v2_3,Start Date - Month
+pospcr_symptoms_r2___8,
+pv60_redness_2,
+med_start_yr_33_v2_3,Start Date - Year
+medication_dose_29_v2_3,Dose
+d28_ue_13___1,
+d56_run_st_v3_2,Start date
+dc_pv_med3_freq_v2_3,Frequency
+d42_oxy_v3_2,Oxygen saturation
+dc_pv_itch_5_v2_3,Day 5
+pospcr_headache_qresol,Is symptom (headache) resolution date known?
+med_start_day_19_v2_3,Start Date - Day
+med_stop_date_31_v2_3,
+pospcr_anosmia_resol,Date of symptom resolution (anosmia):
+pv60_nausea_2,
+med_start_mo_29_v2_3,Start Date - Month
+dc_pv_head_2_v2_3,Day 2
+ev_breath_st,
+med_start_date_25_v2_3,
+ev_skin_det_ncs,
+dc_pv_bruis_2_v2_3,Day 2
+dc_pv_temp_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+pospcr_symptoms_r2___20,
+pv60_tim,
+ae_og_4_v2_3___1,
+d7_chest,
+dc_ill_taste_8_v2_3,Loss of sense of taste Day 8
+s6_warmth,Warmth
+dc_pv_rigor_2_v2_3,Day 2
+ae_sdate_17_v2_3,Stop Date
+ae_og_24_v2_3___1,
+ae_name_25_v2_3,Adverse event name
+ae_crf_status_v2_3,CRF Status
+ev_breath,
+dc_ill_temp_pm_5_v2_3,"Temperature, afternoon Day 5"
+d28_chest_st,
+d182_oth2_sp_v3_2,Other: Specify
+dc_ill_breath_4_v2_3,Shortness of breath Day 4
+ev_diarr_st,
+ae_name_4_v2_3,Adverse event name
+dc_pv_med3_dat_v2_3,Date taken
+prevac_serum_2a___1,
+d56_rapid_v3_2,Rapid breathing
+d3_breath,
+d7_redness,
+pospcr_anosmia_qresol_r2,Is symptom (anosmia) resolution date known?
+ev_dia,
+medhist_cancer_det_v2_3,Details
+pospcr_chills_onset_r2,Date of onset (chills):
+social_smoking_v2_3,Does the participant smoke?
+vital_un_crf_status_v2_3,CRF Status
+ae_related_10_v2_3,Relationship to Study Vaccine
+d28_serum_2a___1,
+med_start_mo_31_v2_3,Start Date - Month
+dc_pv_weak_4_v2_3,Day 4
+incl_sat,
+prevac_ns_2b___1,
+pospcr_run_r2,pospcr_run
+adverse_event_term_v3,Adverse Event Term:
+icf_sc_hiv_dat_v3_0,Date of consent
+icf_ad_tel_copy_v1_0,8. Was a copy of the telephonic informed consent placed in the participant file? 
+d56_sae_v3_2,6. Has there been any serious reactions or hospitalizations since previous visit?
+dc_pv_rigor_visit_v2_3,Medical visit
+s1_tim,Time
+dc_pv_med2_dat_v2_3,Date taken
+supplementary_visit_x_complete,
+d7_throat_st,
+ae_og_35_v2_3___1,
+icf_vc_lang_v3_0,8. Preferred language for signing ICF
+dc_pv_swelling_4_v2_3,Day 4
+ae_og_18_v2_3___1,
+medication_frequency_23_v2_3,Frequency
+d182_fever_st_v3_2,Start date
+pospcr_headache_dur_r2,How long was the 'Headache' symptom present (needs not be contiguous days)? 
+d182_smell_st_v3_2,Start date
+dc_pv_itch_4_v2_3,Day 4
+medication_dose_18_v2_3,Dose
+start_date_event,"<div class=""rich-text-field-label""><p>Enter the start date for this event (symptom onset or date of first positive PCR, whichever comes first)</p> <p><br /><em>Enter date as: DD-MM-YYYY e.g. 19-08-2020</em></p></div>"
+pospcr_lrtd_resol,Date of symptom resolution (radiographic findings consistent with LRTD):
+ev_cv,
+ev_cough.1,
+ae_sae_26_v2_3,"If ticked, specify reason"
+exam_skin_v2_3,Skin
+ae_yes_sae_14_v2_3___1,
+sc_healthcare_v2_3,2. Is participant currently employed as a health care worker?
+d364_chills_v3_2,Chills
+dc_pv_med2_dose_v2_3,Dosage
+d56_oth1_v3_2,Other
+d3_swelling,
+pospcr_headache_onset,Date of onset (headache):
+medication_route_16_v2_3,Route Code
+medication_dose_14_v2_3,Dose
+icf_ad_tel_v1_0___1,
+s6_redness,Redness
+dc_pv_med1_v2_3,Name of medication
+ae_sae_3_v2_3,"If ticked, specify reason"
+dc_ill_temp_pm_2_v2_3,"Temperature, afternoon Day 2"
+ae_outcome_25_v2_3,Outcome
+adverse_events_v2_3_complete,
+trasnport_mode_v2_3,5.	How will the participant primarily travel to the clinic?
+medication_frequency_31_v2_3,Frequency
+d28_eyes_st,
+ae_sdate_19_v2_3,Stop Date
+med_start_day_17_v2_3,Start Date - Day
+supplementary_visit_6_complete,
+icf_ad_cons_v1_0,13. Was informed consent obtained from the participant for their continued participation in the study? 
+prevac_preg_2,
+ae_outcome_30_v2_3,Outcome
+social_alcohol_det_v2_3,Nr/week: __
+medication_dose_unit_14_v2_3,Unit Code
+d28_ns_2a_tim,
+excl19,
+s6_sys_2,Systolic BP
+d42_chills_st_v3_2,Start date
+allergen2_v2_3,2. Allergen1
+ae_name_12_v2_3,Adverse event name
+ev_fever_st,
+dc_ill_eyes_1_v2_3,Redness of the eyes Day 1
+dc_pv_taste_3_v2_3,Day 3
+pv60_resp_2,
+pv60_redness,
+travelhist_country2_start_yr_v2_3,Start Date - Year
+d28_nasal_st,
+eos_crf_status_v2_3,CRF Status
+pospcr_throat,pospcr_throat
+pospcr_headache_r2,pospcr_headache
+medco_diabetes___4,
+medhist_infect_v2_3,"Severe, recurrent infections"
+medication_frequency_13_v2_3,Frequency
+icf_ad_tim_v1_0,time of consent
+pospcr_symptoms___14,
+s6_ent,ENT
+med_stop_mo_16_v2_3,Stop Date - Month
+ae_yes_sae_20_v2_3___1,
+medication_route_26_v2_3,Route Code
+herbal1_v2_3,1.  NAME
+med_start_yr_18_v2_3,Start Date - Year
+ae_name_35_v2_3,Adverse event name
+med_stop_date_18_v2_3,
+d42_taste_st_v3_2,Start date
+pospcr_data_sources_r2___1,
+medication_frequency_27_v2_3,Frequency
+d364_serum_2a_tim_v3_2,Time
+icf_hiv_copy_v2_3,12. Was a copy of the HIV testing consent form given to the participant?
+ae_sdate_26_v2_3,Stop Date
+pospcr_symptoms_r2___15,
+pospcr_symptoms___13,
+d182_serum_2a_v3_2___1,
+dc_pv_temp_1_v2_3,Day 1
+med_stop_date_7_v2_3,
+med_start_date_10_v2_3,
+ae_date_30_v2_3,Start Date
+d56_weak_st_v3_2,Start date
+d364_diarr_st_v3_2,Start date
+med_stop_mo_18_v2_3,Stop Date - Month
+pv60_headache_2,
+s1_cv_det_ncs,Cardiovascular - Abnormal NCS details
+d3_induration_comment,
+medication_dose_unit_29_v2_3,Unit Code
+pospcr_throat_r2,pospcr_throat
+d364_othsamp_tim_v3_2,Time
+d7_cough,
+dc_pv_hard_1_v2_3,Day 1
+med_stop_day_26_v2_3,Stop Date - Day
+med_stop_day_27_v2_3,Stop Date - Day
+ev_app.1,
+dc_pv_head_4_v2_3,Day 4
+ev_lymph_det_cs,
+sc_preg_test_v2_3,3. Urine pregnancy test performed?
+sc_resp_v2_3,Respiratory rate
+d56_oxy_v3_2,Oxygen saturation
+dc_ill_med7_freq_v2_3,Frequency
+medhist_renal_v2_3,Renal
+med_ongoing_end_31_v2_3___1,
+med_ongoing_end_2_v2_3___1,
+cm_level_4,Level 4
+d182_smell_v3_2,Loss of sense of smell
+pv60_musclepains_2,
+medication_dose_17_v2_3,Dose
+pospcr_chestpain_r2,pospcr_chestpain
+diary_card_postvax1_v2_3_complete,
+conmeds3_st_day_v2_3,Start Date - Day
+dc_ill_adm_10_v2_3,Admission Day 10
+d14_sae,
+cm_med_route,Medication route
+pospcr_hospitalised,Was participant Hospitalised?
+pospcr_tired_dur,How long was the 'Tiredness (or fatigue or weakness)' symptom present (needs not be contiguous days)? 
+dc_ill_med4_dat_v2_3,Date taken
+pv60_fever_2,
+med_stop_day_17_v2_3,Stop Date - Day
+s6_skin_det_cs,Skin - Abnormal CS details
+ae_sdate_6_v2_3,Stop Date
+dc_ill_diarr_6_v2_3,Diarrhoea Day 6
+s6_abdo,Abdomen
+med_stop_yr_21_v2_3,Stop Date - Year
+pospcr_nasal_onset,Date of onset (Nasal congestion):
+d364_ns_1_v3_2___1,
+pv60_fatigue_2,
+pospcr_chestpain_qresol,Is symptom (chest pain) resolution date known?
+s6_pax___1,
+randomisation_date_time,Date and time of vaccination
+d3_oth1_sp,
+ev_naus_vom.1,
+pospcr_symptoms_r2___7,
+d14_chest_st,
+ae_sae_28_v2_3,"If ticked, specify reason"
+dc_ill_chill_5_v2_3,Chills Day 5
+medication_dose_35_v2_3,Dose
+pospcr_other_symptom_r2,Please specify other symptom:
+dc_ill_chest_9_v2_3,Chest pain Day 9
+d3_oth2,
+medication_name_8_v2_3,Mediation Name or Therapy
+pospcr_fever_resol,Date of symptom resolution (fever):
+dc_pv_breath_2_v2_3,Day 2
+icf_sc_read_v3_0,3. Was the participant given an opportunity to read informed consent form?
+vs_un_ur_glucose_v2_3,Glucose
+herbal3_st_yr_v2_3,Start Date Year
+medication_dose_6_v2_3,Dose
+vacc_dat,
+scr_dat,
+ae_outcome_26_v2_3,Outcome
+icf_ad_copy_v1_0,16.  Was a copy of the informed consent placed in the participant file? 
+med_stop_yr_25_v2_3,Stop Date - Year
+ev_head.1,
+pospcr_chills_resol,Date of symptom resolution (chills):
+prevac_pax_3___1,
+s6_headache,Headache
+ae_sae_33_v2_3,"If ticked, specify reason"
+dc_ill_med2_dat_v2_3,Date taken
+med_stop_mo_21_v2_3,Stop Date - Month
+excl26,
+d42_dat_v3_2,1. Date:
+d364_nasal_v3_2,Nasal congestion
+med_start_yr_34_v2_3,Start Date - Year
+d7_throat,
+vac_scr_id,
+dc_pv_swelling_6_v2_3,Day 6
+medhist_skin_det_v2_3,Details
+pospcr_symptoms_r2___13,
+med_stop_mo_15_v2_3,Stop Date - Month
+s1_malaise,Malaise
+pospcr_norb_dur_r2,How long was the 'New onset rapid breathing' symptom present (needs not be contiguous days)? 
+medication_tmt_3_v2_3,Prophylaxis or Treatment
+pospcr_date_r2,Date of review:
+icf_ad_tel_cons_v1_0,5. Was informed consent obtained from the participant for their continued participation in the study? 
+dc_pv_med2_v2_3,Name of medication
+sc_ns_1_tim,
+dc_ill_chest_4_v2_3,Chest pain Day 4
+med_stop_date_15_v2_3,
+scr_comment,
+d42_rapid_v3_2,Rapid breathing
+s1_pulse,Pulse rate
+ae_sae_11_v2_3,"If ticked, specify reason"
+sc_id_v2_3,"Demographics of Participant
+(the person who signs ICFs, as it appears on their ID document/s) 
+"
+d182_eyes_st_v3_2,Start date
+ae_related_28_v2_3,Relationship to Study Vaccine
+d364_oth2_v3_2,Other
+medication_dose_16_v2_3,Dose
+pospcr_sp02_level,Sp02 level:
+ae_og_16_v2_3___1,
+medication_frequency_11_v2_3,Frequency
+s1_resp_det_ncs,Respiratory - Abnormal NCS details
+d364_oth2_sp_v3_2,Other: Specify
+med_start_day_8_v2_3,Start Date - Day
+d364_ns_2b_tim_v3_2,Time
+icf_vc_read_v3_0,3. Was the participant given an opportunity to read informed consent form?
+medhist_neuro_det_v2_3,Details
+dc_ill_chest_5_v2_3,Chest pain Day 5
+s6_inject,Injection site
+dc_pv_hard_visit_v2_3,Medical visit
+ae_sae_10_v2_3,"If ticked, specify reason"
+dc_ill_smell_7_v2_3,Loss of sense of smell Day 7
+pospcr_clin_prog,WHO clinical progression score
+pospcr_symptoms___10,
+icf_lang_v2_3,8. Preferred language for signing ICF
+d182_serum_13_v3_2___1,
+dc_ill_eyes_5_v2_3,Redness of the eyes Day 5
+pospcr_throat_resol,Date of symptom resolution (sore throat):
+medication_dose_4_v2_3,Dose
+medhist_autoimm_v2_3,Autoimmune
+med_stop_mo_30_v2_3,Stop Date - Month
+dc_pv_head_6_v2_3,Day 6
+ae_outcome_22_v2_3,Outcome
+pv60_nausea,
+icf_sc_id_v3_0,<div class=\rich-text-field-label\><p>Re-enter the screening ID (e.g. X-9XXXX)</p></div>
+ae_sdate_30_v2_3,Stop Date
+med_stop_yr_12_v2_3,Stop Date - Year
+d364_eyes_v3_2,Redness of the eyes
+d3_locked_date,
+d7_oth2_st,
+d3_fever,
+dc_ill_med11_freq_v2_3,Frequency
+pospcr_lrtd_onset_r2,Date of onset (radiographic findings consistent with LRTD):
+prevac_serum_2b___1,
+d14_oth2,
+icf_ad_tel_sign_v1_0,"7. If yes, was participant informed that they need to sign the consent form at their next clinic visit? "
+dc_ill_med4_freq_v2_3,Frequency
+icf_re_oth__vers_v3_0,Version
+vs_un_scr_dat_v2_3,1. Date:
+d3_body,
+medication_dis_3_v2_3,Disease Indication
+medication_dis_5_v2_3,Disease Indication
+medication_frequency_10_v2_3,Frequency
+ae_related_29_v2_3,Relationship to Study Vaccine
+s6_vacc_route,Route
+pospcr_diarr_qresol,Is symptom (diarrhea) resolution date known?
+med_start_date_15_v2_3,
+ae_sdate_15_v2_3,Stop Date
+medication_tmt_27_v2_3,Prophylaxis or Treatment
+ae_sev_13_v2_3,Severity
+dc_ill_chill_8_v2_3,Chills Day 8
+s1_inject_det_cs,Injection site - Abnormal CS details
+ae_sev_19_v2_3,Severity
+s6_ent_det_ncs,ENT - Abnormal NCS details
+ev_nasal.1,
+dc_pv_bruis_1_v2_3,Day 1
+d56_chest_st_v3_2,Start date
+dc_pv_feverish_1_v2_3,Day 1
+pospcr_chestpain_onset_r2,Date of onset (chest pain):
+d7_fever_st,
+allergen1_det_2_v2_3,Details
+exam_abdo_det_ns_v2_3,Abdomen - Abnormal CS details
+dc_pv_med4_freq_v2_3,Frequency
+pospcr_nose_onset_r2,Date of onset (Runny nose):
+medication_dose_unit_7_v2_3,Unit Code
+d28_body_st,
+scr_col_tim,
+d28_family_id3,
+vs_un_oxy_room_v2_3,Oxygen
+d42_conmed_v3_2,7. Did the participant take any concomitant medication since previous visit?
+medication_tmt_8_v2_3,Prophylaxis or Treatment
+ae_sev_20_v2_3,Severity
+ev_comment,
+medication_name_5_v2_3,Mediation Name or Therapy
+pospcr_asymptomatic,Was the COVID-19 infection entirely asymptomatic?
+ae_date_22_v2_3,Start Date
+ae_name_24_v2_3,Adverse event name
+medication_name_15_v2_3,Mediation Name or Therapy
+d56_throat_st_v3_2,Start date
+icf_all_v2_3,16. Was a copy of all 3 signed ICF's placed in the participant file?
+excl6,
+dc_pv_taste_0_v2_3,Day 0
+dc_ill_med9_freq_v2_3,Frequency
+pospcr_sob_onset_r2,Date of onset (sob):
+medication_name_23_v2_3,Mediation Name or Therapy
+prevac_preg_res_2,
+pospcr_vomit_onset,Date of onset (Nausea or vomiting):
+ev_oth2_st,
+icf_re_oth_na_v3_0___1,
+med_dat_v2_3,1. Date:
+med_start_day_18_v2_3,Start Date - Day
+medhist_infect_det_v2_3,Details
+dc_pv_sweat_3_v2_3,Day 3
+dc_pv_hard_6_v2_3,Day 6
+medication_dose_2_v2_3,Dose
+medication_dis_23_v2_3,Disease Indication
+ae_sdate_33_v2_3,Stop Date
+d14_resp,
+d56_rapid_st_v3_2,Start date
+d56_throat_v3_2,Sore throat
+s6_resp_2,Respiratory rate
+d28_family_id2,
+excl12,
+icf_vc_oth_sp_v3_0,Other version of ICF
+pospcr_sob_resol,Date of symptom resolution (sob):
+pospcr_vomit_dur,How long was the 'Nausea or vomiting' symptom present (needs not be contiguous days)? 
+ev_abdo_det_ns,
+med_start_date_28_v2_3,
+pospcr_appetite_dur,How long was the 'Loss of appetite' symptom present (needs not be contiguous days)? 
+d28_breath,
+ae_date_18_v2_3,Start Date
+d14_cell_2a___1,
+d28_app_st,
+ev_oth2_sp,
+d3_reglymph,
+d14_ns_13_tim,
+d182_pulse_v3_2,Pulse rate
+medication_dose_7_v2_3,Dose
+med_stop_mo_29_v2_3,Stop Date - Month
+icf_vc_trans_v3_0,9. Was a translator used?
+d56_breath_st_v3_2,Start date
+d42_app_st_v3_2,Start date
+dc_ill_diarr_4_v2_3,Diarrhoea Day 4
+dc_pv_swelling_5_v2_3,Day 5
+med_start_day_28_v2_3,Start Date - Day
+ae_yes_sae_10_v2_3___1,
+dc_ill_oth2_1_v2_3,Other 2 Day 1
+d3_samp_tim,
+d56_ns_2a_tim_v3_2,Time
+d7_smell_st,
+ae_sdate_3_v2_3,Stop Date
+d28_family_id1,
+d42_body_st_v3_2,Start date
+dc_ill_oth2_9_v2_3,Other 2 Day 9
+d3_lft___1,
+d14_oth2_st,
+d42_resp_v3_2,Respiratory rate
+s6_respiratory,Respiratory
+day_182_post_vaccination_v3_2_complete,
+ae_name_20_v2_3,Adverse event name
+exam_oth_v2_3,Other: specify
+d3_taste_st,
+dc_pv_muscle_0_v2_3,Day 0
+dc_pv_muscle_6_v2_3,Day 6
+ev_weak_st,
+pospcr_aguesia_onset_r2,Date of onset (aguesia):
+med_ongoing_end_34_v2_3___1,
+ae_sae_15_v2_3,"If ticked, specify reason"
+ev_cv_det_cs,
+medication_dis_10_v2_3,Disease Indication
+contra_method_v2_3,Contraception method
+pospcr_symptoms_r2___11,
+pospcr_hightemp_dur_r2,If >38.4 C how long was the 'fever of over 38.4 C' present (needs not be contiguous days)?
+ae_yes_sae_22_v2_3___1,
+conmeds1_ind_v2_3,Indication
+medication_tmt_5_v2_3,Prophylaxis or Treatment
+pospcr_condition_r2___4,
+ae_outcome_28_v2_3,Outcome
+med_stop_yr_31_v2_3,Stop Date - Year
+ae_name_2_v2_3,Adverse event name
+d7_fbc_13___1,
+excl15,
+dc_ill_med4_v2_3,Name of medication
+incl1,
+med_start_mo_10_v2_3,Start Date - Month
+medication_dose_unit_35_v2_3,Unit Code
+d56_serum_2a_tim_v3_2,Time
+pospcr_data_sources___9,
+dc_ill_med5_v2_3,Name of medication
+d28_ns_13___1,
+ae_yes_sae_24_v2_3___1,
+ae_sdate_13_v2_3,Stop Date
+d7_weak,
+medication_tmt_2_v2_3,Prophylaxis or Treatment
+fluvac_yr_v2_3,"If yes, date - Year"
+d28_hla_2b___1,
+med_stop_day_2_v2_3,Stop Date - Day
+day_7_post_vaccination_complete,
+ev_temp,
+medication_dis_30_v2_3,Disease Indication
+med_start_date_29_v2_3,
+med_start_day_4_v2_3,Start Date - Day
+pospcr_data_sources___1,
+ae_sev_5_v2_3,Severity
+med_stop_mo_24_v2_3,Stop Date - Month
+d3_app,
+dc_pv_rigor_6_v2_3,Day 6
+icf_re_trans_comm_v3_0,Translator comments
+d7_naus_vom,
+dc_ill_fatigure_9_v2_3,Fatigue/weakness Day 9
+med_stop_mo_12_v2_3,Stop Date - Month
+pospcr_symptoms___20,
+vacc_date,Vaccination date
+dc_ill_oth2_4_v2_3,Other 2 Day 4
+d182_othsamp_sp_v3_2,Specify other sample
+pospcr_condition___1,
+day_42_group2b_v3_2_complete,
+ae_date_15_v2_3,Start Date
+med_start_yr_21_v2_3,Start Date - Year
+s1_resp_det_cs,Respiratory - Abnormal CS details
+un_reas_sp,Specify other
+med_start_day_12_v2_3,Start Date - Day
+med_stop_mo_7_v2_3,Stop Date - Month
+medication_dose_unit_25_v2_3,Unit Code
+s6_abdo_det_ns,Abdomen - Abnormal CS details
+dc_pv_sweat_5_v2_3,Day 5
+icf_sc_wit_sign_v3_0,"If yes, did witness sign ICF?"
+ae_sdate_21_v2_3,Stop Date
+d42_othsamp_v3_2___1,
+ae_name_28_v2_3,Adverse event name
+informed_consent_addendum_10_complete,
+med_start_day_16_v2_3,Start Date - Day
+ev_body_st,
+dc_ill_throat_5_v2_3,Sore throat Day 5
+dc_pv_temp_4_v2_3,Day 4
+prevac_tim,
+vs_un_oxy_v2_3,Oxygen saturation
+ae_related_18_v2_3,Relationship to Study Vaccine
+dc_ill_temp_pm_8_v2_3,"Temperature, afternoon Day 8"
+d28_oth1_sp,
+med_stop_date_5_v2_3,
+pospcr_lrtd_resol_r2,Date of symptom resolution (radiographic findings consistent with LRTD):
+s1_nausea,Nausea
+pospcr_sob_resol_r2,Date of symptom resolution (sob):
+d28_chills_st,
+d364_cough_st_v3_2,Start date
+rescreen_dat,
+medco_diabetes___2,
+un_comm1,If no: comments: 
+dc_ill_med6_dat_v2_3,Date taken
+s6_cv_det_ncs,Cardiovascular - Abnormal NCS details
+icf_sc_all_v3_0,15. Was a copy of all 3 signed ICF's placed in the participant file?
+d364_taste_st_v3_2,Start date
+dc_ill_med2_v2_3,Name of medication
+pospcr_spo2_resol,Date of symptom resolution (spo2):
+physical_examination_v2_3_complete,
+ae_sae_31_v2_3,"If ticked, specify reason"
+fu_vs_datetime2,
+sx_serum___1,
+dc_pv_joint_visit_v2_3,Medical visit
+d42_cough_st_v3_2,Start date
+pv60_warmth_2,
+s6_sal_tim,Time
+medication_route_21_v2_3,Route Code
+d182_oth1_sp_v3_2,Other: Specify
+med_ongoing_end_7_v2_3___1,
+icf_hiv_v2_3,11. Did the participant give permission for HIV and hepatitis testing?
+d3_nasal_st,
+dc_ill_cough_7_v2_3,Cough Day 7
+dc_pv_breath_0_v2_3,Day 0
+medhist_ent_det_v2_3,Details
+medication_frequency_34_v2_3,Frequency
+med_start_mo_35_v2_3,Start Date - Month
+ev_abdo,
+d3_head_st,
+d42_oth1_st_v3_2,Start date
+medication_name_2_v2_3,Mediation Name or Therapy
+medication_frequency_22_v2_3,Frequency
+icf_ad_ques_v1_0,12. Was the opportunity for questions given? 
+med_start_date_27_v2_3,
+d14_taste_st,
+ae_date_4_v2_3,Start Date
+d28_serum_13___1,
+dc_ill_taste_3_v2_3,Loss of sense of taste Day 3
+redcap_repeat_instance,
+fu_ser_datetime2,
+conmeds3_st_mo_v2_3,Start Date Month
+d14_othsamp___1,
+dc_pv_breath_6_v2_3,Day 6
+cm_med_verbatim_term,Medication verbatim  term
+d14_serum_2a___1,
+d3_oxy,
+prevac_serum_1_tim,
+pospcr_other_symptom,Please specify other symptom:
+pospcr_sob_onset,Date of onset (sob):
+medication_route_8_v2_3,Route Code
+medication_dis_9_v2_3,Disease Indication
+med_stop_yr_20_v2_3,Stop Date - Year
+ur_blood_v2_3,Blood
+dc_pv_joint_0_v2_3,Day 0
+ev_taste_st,
+pospcr_naus_vom,pospcr_naus_vom
+icf_crf_status_v2_3,CRF status
+dc_ill_oth1_5_v2_3,Other 1 Day 5
+d28_fever,
+med_stop_yr_5_v2_3,Stop Date - Year
+d28_family_id6,
+dc_ill_oth2_5_v2_3,Other 2 Day 5
+exam_resp_det_cs_v2_3,Respiratory - Abnormal CS details
+dc_pv_redness_2_v2_3,Day 2
+icf_sc_trans_comm_v3_0,Translator comments
+d364_loc_v3_2,3. Where is this visit taking place?
+d364_ns_2a_v3_2___1,
+medication_dis_12_v2_3,Disease Indication
+d14_run_st,
+icf_ad_oth_sp_v1_0,
+travelhist_country3_end_day_v2_3,End Date - day
+d182_serum_2b_v3_2___1,
+d14_run,
+d56_nasal_st_v3_2,Start date
+s6_gen_det_cs,General - Abnormal CS details
+sx_resp,Respiratory rate
+d28_smell_st,
+icf_locked_date_v3_0,Locked date
+medication_dis_1_v2_3,Disease Indication
+fluvac_mo_v2_3,"If yes, date - Month"
+ae_sev_7_v2_3,Severity
+d7_ns_2a_tim,
+pospcr_symptoms___8,
+icf_wit_v2_3,2. Is a witness needed to the informed consent process (if illiterate)?
+ae_related_32_v2_3,Relationship to Study Vaccine
+dc_ill_body_3_v2_3,Body aches Day 3
+dc_ill_chest_6_v2_3,Chest pain Day 6
+d28_oth1,
+e1_crf_status_r2,CRF status
+med_start_mo_8_v2_3,Start Date - Month
+med_ongoing_end_21_v2_3___1,
+ev_ent_det_cs,
+medhist_hepatic_v2_3,Hepatic
+pospcr_cough_resol_r2,Date of symptom resolution (cough):
+pv60_pulse_2,
+excl10,
+excl20,
+dc_ill_smell_6_v2_3,Loss of sense of smell Day 6
+s6_skin,Skin
+dc_pv_swelling_0_v2_3,Day 0
+excl21,
+ae_outcome_4_v2_3,Outcome
+icf_ad_cont_dat_v1_0,1. Date of successful telephonic contact: 
+medhist_family_det2_v2_3,2. Details
+travelhist_country3_det_v2_3,Comments
+d7_chest_st,
+d28_pax_13___1,
+ae_og_7_v2_3___1,
+end_of_study_v2_3_complete,
+medication_name_11_v2_3,Mediation Name or Therapy
+allergen1_det_v2_3,Details
+pospcr_nasal_dur_r2,How long was the 'Nasal congestion' symptom present (needs not be contiguous days)? 
+sc_pulse_v2_3,Pulse rate
+ae_related_22_v2_3,Relationship to Study Vaccine
+d7_crf_status,
+ae_sev_29_v2_3,Severity
+med_ongoing_end_1_v2_3___1,
+dc_ill_locked_date_v2_3,Locked date
+day_28_post_vaccination_complete,
+ae_sev_25_v2_3,Severity
+med_stop_day_1_v2_3,Stop Date - Day
+dc_pv_breath_4_v2_3,Day 4
+med_start_yr_6_v2_3,Start Date - Year
+ae_related_12_v2_3,Relationship to Study Vaccine
+sx_sal___1,
+pospcr_symptoms___7,
+medication_name_13_v2_3,Mediation Name or Therapy
+d182_rapid_v3_2,Rapid breathing
+med_start_day_10_v2_3,Start Date - Day
+med_start_date_8_v2_3,
+pospcr_myalgia,pospcr_myalgia
+dc_pv_crf_status_v2_3,CRF Status
+pospcr_lrtd_dur_r2,How long was the 'Radiographic findings consistent with LRTD' symptom present (needs not be contiguous days)? 
+med_stop_date_22_v2_3,
+medication_tmt_25_v2_3,Prophylaxis or Treatment
+dc_pv_weak_2_v2_3,Day 2
+d42_run_v3_2,Runny nose
+ev_samp_tim,
+medication_frequency_24_v2_3,Frequency
+med_start_mo_17_v2_3,Start Date - Month
+d14_app_st,
+medication_route_6_v2_3,Route Code
+excl3,
+day_28_post_vaccination_v3_3_or_complete,
+medhist_cv_v2_3,Cardiovascular
+icf_vc_tim_v3_0,Time of consent
+travelhist_country3_start_yr_v2_3,Start Date - Year
+medication_dis_24_v2_3,Disease Indication
+dc_ill_eyes_3_v2_3,Redness of the eyes Day 3
+herbal2_ind_v2_3,Indication
+med_stop_date_2_v2_3,
+ae_related_11_v2_3,Relationship to Study Vaccine
+dc_pv_feverish_3_v2_3,Day 3
+sc_hbsag_2___1,
+medication_dose_unit_6_v2_3,Unit Code
+med_stop_mo_20_v2_3,Stop Date - Month
+dc_pv_taste_visit_v2_3,Medical visit
+pospcr_clin_prog_r2,WHO clinical progression score
+redcap_event_name,
+medco_diabetes___3,
+ev_throat.1,
+pospcr_data_sources_r2___5,
+d56_oth1_st_v3_2,Start date
+d182_chest_v3_2,Chest pain
+prevac_temp,
+s6_fever,Feverish
+ae_name_18_v2_3,Adverse event name
+med_stop_mo_1_v2_3,Stop Date - Month
+dc_ill_oth1_3_v2_3,Other 1 Day 3
+pospcr_chills_r2,pospcr_chills
+med_stop_day_12_v2_3,Stop Date - Day
+ae_og_2_v2_3___1,
+med_start_day_24_v2_3,Start Date - Day
+eos_locked_date_v2_3,Locked date
+pospcr_other_datasource,Please specify other:
+ae_og_20_v2_3___1,
+ev_app_st,
+med_stop_yr_15_v2_3,Stop Date - Year
+icf_re_oth_trans_v3_0,Was a translator used?
+ev_dat,
+vs_un_ur_protein_v2_3,Protein
+s6_temp,Oral temperature
+prevac_sal_3_tim,
+sx_oxy,Oxygen saturation
+d14_app,
+dc_ill_chest_8_v2_3,Chest pain Day 8
+med_stop_date_35_v2_3,
+vac_locked_date,
+pospcr_myalgia_onset_r2,Date of onset (myalgia):
+excl8,
+vs_un_bmi_v2_3,BMI
+medhist_trials_v2_3,Current or previous participation in clinical trial
+icf_re_oth_date_v3_0,Date
+medhist_renal_det_v2_3,Details
+s6_chills,Chills
+med_start_day_7_v2_3,Start Date - Day
+med_start_date_1_v2_3,
+medication_name_1_v2_3,Mediation Name or Therapy
+icf_stor_v2_3,13. Did the participant give permission for samples storage for future use?
+fu_crf_status,
+travelhist_country3_end_mo_v2_3,End Date - Month
+fu_sal_datetime3,
+d28_body,
+record_id,
+ae_sae_6_v2_3,"If ticked, specify reason"
+pospcr_run,pospcr_run
+ae_sdate_9_v2_3,Stop Date
+med_stop_yr_6_v2_3,Stop Date - Year
+medication_dose_unit_31_v2_3,Unit Code
+d14_body,
+primary_symptom_elig,Primary Symptom Eligibility
+d7_oth2_sp,
+pospcr_rapid_r2,pospcr_rapid
+ev_skin,
+icf_ad_vers_v1_0,
+icf_vc_vers_v3_0,Version
+informed_consent_vaccination_v3_0_complete,
+sc_lft_3___1,
+d7_breath_st,
+s1_oth_sp,Other System
+ae_og_1_v2_3___1,
+dc_pv_taste_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+ae_name_27_v2_3,Adverse event name
+ev_ent,
+sc_oxy_room_v2_3,Oxygen
+d28_othsamp___1,
+sx_serum_tim,Time
+fu_res3_oth,
+dc_ill_med7_dose_v2_3,Dosage
+dc_pv_tenderness_1_v2_3,Day 1
+medical_history_v2_3_complete,
+s1_resp,Respiratory rate
+pospcr_symptoms___15,
+conmeds2_ind_v2_3,Indication
+med_ongoing_end_33_v2_3___1,
+medhist_cv_det_v2_3,Details
+d7_swelling_comment,
+med_ongoing_end_10_v2_3___1,
+pv60_malaise,
+social_smoking_det_v2_3,Nr/week: __
+dc_pv_med2_freq_v2_3,Frequency
+prevac_serum_2a_tim,
+prevac_serum_2b_tim,
+d28_throat_st,
+d3_othsamp_sp,
+medication_route_15_v2_3,Route Code
+med_stop_day_9_v2_3,Stop Date - Day
+fluvac_v2_3,Did you receive a flu vaccine this year? 
+d14_throat_st,
+d182_sae_v3_2,6. Has there been any serious reactions or hospitalizations since previous visit?
+icf_hiv_oth_sp_v2_3,Other version of ICF
+fu_res2,
+d28_sae,
+med_start_day_14_v2_3,Start Date - Day
+med_start_day_27_v2_3,Start Date - Day
+d364_serum_1_v3_2___1,
+dc_pv_muscle_5_v2_3,Day 5
+s1_vacc_route,Route
+d42_diarr_st_v3_2,Start date
+medication_name_35_v2_3,Mediation Name or Therapy
+medication_route_14_v2_3,Route Code
+ae_sae_13_v2_3,"If ticked, specify reason"
+ae_yes_sae_26_v2_3___1,
+med_stop_day_32_v2_3,Stop Date - Day
+s1_ent_det_ncs,ENT - Abnormal NCS details
+dc_pv_muscle_3_v2_3,Day 3
+icf_vc_ques_sp_v3_0,Specify any questions or concerns raised
+diary_card_illness_v2_3_complete,
+d182_chills_st_v3_2,Start date
+dc_pv_redness_4_v2_3,Day 4
+d56_cough_v3_2,Cough
+ae_outcome_20_v2_3,Outcome
+ev_chest.1,
+medication_dose_unit_15_v2_3,Unit Code
+dc_ill_fatigure_3_v2_3,Fatigue/weakness Day 3
+pospcr_diarr_r2,pospcr_diarr
+conmeds1_st_mo_v2_3,Start Date Month
+medication_dose_unit_20_v2_3,Unit Code
+medication_frequency_2_v2_3,Frequency
+pv60_dressing,
+s6_abdo_det_ncs,Abdomen - Abnormal NCS details
+dc_ill_diarr_8_v2_3,Diarrhoea Day 8
+fu_dat,
+dc_ill_throat_9_v2_3,Sore throat Day 9
+ae_yes_sae_2_v2_3___1,
+icf_read_v2_3,3. Was the participant given an opportunity to read informed consent form?
+med_start_yr_7_v2_3,Start Date - Year
+dc_ill_cough_6_v2_3,Cough Day 6
+med_start_mo_20_v2_3,Start Date - Month
+d182_fever_v3_2,Fever
+pv60_malaise_2,
+icf_sc_copy_v3_0,9. Was a copy of the main informed consent form given to the participant?
+d56_oth1_sp_v3_2,Other: Specify
+med_ongoing_end_17_v2_3___1,
+vs_un_preg_test_v2_3,3. Urine pregnancy test performed?
+medication_frequency_9_v2_3,Frequency
+med_ongoing_end_26_v2_3___1,
+d42_crf_status_v3_2,CRF Status
+s1_oth_det_cs,Other - Abnormal CS details
+d42_oth1_sp_v3_2,Other: Specify
+d7_cough_st,
+ev_oth3,
+d14_conmed,
+conmeds6_ind_v2_3,Indication
+d56_app_st_v3_2,Start date
+d28_rapid,
+dc_pv_hard_med_v2_3,Medication
+dc_pv_head_3_v2_3,Day 3
+d7_chills_st,
+ae_sae_19_v2_3,"If ticked, specify reason"
+d42_chills_v3_2,Chills
+med_stop_mo_4_v2_3,Stop Date - Month
+d56_oth2_v3_2,Other
+d7_conmed,
+dc_pv_itch_3_v2_3,Day 3
+pospcr_headache_onset_r2,Date of onset (headache):
+d364_cough_v3_2,Cough
+prevac_ns_3_tim,
+pospcr_data_sources___8,
+d3_cough_st,
+ev_gen,
+d28_chest,
+dc_pv_feverish_6_v2_3,Day 6
+ae_name_15_v2_3,Adverse event name
+sx_ns_tim,Time
+icf_vc_id_v3_0,<div class=\rich-text-field-label\><p>Re-enter the screening ID (e.g. X-9XXXX)</p></div>
+d364_naus_vom_v3_2,Nausea and/or vomitting
+d42_app_v3_2,Loss of appetite
+incl7,
+ev_inject_det_cs,
+d14_nasal,
+medication_frequency_8_v2_3,Frequency
+medication_name_21_v2_3,Mediation Name or Therapy
+medication_dose_25_v2_3,Dose
+ev_nasal_st,
+med_stop_yr_27_v2_3,Stop Date - Year
+d7_head,
+conmeds4_st_yr_v2_3,Start Date Year
+ae_yes_sae_11_v2_3___1,
+pospcr_condition_r2___0,
+ae_sdate_28_v2_3,Stop Date
+d28_head_st,
+d182_serum_2b_tim_v3_2,Time
+ae_outcome_1_v2_3,Outcome
+medication_tmt_16_v2_3,Prophylaxis or Treatment
+medication_dose_unit_26_v2_3,Unit Code
+med_stop_yr_34_v2_3,Stop Date - Year
+medication_dis_20_v2_3,Disease Indication
+d182_breath_st_v3_2,Start date
+dc_pv_cough_5_v2_3,Day 5
+ev_oth1,
+inclexcl_locked_date,
+medhist_hepatic_det_v2_3,Details
+ae_og_13_v2_3___1,
+informed_consent_re_signing_v3_0_complete,
+dc_ill_chill_7_v2_3,Chills Day 7
+icf_sc_ques_v3_0,5. Was the opportunity for questions given?
+medication_dis_22_v2_3,Disease Indication
+dc_ill_smell_9_v2_3,Loss of sense of smell Day 9
+d28_naus_vom_st,
+medication_tmt_24_v2_3,Prophylaxis or Treatment
+medication_route_33_v2_3,Route Code
+d182_oth1_st_v3_2,Start date
+d364_hiv_1_v3_2___1,
+conmeds3_v2_3,3. GENERIC NAME
+conmeds2_st_yr_v2_3,Start Date Year
+herbal1_ind_v2_3,Indication
+med_start_date_23_v2_3,
+s6_dia,Diastolic BP
+d364_weak_v3_2,Fatigue/Weakness
+med_start_yr_8_v2_3,Start Date - Year
+ev_oth_sp,
+ev_ns___1,
+d364_serum_1_tim_v3_2,Time
+informed_consent_screening_v3_0_complete,
+d364_run_v3_2,Runny nose
+dc_pv_smell_3_v2_3,Day 3
+un_dat,Date of participant unblinding
+d42_rapid_st_v3_2,Start date
+exam_inject_det_ncs_v2_3,Injection site - Abnormal NCS details
+medication_dis_14_v2_3,Disease Indication
+ev_oth4,
+ae_related_5_v2_3,Relationship to Study Vaccine
+pv60_dia,
+d3_fbc___1,
+ae_yes_sae_12_v2_3___1,
+medication_dose_unit_5_v2_3,Unit Code
+conmed_crf_status_v2_3,CRF Status
+dc_pv_itch_visit_v2_3,Medical visit
+pospcr_throat_onset_r2,Date of onset (sore throat):
+scr_locked_date,
+dc_ill_fatigure_6_v2_3,Fatigue/weakness Day 6
+icf_sc_tim_v3_0,Time of consent
+med_start_date_19_v2_3,
+ev_oth4_sp,
+endpoint_evaluation_e1_r1_complete,
+med_start_yr_9_v2_3,Start Date - Year
+medication_tmt_23_v2_3,Prophylaxis or Treatment
+ae_date_11_v2_3,Start Date
+dc_pv_cough_0_v2_3,Day 0
+medication_dose_unit_1_v2_3,Unit Code
+icf_vc_cons_v3_0,7. Was informed consent obtained from the participant for their participation in the study?
+pospcr_symptoms_r2___17,
+ae_sdate_22_v2_3,Stop Date
+med_stop_yr_29_v2_3,Stop Date - Year
+vs_un_resp_v2_3,Respiratory rate
+pospcr_aguesia_dur,How long was the 'Aguesia' symptom present (needs not be contiguous days)? 
+icf_pre_hiv_v2_3,15. Was adequate pre-test HIV counselling given to the participant?
+d364_locked_date_v3_2,Locked date
+ae_related_13_v2_3,Relationship to Study Vaccine
+med_start_mo_7_v2_3,Start Date - Month
+prevac_sal_2b_tim,
+pospcr_aguesia_dur_r2,How long was the 'Aguesia' symptom present (needs not be contiguous days)? 
+med_stop_mo_28_v2_3,Stop Date - Month
+med_stop_day_24_v2_3,Stop Date - Day
+cm_level_6,Level 6
+dc_pv_taste_6_v2_3,Day 6
+medication_route_2_v2_3,Route Code
+s6_pain,Pain
+dc_ill_smell_3_v2_3,Loss of sense of smell Day 3
+ae_related_1_v2_3,Relationship to Study Vaccine
+dc_ill_breath_8_v2_3,Shortness of breath Day 8
+dc_ill_med12_dat_v2_3,Date taken
+dc_pv_redness_med_v2_3,Medication
+dc_pv_taste_5_v2_3,Day 5
+excl9,
+medco_cv_opt_v2_3___5,
+pv60_pain_2,
+dc_pv_tenderness_2_v2_3,Day 2
+ae_name_3_v2_3,Adverse event name
+fu_sal_datetime1,
+s6_dia_2,Diastolic BP
+vs_un_bp_sys_v2_3,Systolic BP
+vital_signs_unscheduled_visit_v2_3_complete,
+ae_yes_sae_13_v2_3___1,
+pospcr_condition_r2___5,
+d28_serum_13_tim,
+med_stop_yr_23_v2_3,Stop Date - Year
+pe_comment_v2_3,Comments
+d7_nasal,
+prevac_pax_2a___1,
+dc_ill_med11_v2_3,Name of medication
+ae_sdate_25_v2_3,Stop Date
+medication_dose_3_v2_3,Dose
+pospcr_sp02_level_r2,Sp02 level:
+exam_oth_det_cs_v2_3,Other - Abnormal CS details
+sc_lft_1___1,
+dc_pv_med5_dat_v2_3,Date taken
+d364_temp_v3_2,Oral temperature
+d56_serum_13_tim_v3_2,Time
+pospcr_appetite_dur_r2,How long was the 'Loss of appetite' symptom present (needs not be contiguous days)? 
+dc_pv_taste_2_v2_3,Day 2
+pospcr_data_sources_r2___4,
+dc_pv_feverish_visit_v2_3,Medical visit
+med_stop_yr_3_v2_3,Stop Date - Year
+med_ongoing_end_22_v2_3___1,
+medication_tmt_28_v2_3,Prophylaxis or Treatment
+incl8,
+pospcr_anosmia,pospcr_anosmia
+dc_ill_body_8_v2_3,Body aches Day 8
+d14_cell_13___1,
+ae_date_9_v2_3,Start Date
+ae_date_10_v2_3,Start Date
+med_stop_mo_19_v2_3,Stop Date - Month
+d28_fever_st,
+s1_preg,11. Urine pregnancy test performed?
+s1_temp,Oral temperature
+d28_oxy,
+d364_rapid_v3_2,Rapid breathing
+sc_hbsag_3___1,
+dc_ill_naus_vom_4_v2_3,Nausea and/or vomitting Day 4
+sc_hba1c_2___1,
+med_stop_mo_11_v2_3,Stop Date - Month
+covid_cases_follow_up_complete,
+medication_tmt_12_v2_3,Prophylaxis or Treatment
+d7_rapid_st,
+d7_ns_13_tim,
+pospcr_chestpain_resol_r2,Date of symptom resolution (chest pain):
+icf_ad_tel_surv_v1_0,6. Does participant agree to continued surveillance? 
+d56_ns_2b_v3_2___1,
+medication_name_14_v2_3,Mediation Name or Therapy
+dc_ill_body_6_v2_3,Body aches Day 6
+d3_oth2_st,
+med_start_yr_13_v2_3,Start Date - Year
+vs_un_height_v2_3,Height
+ae_yes_sae_16_v2_3___1,
+fu_np_datetime3,
+s1_tim_2,Time
+d42_naus_vom_st_v3_2,Start date
+icf_vc_ques_v3_0,5. Was the opportunity for questions given?
+sc_hbsag_1___1,
+d364_serum_2a_v3_2___1,
+icf_oth_sp_v2_3,Other version of ICF
+med_stop_yr_13_v2_3,Stop Date - Year
+ev_resp_det_ncs,
+med_stop_yr_33_v2_3,Stop Date - Year
+icf_stor_dat_v2_3,Date of consent
+d14_fever_st,
+icf_ad_tel_read_v1_0,2. Was the informed consent form read to the participant over the phone? 
+ae_related_19_v2_3,Relationship to Study Vaccine
+pospcr_chills_qresol,Is symptom (chills) resolution date known?
+d182_locked_date_v3_2,Locked date
+s1_pain,Pain
+ae_og_3_v2_3___1,
+pospcr_chestpain_qresol_r2,Is symptom (chest pain) resolution date known?
+s1_vacc_site_sp,"If other, specify"
+med_start_yr_24_v2_3,Start Date - Year
+d28_taste_st,
+d42_oth1_v3_2,Other
+pospcr_throat_dur_r2,How long was the 'Sore throat' symptom present (needs not be contiguous days)? 
+pospcr_symptoms_r2___12,
+d14_diarr_st,
+med_stop_day_18_v2_3,Stop Date - Day
+ae_date_32_v2_3,Start Date
+contra_method_sp_v2_3,Other (specify)
+medication_route_7_v2_3,Route Code
+sc_isolate_v2_3,"3. Did participant have to self-isolate at any time, either because they had symptoms themselves or were exposed to someone with symptoms?"
+pospcr_app_r2,pospcr_app
+medication_tmt_14_v2_3,Prophylaxis or Treatment
+icf_re_stor_dat_v3_0,Date of consent
+ae_date_27_v2_3,Start Date
+s6_cv_det_cs,Cardiovascular - Abnormal CS details
+med_start_day_2_v2_3,Start Date - Day
+d7_ns_13___1,
+med_stop_mo_6_v2_3,Stop Date - Month
+dc_ill_breath_2_v2_3,Shortness of breath Day 2
+fu_locked_date,
+med_start_mo_28_v2_3,Start Date - Month
+pospcr_spo2_dur_r2,How long was the 'Low peripheral capillary oxygen saturation (SpO2 < 95% on room air) as measured by pulse-oximetry' symptom present (needs not be contiguous days)? 
+ae_sev_9_v2_3,Severity
+sx_cmi___1,
+med_stop_date_4_v2_3,
+sc_last_period_date_yr_v2_3,Year
+d28_ns_13_tim,
+ae_related_15_v2_3,Relationship to Study Vaccine
+d3_run,
+site,
+ae_sev_4_v2_3,Severity
+ae_sdate_31_v2_3,Stop Date
+herbal1_st_yr_v2_3,Start Date Year
+conmed_locked_date_v2_3,Locked date
+ae_og_12_v2_3___1,
+med_start_day_9_v2_3,Start Date - Day
+medication_dose_23_v2_3,Dose
+d28_app,
+prevac_comment,
+dc_pv_smell_2_v2_3,Day 2
+preg_na_v2_3___1,
+medication_frequency_7_v2_3,Frequency
+d28_family_id4,
+med_stop_yr_8_v2_3,Stop Date - Year
+d56_taste_v3_2,Loss of sense of taste
+icf_re_oth_dat_v3_0,Date of  consent
+dc_ill_breath_10_v2_3,Shortness of breath Day 10
+d42_dia_v3_2,Diastolic BP
+s6_resp_det_cs,Respiratory - Abnormal CS details
+pospcr_tacypnea_level,Tachypnea level:
+med_ongoing_end_12_v2_3___1,
+ev_chills,
+ae_outcome_14_v2_3,Outcome
+icf_stor_vers_v2_3,Version
+conmeds6_st_yr_v2_3,Start Date Year
+med_start_yr_27_v2_3,Start Date - Year
+s6_serum_tim,Time
+d3_cyt___1,
+icf_ad_tel_und_v1_0,"3. Does the participant understand the updated study, study procedures and what is expected of them? "
+d42_run_st_v3_2,Start date
+icf_re_oth_lang_v3_0,Preferred language for signing ICF
+d7_bld_2a_tim,
+ae_date_28_v2_3,Start Date
+medco_resp_opt_v2_3___3,
+herbal_v2_3,Are you using any herbal/unregistered medication?
+med_start_day_5_v2_3,Start Date - Day
+exam_skin_det_cs_v2_3,Skin - Abnormal CS details
+sc_fbc_1___1,
+d182_ns_2b_tim_v3_2,Time
+conmeds4_st_mo_v2_3,Start Date Month
+ae_yes_sae_29_v2_3___1,
+d7_pax_2a___1,
+pospcr_symptoms_r2___5,
+pospcr_lrtd_r2,pospcr_lrtd
+ae_name_9_v2_3,Adverse event name
+conmeds2_v2_3,2. GENERIC NAME
+s6_preg_res,"R
+esult"
+d364_pulse_v3_2,Pulse rate
+icf_ad_read_v1_0,10. Was the informed consent form read to the participant over the phone? 
+ev_smell,
+conmeds2_st_day_v2_3,Start Date - Day
+medication_dose_10_v2_3,Dose
+prevac_pulse,
+dc_pv_head_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+ev_fever.1,
+medco_cv_opt_v2_3___1,
+ae_date_16_v2_3,Start Date
+med_stop_day_23_v2_3,Stop Date - Day
+d42_eyes_v3_2,Redness of the eyes
+dc_ill_adm_8_v2_3,Admission Day 8 
+med_ongoing_end_6_v2_3___1,
+d364_resp_v3_2,Respiratory rate
+icf_re_ques_v3_0,Was the opportunity for questions given?
+ae_related_35_v2_3,Relationship to Study Vaccine
+sc_height_v2_3,Height
+ae_sdate_32_v2_3,Stop Date
+s6_gen,General
+d56_ns_13_tim_v3_2,Time
+dc_ill_oth1_9_v2_3,Other 1 Day 9
+d7_swelling,
+d56_othsamp_tim_v3_2,Time
+d14_head,
+medication_dose_27_v2_3,Dose
+ae_outcome_29_v2_3,Outcome
+dc_ill_temp_am_6_v2_3,"Temperature, morning Day 6"
+day_14_post_vaccination_complete,
+s1_redness,Redness
+medication_frequency_30_v2_3,Frequency
+eos_death_reported_v2_3,Was death reported as SAE/SUSAR?
+dc_pv_sweat_4_v2_3,Day 4
+medhist_recent_det_v2_3,Details
+s1_unblind,4.  Was participant unblinded according to unblinding SOP? 
+s1_dia,Diastolic BP
+medication_name_4_v2_3,Mediation Name or Therapy
+dc_ill_temp_pm_3_v2_3,"Temperature, afternoon Day 3"
+med_stop_yr_28_v2_3,Stop Date - Year
+fu_vs_datetime1,
+d7_smell,
+ae_og_28_v2_3___1,
+med_start_yr_25_v2_3,Start Date - Year
+med_ongoing_end_24_v2_3___1,
+d56_app_v3_2,Loss of appetite
+d7_cyt_2a___1,
+ev_pulse,
+medication_frequency_3_v2_3,Frequency
+pospcr_asymp_comment,Comments:
+d14_oxy,
+pospcr_myalgia_resol,Date of symptom resolution (myalgia):
+medication_frequency_1_v2_3,Frequency
+med_ongoing_end_8_v2_3___1,
+dc_ill_temp_am_9_v2_3,"Temperature, morning Day 9"
+med_stop_date_16_v2_3,
+dc_pv_weak_5_v2_3,Day 5
+d182_rapid_st_v3_2,Start date
+ae_sdate_23_v2_3,Stop Date
+ae_name_30_v2_3,Adverse event name
+dc_ill_temp_am_8_v2_3,"Temperature, morning Day 8"
+exam_cv_det_cs_v2_3,Cardiovascular - Abnormal CS details
+medication_frequency_28_v2_3,Frequency
+s1_jointpains,Joint pains
+med_stop_mo_22_v2_3,Stop Date - Month
+med_start_mo_11_v2_3,Start Date - Month
+ae_sdate_5_v2_3,Stop Date
+icf_vc_trans_comm_v3_0,Translator comments
+social_alcohol_v2_3,Does the participant use alcohol?
+dc_ill_chill_1_v2_3,Chills Day 1
+vs_scr_dat_v2_3,1. Date:
+dc_pv_feverish_med_v2_3,Medication
+d182_naus_vom_st_v3_2,Start date
+ae_sev_8_v2_3,Severity
+dc_pv_temp_5_v2_3,Day 5
+med_start_date_5_v2_3,
+medco_cv_opt_v2_3___3,
+med_ongoing_end_25_v2_3___1,
+pospcr_data_sources_r2___3,
+pospcr_diarr_onset_r2,Date of onset (diarrhea):
+medco_cv_opt_v2_3___8,
+ae_yes_sae_30_v2_3___1,
+prevac_bp_dia,
+d7_induration,
+exam_oth_det_ncs_v2_3,Other - Abnormal NCS details
+dc_pv_breath_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+d3_dat,
+med_stop_day_11_v2_3,Stop Date - Day
+d364_dat_v3_2,1. Date:
+medication_name_33_v2_3,Mediation Name or Therapy
+ae_name_13_v2_3,Adverse event name
+fu_np_datetime2,
+ae_sdate_7_v2_3,Stop Date
+day_3_post_vaccination_complete,
+d364_tim_v3_2,Time
+ev_oth,
+pospcr_data_sources___6,
+icf_ad_tel_dat_v1_0,Date of telephonic consent
+dc_ill_oth2_7_v2_3,Other 2 Day 7
+ae_sev_21_v2_3,Severity
+icf_re_stor_copy_v3_0,11. Was a copy of the sample storage form given to the participant?
+dc_ill_med10_v2_3,Name of medication
+exam_resp_det_ncs_v2_3,Respiratory - Abnormal NCS details
+d56_othsamp_sp_v3_2,Specify other sample
+dc_ill_oth2_6_v2_3,Other 2 Day 6
+ae_og_22_v2_3___1,
+s1_oth,Other: specify
+d56_naus_vom_st_v3_2,Start date
+dc_pv_breath_1_v2_3,Day 1
+dc_pv_joint_1_v2_3,Day 1
+ae_yes_sae_15_v2_3___1,
+d182_throat_st_v3_2,Start date
+d28_ns_2a___1,
+d28_pulse,
+inclexcl_crf_status,
+d182_serum_13_tim_v3_2,Time
+dc_ill_med10_dose_v2_3,Dosage
+ev_oth1_sp,
+ae_related_4_v2_3,Relationship to Study Vaccine
+pospcr_hightemp,"Please record the highest body temperature documented during episode     ( °C, 1dp):"
+medhist_family_det1_v2_3,1. Details
+d3_oth1,
+icf_vc_copy_v3_0,10. Was a copy of the main informed consent form given to the participant?
+medication_tmt_26_v2_3,Prophylaxis or Treatment
+ev_weak.1,
+d28_hla_2b_tim,
+s6_jointpains,Joint pains
+s6_temp_2,Oral temperature
+ae_date_7_v2_3,Start Date
+excl17,
+ae_outcome_21_v2_3,Outcome
+icf_assess_v2_3,6. Was the assessment of understanding questionnaire completed and a score of at least 8/10 obtained within 2 attempts?
+med_start_mo_15_v2_3,Start Date - Month
+day_0_vaccination_complete,
+travelhist_country3_start_mo_v2_3,Start Date - Month
+pv60_headache,
+med_stop_yr_10_v2_3,Stop Date - Year
+d28_pax_2a___1,
+med_stop_day_29_v2_3,Stop Date - Day
+dc_pv_temp_0_v2_3,Day 0
+icf_sc_cons_v3_0,6. Was informed consent obtained from the participant for their participation in the study?
+medication_name_26_v2_3,Mediation Name or Therapy
+pospcr_spo2_dur,How long was the 'Low peripheral capillary oxygen saturation (SpO2 < 95% on room air) as measured by pulse-oximetry' symptom present (needs not be contiguous days)? 
+dc_pv_redness_0_v2_3,Day 0
+icf_sc_stor_oth_v3_0,Other version of ICF
+prevac_sal_2a___1,
+d56_chills_v3_2,Chills
+dc_ill_temp_am_1_v2_3,"Temperature, morning Day 1"
+icf_re_read_v3_0,Was the participant given an opportunity to read informed consent form?
+sc_occupation_v2_3,Current occupation:
+pospcr_symptoms_r2___2,
+d14_ns_13___1,
+dc_ill_cough_9_v2_3,Cough Day 9
+med_start_date_6_v2_3,
+medhist_haem_det_v2_3,Details
+ae_sev_10_v2_3,Severity
+dc_pv_hard_2_v2_3,Day 2
+dc_ill_body_10_v2_3,Body aches Day 10
+s6_oxy,Oxygen saturation
+conmeds1_v2_3,1. GENERIC NAME
+primary_endpoint,Primary outcome:
+sx_vis,Which supplementary visit is this? 
+s1_cmi___1,
+excl_temp,
+med_stop_date_1_v2_3,
+dc_pv_med6_v2_3,Name of medication
+travelhist_country2_start_day_v2_3,Start Date - Day
+eos_death_date_aware_v2_3,Date of site awareness:
+pospcr_symptoms_r2___6,
+ae_sev_24_v2_3,Severity
+medication_dose_unit_21_v2_3,Unit Code
+ae_related_17_v2_3,Relationship to Study Vaccine
+d56_pulse_v3_2,Pulse rate
+s6_oth_sp,Other System
+pospcr_app,pospcr_app
+prevac_sal_1_tim,
+d7_breath,
+medication_dose_34_v2_3,Dose
+s6_ns_tim,Time
+ae_og_34_v2_3___1,
+dc_pv_cough_med_v2_3,Medication
+vacc_route,
+dc_ill_adm_7_v2_3,Admission Day 7
+vs_un_ur_blood_v2_3,Blood
+pospcr_aguesia_qresol,Is symptom (aguesia) resolution date known?
+med_stop_day_16_v2_3,Stop Date - Day
+prevac_hla_3___1,
+d56_temp_v3_2,Oral temperature
+exam_ent_det_ncs_v2_3,ENT - Abnormal NCS details
+medication_frequency_17_v2_3,Frequency
+pospcr_fever_dur,How long was the 'Fever (body temperature of ≥ 37.8°C)' symptom present (needs not be contiguous days)? 
+ev_rapid_st,
+ae_sev_3_v2_3,Severity
+pe_dat_v2_3,Date:
+dc_ill_throat_6_v2_3,Sore throat Day 6
+medication_name_20_v2_3,Mediation Name or Therapy
+pospcr_myalgia_onset,Date of onset (myalgia):
+ev_add_comments,
+pospcr_diarr_resol,Date of symptom resolution (diarrhea):
+med_start_mo_16_v2_3,Start Date - Month
+ae_related_27_v2_3,Relationship to Study Vaccine
+medication_name_27_v2_3,Mediation Name or Therapy
+d364_rapid_st_v3_2,Start date
+dc_ill_taste_5_v2_3,Loss of sense of taste Day 5
+d364_breath_st_v3_2,Start date
+icf_vc_und_v3_0,"4. Does the participant understand the study, study procedures and what is expected of them? "
+dc_ill_chest_7_v2_3,Chest pain Day 7
+dc_pv_muscle_visit_v2_3,Medical visit
+med_ongoing_end_29_v2_3___1,
+med_start_mo_33_v2_3,Start Date - Month
+med_start_date_3_v2_3,
+d182_oth1_v3_2,Other
+med_stop_day_25_v2_3,Stop Date - Day
+ev_cv_det_ncs,
+med_start_date_4_v2_3,
+icf_re_trans_v3_0,Was a translator used?
+conmeds5_st_mo_v2_3,Start Date Month
+med_stop_day_22_v2_3,Stop Date - Day
+d42_chest_st_v3_2,Start date
+medication_dose_unit_33_v2_3,Unit Code
+medhist_skin_v2_3,Skin
+med_start_date_14_v2_3,
+sc_ns_3_tim,
+any_pcr_positive_r2,Any PCR positive outcome
+d7_run_st,
+excl5,
+ae_date_26_v2_3,Start Date
+ev_oth4_st,
+pospcr_other_dur_r2,How long was the 'Other' symptom present (needs not be contiguous days)? 
+ae_og_25_v2_3___1,
+ae_sdate_27_v2_3,Stop Date
+sc_oxy_v2_3,Oxygen saturation
+pospcr_lrtd,pospcr_lrtd
+excl24,
+pospcr_chills_resol_r2,Date of symptom resolution (chills):
+herbal2_st_day_v2_3,Start Date - Day
+ae_name_19_v2_3,Adverse event name
+medication_name_3_v2_3,Mediation Name or Therapy
+pospcr_myalgia_r2,pospcr_myalgia
+ev_sae,
+med_start_day_6_v2_3,Start Date - Day
+ae_name_21_v2_3,Adverse event name
+ae_locked_date_v2_3,Locked date
+dc_ill_fatigure_2_v2_3,Fatigue/weakness Day 2
+d7_nasal_st,
+d7_loc,
+pv60_induration_2,
+pv60_pain,
+vacc_site_sp,
+pospcr_condition_r2___3,
+medication_dose_1_v2_3,Dose
+med_locked_date_v2_3,Locked date
+vital_crf_status_v2_3,CRF Status
+travelhist_country1_end_day_v2_3,End Date - day
+icf_re_ques_sp_v3_0,     Specify any questions or concerns raised
+ae_date_24_v2_3,Start Date
+ae_date_12_v2_3,Start Date
+dc_ill_temp_pm_6_v2_3,"Temperature, afternoon Day 6"
+s6_dat,1. Date:
+ae_og_9_v2_3___1,
+pv60_fever,
+dc_pv_hard_4_v2_3,Day 4
+excl4,
+pv60_fatigue,
+d42_fever_st_v3_2,Start date
+ae_related_26_v2_3,Relationship to Study Vaccine
+fu_res3,
+d182_app_st_v3_2,Start date
+dc_ill_naus_vom_3_v2_3,Nausea and/or vomitting Day 3
+mh_field,Field
+medication_frequency_21_v2_3,Frequency
+travelhist_country3_end_yr_v2_3,End Date - Year
+d42_breath_st_v3_2,Start date
+ev_oth3_st,
+med_start_mo_24_v2_3,Start Date - Month
+medication_tmt_4_v2_3,Prophylaxis or Treatment
+screening_visit_complete,
+dc_pv_med1_dat_v2_3,Date taken
+icf_sc_vers_v3_0,Version
+medhist_trials_det_v2_3,Details
+sc_fbc_3___1,
+d182_ns_13_tim_v3_2,Time
+dc_ill_throat_1_v2_3,Sore throat Day 1
+dc_pv_rigor_5_v2_3,Day 5
+s1_dia_2,Diastolic BP
+dc_ill_temp_am_4_v2_3,"Temperature, morning Day 4"
+med_start_date_21_v2_3,
+dc_pv_sweat_1_v2_3,Day 1
+d42_weak_st_v3_2,Start date
+d56_fever_v3_2,Fever
+mh_uncoded_term,Uncoded term
+pospcr_cough_r2,pospcr_cough
+prevac_ns_2b_tim,
+med_start_yr_31_v2_3,Start Date - Year
+d14_pulse,
+dc_ill_med3_dat_v2_3,Date taken
+icf_sc_hiv_tim_v3_0,Time of consent
+med_start_yr_1_v2_3,Start Date - Year
+d28_othsamp_sp,
+ae_yes_sae_33_v2_3___1,
+d7_pulse,
+ae_sdate_8_v2_3,Stop Date
+conmeds6_v2_3,6. GENERIC NAME
+med_stop_date_19_v2_3,
+icf_ad_tel_oth_sp_v1_0,
+ae_sev_11_v2_3,Severity
+cm_level_1,Level 1
+pospcr_symptoms___1,
+pospcr_myalgia_qresol_r2,Is symptom (myalgia) resolution date known?
+med_start_day_20_v2_3,Start Date - Day
+cm_level_5,Level 5
+d42_breath_v3_2,Shortness of breath
+s1_ent,ENT
+med_stop_mo_13_v2_3,Stop Date - Month
+icf_re_stor_oth_v3_0,Other version of ICF
+d7_body_st,
+ae_sae_27_v2_3,"If ticked, specify reason"
+ae_outcome_17_v2_3,Outcome
+med_start_yr_29_v2_3,Start Date - Year
+travelhist_v2_3,7. Any recent travel history?  
+pospcr_headache_resol,Date of symptom resolution (headache):
+d42_othsamp_sp_v3_2,Specify other sample
+dem_locked_date_v2_3,Locked date
+medication_dose_unit_17_v2_3,Unit Code
+medication_route_27_v2_3,Route Code
+medication_frequency_19_v2_3,Frequency
+d28_othsamp_tim,
+d3_ue___1,
+med_stop_date_17_v2_3,
+dc_pv_hard_0_v2_3,Day 0
+dc_ill_fatigure_7_v2_3,Fatigue/weakness Day 7
+incl5,
+pospcr_symptoms___11,
+icf_ad_tel_ques_v1_0,4. Was the opportunity for questions given? 
+conmeds3_ind_v2_3,Indication
+d7_diarr,
+dc_ill_med6_v2_3,Name of medication
+dc_ill_oth2_8_v2_3,Other 2 Day 8
+allergen3_v2_3,3. Allergen1
+ae_sae_25_v2_3,"If ticked, specify reason"
+med_start_mo_5_v2_3,Start Date - Month
+d182_diarr_v3_2,Diarrhoea
+medication_dose_13_v2_3,Dose
+d56_ns_2a_v3_2___1,
+med_ongoing_end_14_v2_3___1,
+dc_ill_taste_4_v2_3,Loss of sense of taste Day 4
+dc_pv_feverish_0_v2_3,Day 0
+ae_yes_sae_19_v2_3___1,
+dc_ill_med7_v2_3,Name of medication
+s6_vacc_tim,10. Time of vaccination
+ae_sev_31_v2_3,Severity
+medication_dose_unit_13_v2_3,Unit Code
+med_stop_date_26_v2_3,
+d3_cough,
+dc_ill_oth2_10_v2_3,Other 2 Day 10
+med_stop_date_25_v2_3,
+d7_othsamp_tim,
+dc_pv_tenderness_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+dc_ill_naus_vom_10_v2_3,Nausea and/or vomitting Day 10
+icf_hiv_tim_v2_3,Time of consent
+dc_ill_med7_dat_v2_3,Date taken
+ae_name_26_v2_3,Adverse event name
+d14_tim,
+dc_pv_swelling_1_v2_3,Day 1
+pospcr_symptoms_r2___19,
+med_stop_mo_3_v2_3,Stop Date - Month
+ae_outcome_24_v2_3,Outcome
+d3_eyes,
+medication_route_32_v2_3,Route Code
+prevac_serum_3___1,
+d3_temp,
+d56_serum_13_v3_2___1,
+dc_ill_oth1_8_v2_3,Other 1 Day 8
+ae_outcome_7_v2_3,Outcome
+dc_ill_temp_pm_1_v2_3,"Temperature, afternoon Day 1"
+ae_sev_27_v2_3,Severity
+med_stop_yr_30_v2_3,Stop Date - Year
+med_start_date_11_v2_3,
+d364_serum_3_tim_v3_2,Time
+s6_induration,Induration
+mh_term,Medical history term
+d14_dia,
+ae_sae_9_v2_3,"If ticked, specify reason"
+prevac_ns_2a_tim,
+excl2,
+ae_sae_21_v2_3,"If ticked, specify reason"
+dc_ill_med12_dose_v2_3,Dosage
+med_start_date_33_v2_3,
+d28_family_id7,
+medhist_endo_met_det_v2_3,Details
+dc_pv_rigor_med_v2_3,Medication
+med_ongoing_end_11_v2_3___1,
+d42_oth2_v3_2,Other
+icf_sc_dat_v3_0,Date of main consent
+med_stop_yr_17_v2_3,Stop Date - Year
+med_start_yr_35_v2_3,Start Date - Year
+d14_othsamp_tim,
+ev_head,
+d3_run_st,
+ev_abdo_det_ncs,
+d364_othsamp_v3_2___1,
+icf_crf_status_v3_0,CRF Status
+medhist_musc_det_v2_3,Details
+ev_rapid,
+prevac_oxy,
+med_stop_date_12_v2_3,
+prevac_hla_2a___1,
+pospcr_throat_qresol,Is symptom (sore throat) resolution date known?
+med_stop_date_6_v2_3,
+medication_tmt_22_v2_3,Prophylaxis or Treatment
+redcap_repeat_instrument,
+medication_name_12_v2_3,Mediation Name or Therapy
+medication_dose_unit_3_v2_3,Unit Code
+dc_pv_bruis_4_v2_3,Day 4
+sc_weight_v2_3,Weight
+d3_throat_st,
+ae_sdate_18_v2_3,Stop Date
+pospcr_symptoms___6,
+med_stop_date_21_v2_3,
+dc_pv_redness_5_v2_3,Day 5
+d3_loc,
+pospcr_diarr_dur_r2,How long was the 'Diarrhoea' symptom present (needs not be contiguous days)? 
+dc_pv_breath_5_v2_3,Day 5
+conmeds4_st_day_v2_3,Start Date - Day
+dc_ill_med8_v2_3,Name of medication
+dc_pv_taste_1_v2_3,Day 1
+s1_serum___1,
+med_stop_day_3_v2_3,Stop Date - Day
+pospcr_diarr_dur,How long was the 'Diarrhoea' symptom present (needs not be contiguous days)? 
+ev_diarr.1,
+ae_name_23_v2_3,Adverse event name
+fluvac_day_v2_3,"If yes, date - Day"
+ev_eyes_st,
+pospcr_condition___4,
+dc_pv_med1_dose_v2_3,Dosage
+ae_outcome_6_v2_3,Outcome
+pospcr_adjud_comments,Adjudicator comments:
+d56_fever_st_v3_2,Start date
+ae_og_5_v2_3___1,
+dc_pv_temp_visit_v2_3,Medical visit
+pospcr_throat_onset,Date of onset (sore throat):
+icf_re_main__vers_v3_0,Version
+conmeds4_ind_v2_3,Indication
+icf_ad_surv_v1_0,14. Does participant agree to continued surveillance? 
+d7_sae,
+allergen_vacc_details_v2_3,Details
+pospcr_condition_r2___1,
+medication_tmt_17_v2_3,Prophylaxis or Treatment
+medication_dose_32_v2_3,Dose
+d28_run,
+sc_childbear_v2_3,"If female, of childbearing potential?"
+medication_frequency_26_v2_3,Frequency
+med_start_yr_14_v2_3,Start Date - Year
+dc_pv_temp_6_v2_3,Day 6
+s6_itch,Itch
+pospcr_anosmia_dur,How long was the 'Anosmia' symptom present (needs not be contiguous days)? 
+prevac_ns_3___1,
+dc_ill_breath_9_v2_3,Shortness of breath Day 9
+s1_gen_det_cs,General - Abnormal CS details
+d364_chest_st_v3_2,Start date
+dc_ill_diarr_9_v2_3,Diarrhoea Day 9
+medication_frequency_4_v2_3,Frequency
+s1_lymph_det_cs,Lymphatic - Abnormal CS details
+dc_pv_muscle_1_v2_3,Day 1
+med_stop_yr_32_v2_3,Stop Date - Year
+ae_date_14_v2_3,Start Date
+d28_nasal,
+medication_name_30_v2_3,Mediation Name or Therapy
+med_start_mo_4_v2_3,Start Date - Month
+meddra_locked_date_v3,Locked date
+vacc_site,
+sae_num_v3,SAE Instance
+d42_temp_v3_2,Oral temperature
+dc_ill_throat_2_v2_3,Sore throat Day 2
+pospcr_throat_qresol_r2,Is symptom (sore throat) resolution date known?
+pe_visit_v2_3,Visit
+dc_ill_oth2_3_v2_3,Other 2 Day 3
+d28_loc,
+med_start_mo_25_v2_3,Start Date - Month
+ev_oxy,
+pv60_sys,
+dc_pv_weak_0_v2_3,Day 0
+s1_elig,3.	Is participant eligible for supplementary visits? 
+icf_re_oth_v3_0,Other consent details
+d364_nasal_st_v3_2,Start date
+sc_uke_1___1,
+ae_related_20_v2_3,Relationship to Study Vaccine
+d42_smell_st_v3_2,Start date
+dc_ill_naus_vom_5_v2_3,Nausea and/or vomitting Day 5
+pospcr_other_onset_r2,Date of onset (Other):
+ev_oth1_st,
+dc_pv_rigor_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+dc_pv_med3_v2_3,Name of medication
+ae_sev_22_v2_3,Severity
+med_stop_date_34_v2_3,
+d14_ns_2a_tim,
+dc_ill_adm_9_v2_3,Admission Day 9
+medication_tmt_6_v2_3,Prophylaxis or Treatment
+excl28,
+dc_ill_taste_1_v2_3,Loss of sense of taste Day 1
+medication_frequency_33_v2_3,Frequency
+medication_tmt_29_v2_3,Prophylaxis or Treatment
+sc_ns_1___1,
+pospcr_data_sources_r2___7,
+social_recdrugs_det_v2_3,Details: __
+s1_chills,Chills
+pv60_tenderness_2,
+d56_dat_v3_2,1. Date:
+d14_breath,
+med_ongoing_end_15_v2_3___1,
+d364_throat_v3_2,Sore throat
+pospcr_vomit_onset_r2,Date of onset (Nausea or vomiting):
+pv60_chills,
+dc_ill_oth2_sp_v2_3,
+dc_pv_redness_3_v2_3,Day 3
+d42_pulse_v3_2,Pulse rate
+icf_vc_lit_v3_0,1. Is the participant literate? 
+d56_smell_v3_2,Loss of sense of smell
+med_stop_date_8_v2_3,
+med_start_yr_17_v2_3,Start Date - Year
+dc_pv_muscle_4_v2_3,Day 4
+icf_re_cons_v3_0,Was informed consent obtained from the participant for their continued participation in the study?
+med_stop_date_30_v2_3,
+eos_death_postmortem_v2_3,Post mortem performed?
+medhist_ent_v2_3,ENT
+dc_ill_adm_4_v2_3,Admission Day 4
+s6_lymph,Lymphatic
+med_stop_mo_2_v2_3,Stop Date - Month
+d28_chills,
+med_start_day_23_v2_3,Start Date - Day
+d7_ue_13___1,
+ae_og_33_v2_3___1,
+fu_sal_datetime4,
+d182_oth2_st_v3_2,Start date
+pospcr_headache_dur,How long was the 'Headache' symptom present (needs not be contiguous days)? 
+icf_sc_lit_v3_0,1. Is the participant literate? 
+med_start_yr_16_v2_3,Start Date - Year
+pospcr_symptoms_r2___10,
+med_stop_mo_23_v2_3,Stop Date - Month
+endpoint_evaluation_e1_r2_complete,
+ae_related_31_v2_3,Relationship to Study Vaccine
+fu_res9,
+d28_fbc_13___1,
+ae_og_27_v2_3___1,
+medication_route_1_v2_3,Route Code
+s1_inject,Injection site
+ae_sev_12_v2_3,Severity
+s1_oth_det_ncs,Other - Abnormal NCS details
+medication_route_19_v2_3,Route Code
+medication_dose_unit_34_v2_3,Unit Code
+d28_run_st,
+med_stop_day_13_v2_3,Stop Date - Day
+d28_dat,
+d7_reglymph,
+ae_yes_sae_35_v2_3___1,
+dc_pv_joint_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+pospcr_chills_dur,How long was the 'Chills' symptom present (needs not be contiguous days)? 
+dc_ill_eyes_8_v2_3,Redness of the eyes Day 8
+medication_dose_unit_19_v2_3,Unit Code
+d28_diarr_st,
+medication_dis_29_v2_3,Disease Indication
+ev_diarr,
+pospcr_sob_dur_r2,How long was the 'Shortness of breath' symptom present (needs not be contiguous days)? 
+ur_pregnancy_result_v2_3,Result
+d364_oth1_sp_v3_2,Other: Specify
+ae_name_10_v2_3,Adverse event name
+d56_head_v3_2,Headache
+d56_ns_13_v3_2___1,
+med_start_yr_28_v2_3,Start Date - Year
+medication_dose_unit_9_v2_3,Unit Code
+d3_rapid,
+med_start_date_12_v2_3,
+med_start_date_2_v2_3,
+d56_lft_13_v3_2___1,
+d364_conmed_v3_2,7. Did the participant take any concomitant medication since previous visit?
+medication_dis_4_v2_3,Disease Indication
+d56_taste_st_v3_2,Start date
+pospcr_sob_qresol_r2,Is symptom (sob) resolution date known?
+pospcr_sob,pospcr_sob
+dc_ill_chill_10_v2_3,Chills Day 10
+s6_vacc_site_sp,"If other, specify"
+d7_app_st,
+s6_nausea,Nausea
+d28_weak,
+dc_ill_oth2_2_v2_3,Other 2 Day 2
+pospcr_fever_resol_r2,Date of symptom resolution (fever):
+medication_dose_12_v2_3,Dose
+d14_diarr,
+ev_body.1,
+un_comm2,Comments
+dc_ill_med1_v2_3,Name of medication
+ev_body,
+d42_ns_2b_tim_v3_2,Time
+icf_vc_wit_v3_0,2. Is a witness needed to the informed consent process (if illiterate)?
+medication_route_34_v2_3,Route Code
+icf_re_oth_tim_v3_0,Time of consent
+d364_body_v3_2,Body aches
+med_stop_mo_5_v2_3,Stop Date - Month
+s1_icf,2.	Was informed consent signed for supplementary visits and adequately documented?
+icf_sc_oth_sp_v3_0,Other version of ICF
+pospcr_asymp_comment_r2,Comments:
+d28_neut_13___1,
+ae_sae_18_v2_3,"If ticked, specify reason"
+pospcr_hightemp_dur,If >38.4 C how long was the 'fever of over 38.4 C' present (needs not be contiguous days)?
+sc_temp_v2_3,Oral temperature
+ae_date_3_v2_3,Start Date
+d182_taste_v3_2,Loss of sense of taste
+dc_ill_taste_6_v2_3,Loss of sense of taste Day 6
+dc_ill_throat_8_v2_3,Sore throat Day 8
+dc_ill_breath_7_v2_3,Shortness of breath Day 7
+pospcr_appetite_onset_r2,Date of onset (Loss of appetite):
+d14_breath_st,
+dc_pv_joint_6_v2_3,Day 6
+med_stop_date_23_v2_3,
+ev_cough,
+ae_yes_sae_4_v2_3___1,
+s6_preg,9.1 If yes: Females of childbearing potential: Was a pregnancy test performed prior to vaccination?
+d182_naus_vom_v3_2,Nausea and/or vomitting
+medication_dis_26_v2_3,Disease Indication
+d7_temp,
+medication_dose_33_v2_3,Dose
+pospcr_symptoms_r2___14,
+pregnancy_v2_3,Is subject lactating or planning to fall pregnant during trial period?
+s1_oxy_2,Oxygen saturation
+dc_ill_chest_2_v2_3,Chest pain Day 2
+dc_pv_tenderness_4_v2_3,Day 4
+pospcr_aguesia_onset,Date of onset (aguesia):
+ae_date_21_v2_3,Start Date
+pv60_temp_2,
+d3_induration,
+sc_ns_2___1,
+excl13,
+d182_chills_v3_2,Chills
+medication_frequency_29_v2_3,Frequency
+s1_cv,Cardiovascular
+medication_name_28_v2_3,Mediation Name or Therapy
+med_ongoing_end_35_v2_3___1,
+d56_diarr_st_v3_2,Start date
+d28_naus_vom,
+un_reas,Reason for unblinding 
+d56_naus_vom_v3_2,Nausea and/or vomitting
+medication_tmt_21_v2_3,Prophylaxis or Treatment
+ae_related_21_v2_3,Relationship to Study Vaccine
+d364_dia_v3_2,Diastolic BP
+medication_route_4_v2_3,Route Code
+med_stop_yr_14_v2_3,Stop Date - Year
+med_start_day_26_v2_3,Start Date - Day
+medication_route_24_v2_3,Route Code
+ev_fever,
+ae_sev_17_v2_3,Severity
+medication_dose_21_v2_3,Dose
+med_stop_yr_18_v2_3,Stop Date - Year
+analysis_inclusion_r2,Analysis inclusion based on start date of event:
+dc_pv_itch_0_v2_3,Day 0
+ae_sev_2_v2_3,Severity
+pospcr_anosmia_onset_r2,Date of onset (anosmia):
+pospcr_chills_dur_r2,How long was the 'Chills' symptom present (needs not be contiguous days)? 
+d182_head_v3_2,Headache
+d14_rapid,
+d3_app_st,
+sc_oxy_sp_v2_3,Other oxygen
+d7_app,
+travelhist_country2_end_mo_v2_3,End Date - Month
+d182_crf_status_v3_2,CRF Status
+d56_loc_v3_2,3. Where is this visit taking place?
+dc_ill_temp_pm_9_v2_3,"Temperature, afternoon Day 9"
+d182_conmed_v3_2,7. Did the participant take any concomitant medication since previous visit?
+med_start_date_9_v2_3,
+s1_pulse_2,Pulse rate
+s6_oxy_2,Oxygen saturation
+d7_body,
+ae_sdate_14_v2_3,Stop Date
+pv60_swelling_2,
+travelhist_country2_det_v2_3,Comments
+d56_locked_date_v3_2,Locked date 
+pospcr_chills,pospcr_chills
+sc_bmi_v2_3,BMI
+dc_pv_hard_3_v2_3,Day 3
+travelhist_country1_end_yr_v2_3,End Date - Year
+ev_oth2,
+icf_re_main_na_v3_0___1,
+exam_gen_v2_3,General
+dc_ill_smell_5_v2_3,Loss of sense of smell Day 5
+mh_pt,PT
+d182_dat_v3_2,1. Date:
+medication_name_22_v2_3,Mediation Name or Therapy
+medication_route_12_v2_3,Route Code
+dc_ill_adm_1_v2_3,Admission Day 1
+ae_name_33_v2_3,Adverse event name
+ae_sev_28_v2_3,Severity
+medication_dis_18_v2_3,Disease Indication
+ae_date_19_v2_3,Start Date
+dc_ill_smell_4_v2_3,Loss of sense of smell Day 4
+dc_pv_joint_5_v2_3,Day 5
+mh_crf_status,CRF status
+d364_serum_2b_v3_2___1,
+d3_redness_comment,
+s6_oth,Other: specify
+med_start_mo_3_v2_3,Start Date - Month
+d3_naus_vom,
+med_start_date_13_v2_3,
+d182_body_v3_2,Body aches
+ae_sae_20_v2_3,"If ticked, specify reason"
+d182_othsamp_tim_v3_2,Time
+ae_yes_sae_8_v2_3___1,
+medication_dose_unit_11_v2_3,Unit Code
+pospcr_norb_dur,How long was the 'New onset rapid breathing' symptom present (needs not be contiguous days)? 
+dc_pv_swelling_3_v2_3,Day 3
+d364_body_st_v3_2,Start date
+pospcr_anosmia_resol_r2,Date of symptom resolution (anosmia):
+sc_last_period_date_day_v2_3,Day
+medication_dose_unit_4_v2_3,Unit Code
+dc_pv_rigor_1_v2_3,Day 1
+med_crf_status_v2_3,CRF Status
+medication_dis_32_v2_3,Disease Indication
+prevac_sal_2a_tim,
+pv60_musclepains,
+pospcr_nasal_onset_r2,Date of onset (Nasal congestion):
+vital_un_locked_date_v2_3,Locked date
+s1_ns_tim,Time
+ae_sev_35_v2_3,Severity
+dc_ill_taste_7_v2_3,Loss of sense of taste Day 7
+dc_pv_bruis_0_v2_3,Day 0
+pospcr_condition_r2___6,
+icf_ad_tel_tim_v1_0,time of consent
+medhist_recent_v2_3,Recent illnesses
+exam_cv_det_ncs_v2_3,Cardiovascular - Abnormal NCS details
+icf_re_lang_v3_0,Preferred language for signing ICF
+pospcr_tired_onset_r2,Date of onset (Tiredness (or fatigue or weakness)):
+pospcr_tacypnea_level_r2,Tachypnea level:
+vs_scr_tim_v2_3,Time
+d3_reglymph_comment,
+d56_serum_2a_v3_2___1,
+sc_cd4_3___1,
+med_start_day_11_v2_3,Start Date - Day
+d28_eyes,
+sc_age_v2_3,Age: _______ years
+dc_pv_bruis_med_v2_3,Medication
+medication_route_22_v2_3,Route Code
+d3_chills,
+med_start_date_17_v2_3,
+dc_pv_joint_3_v2_3,Day 3
+dc_pv_tenderness_med_v2_3,Medication
+medication_tmt_15_v2_3,Prophylaxis or Treatment
+d56_chest_v3_2,Chest pain
+medhist_family_v2_3,Significant family history
+ae_yes_sae_3_v2_3___1,
+dc_pv_redness_6_v2_3,Day 6
+medication_name_32_v2_3,Mediation Name or Therapy
+medication_tmt_18_v2_3,Prophylaxis or Treatment
+medication_dis_25_v2_3,Disease Indication
+d182_ns_13_v3_2___1,
+d182_throat_v3_2,Sore throat
+medication_name_24_v2_3,Mediation Name or Therapy
+dc_ill_diarr_5_v2_3,Diarrhoea Day 5
+herbal2_st_mo_v2_3,Start Date Month
+d14_body_st,
+dc_ill_med4_dose_v2_3,Dosage
+ae_og_19_v2_3___1,
+s1_abdo_det_ncs,Abdomen - Abnormal NCS details
+medication_dis_7_v2_3,Disease Indication
+dc_pv_smell_6_v2_3,Day 6
+dc_pv_swelling_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+dc_ill_eyes_10_v2_3,Redness of the eyes Day 10
+dc_ill_breath_1_v2_3,Shortness of breath Day 1
+s6_sys,Systolic BP
+ae_name_1_v2_3,Adverse event name
+medication_dose_unit_18_v2_3,Unit Code
+ae_name_16_v2_3,Adverse event name
+med_stop_mo_9_v2_3,Stop Date - Month
+d14_weak,
+travelhist_country1_det_v2_3,Comments
+dc_ill_med10_freq_v2_3,Frequency
+dc_ill_throat_3_v2_3,Sore throat Day 3
+allergen_vacc_v2_3,Previous allergic reaction to a vaccine
+dc_ill_med1_dat_v2_3,Date taken
+medication_dose_11_v2_3,Dose
+med_start_day_3_v2_3,Start Date - Day
+med_stop_day_30_v2_3,Stop Date - Day
+pospcr_comments,Comments:
+med_stop_date_20_v2_3,
+ev_run,
+med_stop_day_10_v2_3,Stop Date - Day
+med_stop_date_29_v2_3,
+med_ongoing_end_16_v2_3___1,
+dc_pv_feverish_4_v2_3,Day 4
+ev_serum___1,
+medication_tmt_9_v2_3,Prophylaxis or Treatment
+pv60_jointpains,
+d56_othsamp_v3_2___1,
+medication_dose_unit_28_v2_3,Unit Code
+pospcr_chills_onset,Date of onset (chills):
+sc_hiv_2___1,
+medication_frequency_20_v2_3,Frequency
+d7_diarr_st,
+med_id_v2_3,<div class=\rich-text-field-label\><p>Screening ID or Participant ID</p></div>
+sc_last_period_date_unk_v2_3___1,
+dc_ill_med9_dat_v2_3,Date taken
+e1_locked_date_r2,Locked date
+d7_othsamp_sp,
+dc_ill_temp_am_3_v2_3,"Temperature, morning Day 3"
+s1_cv_det_cs,Cardiovascular - Abnormal CS details
+ae_hlt_v3,HLT
+med_start_day_31_v2_3,Start Date - Day
+d28_crf_status,
+icf_ad_sign_v1_0,15. Was a copy of the signed informed consent given to the participant? 
+pospcr_weak,pospcr_weak
+ae_yes_sae_18_v2_3___1,
+pospcr_lrtd_level,Any evidence of significant LRTI (including one of the following list):
+sc_vl_3___1,
+icf_sc_ques_sp_v3_0,Specify any questions or concerns raised
+med_stop_yr_35_v2_3,Stop Date - Year
+dc_pv_weak_3_v2_3,Day 3
+mh_locked_date,locked/confirmed clean date 
+s6_swelling,Swelling
+pospcr_data_sources_r2___9,
+d56_run_v3_2,Runny nose
+d28_neut_2b___1,
+med_start_date_18_v2_3,
+dc_pv_med5_freq_v2_3,Frequency
+sc_elisa_1___1,
+pv60_itch_2,
+pospcr_fever_dur_r2,How long was the 'Fever (body temperature of ≥ 37.8°C)' symptom present (needs not be contiguous days)? 
+pospcr_cough_qresol_r2,Is symptom (cough) resolution date known?
+d14_fever,
+prevac_ns_1___1,
+medhist_gi_det_v2_3,Details
+dc_ill_chill_4_v2_3,Chills Day 4
+ae_related_25_v2_3,Relationship to Study Vaccine
+dc_ill_body_5_v2_3,Body aches Day 5
+med_stop_mo_17_v2_3,Stop Date - Month
+s6_malaise,Malaise
+medication_dose_unit_30_v2_3,Unit Code
+d182_ns_2a_v3_2___1,
+pv60_swelling,
+dc_ill_naus_vom_9_v2_3,Nausea and/or vomitting Day 9
+med_ongoing_end_20_v2_3___1,
+d28_oth1_st,
+s6_tim,Time
+ae_soc_v3,SOC
+medication_dis_34_v2_3,Disease Indication
+d7_oth2,
+exam_inject_v2_3,Injection site
+pv60_warmth,
+d42_throat_v3_2,Sore throat
+pospcr_aguesia_resol,Date of symptom resolution (aguesia):
+fu_sal_datetime2,
+ev_ent_det_ncs,
+icf_sc_trans_v3_0,8. Was a translator used?
+s1_abdo,Abdomen
+dc_ill_comm_v2_3,Capture comments
+pospcr_sob_dur,How long was the 'Shortness of breath' symptom present (needs not be contiguous days)? 
+d3_conmed,
+ae_date_5_v2_3,Start Date
+pospcr_other_datasource_r2,Please specify other:
+d364_fever_v3_2,Fever
+medication_dose_9_v2_3,Dose
+dc_ill_chest_1_v2_3,Chest pain Day 1
+ae_sev_1_v2_3,Severity
+dc_ill_med9_dose_v2_3,Dosage
+med_stop_day_33_v2_3,Stop Date - Day
+d7_head_st,
+dc_ill_oth1_sp_v2_3,
+pospcr_aguesia,pospcr_aguesia
+travelhist_country1_end_mo_v2_3,End Date - Month
+ae_sae_34_v2_3,"If ticked, specify reason"
+med_stop_day_34_v2_3,Stop Date - Day
+ev_lymph,
+dc_ill_temp_am_5_v2_3,"Temperature, morning Day 5"
+dc_pv_med4_v2_3,Name of medication
+pospcr_fever,pospcr_fever
+medication_frequency_18_v2_3,Frequency
+s6_oth_det_cs,Other - Abnormal CS details
+med_start_mo_30_v2_3,Start Date - Month
+medication_frequency_5_v2_3,Frequency
+d42_throat_st_v3_2,Start date
+dc_ill_cough_4_v2_3,Cough Day 4
+dc_ill_fatigure_4_v2_3,Fatigue/weakness Day 4
+dc_pv_bruis_5_v2_3,Day 5
+medication_name_7_v2_3,Mediation Name or Therapy
+ae_date_2_v2_3,Start Date
+ae_sae_16_v2_3,"If ticked, specify reason"
+icf_lit_v2_3,1. Is the participant literate? 
+s6_vacc_route_sp,"If other, specify"
+pospcr_myalgia_dur,How long was the 'Myalgia' symptom present (needs not be contiguous days)? 
+ae_outcome_5_v2_3,Outcome
+ae_sev_30_v2_3,Severity
+d56_tim_v3_2,Time
+medication_dis_2_v2_3,Disease Indication
+d28_tim,
+dc_ill_med9_v2_3,Name of medication
+exam_abdo_det_ncs_v2_3,Abdomen - Abnormal NCS details
+supplementary_visit_1_complete,
+pospcr_spo2_qresol,Is symptom (spo2) resolution date known?
+medication_dose_unit_8_v2_3,Unit Code
+fu_sal_datetime9,
+ev_locked_date,
+icf_re_stor_vers_v3_0,Version
+d14_taste,
+dc_ill_diarr_2_v2_3,Diarrhoea Day 2
+pospcr_aguesia_qresol_r2,Is symptom (aguesia) resolution date known?
+dc_ill_chill_2_v2_3,Chills Day 2
+ae_sev_6_v2_3,Severity
+icf_stor_tim_v2_3,Time of consent
+medhist_endo_met_v2_3,Endocrine
+d182_nasal_v3_2,Nasal congestion
+d56_eyes_st_v3_2,Start date
+ae_sev_16_v2_3,Severity
+d182_app_v3_2,Loss of appetite
+icf_re_crf_status_v3_0,CRF Status
+d56_resp_v3_2,Respiratory rate
+ae_date_8_v2_3,Start Date
+d3_crf_status,
+d182_loc_v3_2,3. Where is this visit taking place?
+medication_dose_unit_27_v2_3,Unit Code
+d3_sae,
+d364_ns_2b_v3_2___1,
+med_start_date_24_v2_3,
+dc_ill_fatigure_1_v2_3,Fatigue/weakness Day 1
+d42_othsamp_tim_v3_2,Time
+dc_pv_feverish_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+s1_temp_2,Oral temperature
+pospcr_symptoms_r2___9,
+allergen1_det_3_v2_3,Details
+dc_pv_temp_3_v2_3,Day 3
+d42_chest_v3_2,Chest pain
+s6_vacc_site,Site
+conmeds5_st_yr_v2_3,Start Date Year
+med_start_day_29_v2_3,Start Date - Day
+icf_re_tim_v3_0,Time of consent
+fu_res1,
+medication_dis_6_v2_3,Disease Indication
+conmed_listing_v2_3_complete,
+ae_sdate_35_v2_3,Stop Date
+dc_pv_feverish_5_v2_3,Day 5
+pospcr_date,Date of review:
+ev_throat_st,
+vs_un_weight_v2_3,Weight
+med_stop_yr_9_v2_3,Stop Date - Year
+exam_skin_det_ncs_v2_3,Skin - Abnormal NCS details
+ev_lymph_det_ncs,
+pospcr_weak_r2,pospcr_weak
+s1_preg_res,Urine pregnancy test result
+dc_ill_oth1_4_v2_3,Other 1 Day 4
+icf_tim_v2_3,Time of consent
+primary_endpoint_r2,Primary outcome:
+ae_name_7_v2_3,Adverse event name
+prevac_bp_sys,
+dc_pv_swelling_med_v2_3,Medication
+pospcr_headache,pospcr_headache
+dc_ill_cough_5_v2_3,Cough Day 5
+prevac_sal_1___1,
+d14_throat,
+ae_og_21_v2_3___1,
+d364_eyes_st_v3_2,Start date
+medication_dose_unit_22_v2_3,Unit Code
+any_pcr_positive,Any PCR positive outcome
+ae_sae_24_v2_3,"If ticked, specify reason"
+ae_sae_5_v2_3,"If ticked, specify reason"
+pospcr_lrtd_onset,Date of onset (radiographic findings consistent with LRTD):
+med_start_date_22_v2_3,
+ae_date_17_v2_3,Start Date
+scr_crf_status,
+s6_skin_det_ncs,Skin - Abnormal NCS details
+medication_tmt_34_v2_3,Prophylaxis or Treatment
+s6_cv,Cardiovascular
+pospcr_naus_vom_r2,pospcr_naus_vom
+pcr_asymptomatic_r2,Asymptomatic outcome
+ae_sae_23_v2_3,"If ticked, specify reason"
+dc_pv_tenderness_5_v2_3,Day 5
+dc_pv_med3_dose_v2_3,Dosage
+d42_serum_2b_v3_2___1,
+dc_pv_med6_dat_v2_3,Date taken
+d28_neut_2a___1,
+medication_dose_15_v2_3,Dose
+d364_throat_st_v3_2,Start date
+d42_oth2_sp_v3_2,Other: Specify
+ae_hlgt_v3,HLGT
+ae_og_29_v2_3___1,
+medication_dose_28_v2_3,Dose
+dc_ill_eyes_2_v2_3,Redness of the eyes Day 2
+pospcr_cough_onset,Date of onset (cough):
+s1_gen,General
+med_start_date_7_v2_3,
+medication_dis_8_v2_3,Disease Indication
+ae_sae_22_v2_3,"If ticked, specify reason"
+med_start_mo_12_v2_3,Start Date - Month
+d14_smell,
+ev_tim,
+icf_ques_v2_3,5. Was the opportunity for questions given?
+medication_tmt_7_v2_3,Prophylaxis or Treatment
+pospcr_aguesia_resol_r2,Date of symptom resolution (aguesia):
+vacc_route_sp_2,
+sc_elisa_2___1,
+med_stop_yr_1_v2_3,Stop Date - Year
+medication_route_17_v2_3,Route Code
+med_start_date_32_v2_3,
+med_start_yr_12_v2_3,Start Date - Year
+mh_llt,LLT
+d7_oth1,
+conmeds4_v2_3,3. GENERIC NAME
+med_start_mo_2_v2_3,Start Date - Month
+pospcr_data_sources_r2___8,
+medication_dis_21_v2_3,Disease Indication
+d14_cough_st,
+s6_resp,Respiratory rate
+dc_pv_weak_med_v2_3,Medication
+ae_outcome_19_v2_3,Outcome
+icf_wit_sign_v2_3,"If yes, did witness sign ICF?"
+d182_ns_2a_tim_v3_2,Time
+dc_pv_rigor_0_v2_3,Day 0
+ae_yes_sae_9_v2_3___1,
+ev_app,
+excl1,
+exam_inject_det_cs_v2_3,Injection site - Abnormal CS details
+sx_pax___1,
+d3_weak,
+dc_pv_sweat_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+conmeds5_st_day_v2_3,Start Date - Day
+pv60_pulse,
+medco_resp_opt_v2_3___4,
+d42_smell_v3_2,Loss of sense of smell
+d7_dat,
+ae_og_17_v2_3___1,
+d42_locked_date_v3_2,Locked date
+ae_sev_34_v2_3,Severity
+pospcr_condition_r2___7,
+dc_pv_hard_5_v2_3,Day 5
+d56_smell_st_v3_2,Start date
+medication_dis_35_v2_3,Disease Indication
+medication_tmt_10_v2_3,Prophylaxis or Treatment
+dc_pv_smell_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+icf_ad_tel_vers_v1_0,
+d364_neut_2a_v3_2___1,
+dc_pv_itch_6_v2_3,Day 6
+dc_ill_diarr_10_v2_3,Diarrhoea Day 10
+d3_pulse,
+dc_pv_head_0_v2_3,Day 0
+med_stop_day_5_v2_3,Stop Date - Day
+ae_sae_35_v2_3,"If ticked, specify reason"
+medication_dose_22_v2_3,Dose
+dc_ill_temp_am_7_v2_3,"Temperature, morning Day 7"
+vs_un_temp_v2_3,Oral temperature
+med_start_date_31_v2_3,
+d364_smell_v3_2,Loss of sense of smell
+dc_ill_temp_pm_4_v2_3,"Temperature, afternoon Day 4"
+dc_pv_swelling_visit_v2_3,Medical visit
+exam_abdo_v2_3,Abdomen
+medication_dis_19_v2_3,Disease Indication
+non_primary_symptomatic,Non-primary symptomatic outcome:
+exam_lymph_det_cs_v2_3,Lymphatic - Abnormal CS details
+dc_ill_cough_8_v2_3,Cough Day 8
+exam_lymph_v2_3,Lymphatic
+dc_ill_fatigure_8_v2_3,Fatigue/weakness Day 8
+medhist_surgery_det2_v2_3,2. Details
+med_start_day_35_v2_3,Start Date - Day
+pv60_tim_2,
+icf_re_oth_copy_v3_0,Was a copy of the main informed consent form given to the participant?
+exam_oth_sp_v2_3,Other System
+d28_serum_2a_tim,
+dc_ill_diarr_3_v2_3,Diarrhoea Day 3
+medication_frequency_12_v2_3,Frequency
+d182_chest_st_v3_2,Start date
+dc_pv_smell_4_v2_3,Day 4
+d364_naus_vom_st_v3_2,Start date
+fu_ser_datetime1,
+d42_fever_v3_2,Fever
+pospcr_anosmia_r2,pospcr_anosmia
+d7_oth1_sp,
+d42_ns_2b_v3_2___1,
+d3_pax___1,
+ev_breath.1,
+sc_ns_2_tim,
+d364_sys_v3_2,Systolic BP
+d42_cough_v3_2,Cough
+ae_sev_23_v2_3,Severity
+pv60_tenderness,
+pospcr_symptoms___12,
+med_stop_yr_4_v2_3,Stop Date - Year
+dc_ill_oth1_1_v2_3,Other 1 Day 1
+dc_ill_med11_dat_v2_3,Date taken
+dc_pv_sweat_med_v2_3,Medication
+dc_pv_tenderness_3_v2_3,Day 3
+ev_throat,
+d3_swelling_comment,
+incl4,
+eos_withdrawl_other_v2_3,"If other, reason:"
+d3_oth1_st,
+ev_inject0_st,
+med_start_mo_26_v2_3,Start Date - Month
+ev_head_st,
+pv60_chills_2,
+randomisation_date_time_r2,Date and time of vaccination
+icf_ad_ques_sp_v1_0,Specify any questions or concerns raised: 
+d28_weak_st,
+med_start_date_30_v2_3,
+d28_oth2,
+cm_level_3,Level 3
+medication_tmt_31_v2_3,Prophylaxis or Treatment
+ae_date_6_v2_3,Start Date
+social_recdrugs_v2_3,Recreational drug use?
+pospcr_symptoms___16,
+herbal3_st_day_v2_3,Start Date - Day
+ae_outcome_8_v2_3,Outcome
+d364_chest_v3_2,Chest pain
+pv60_dia_2,
+medication_name_31_v2_3,Mediation Name or Therapy
+medication_tmt_20_v2_3,Prophylaxis or Treatment
+icf_sc_hiv_couns_v3_0,Counselling performed by
+medication_tmt_19_v2_3,Prophylaxis or Treatment
+dc_pv_rigor_4_v2_3,Day 4
+icf_vc_assess_v3_0,6. Was the assessment of understanding questionnaire completed and a score of at least 8/10 obtained within 2 attempts?
+medication_tmt_13_v2_3,Prophylaxis or Treatment
+dc_pv_muscle_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+pospcr_symptoms___3,
+s1_sys,Systolic BP
+med_stop_yr_19_v2_3,Stop Date - Year
+conmeds1_st_day_v2_3,Start Date - Day
+ae_num_v3,AE Instance
+excl16,
+d364_ns_1_tim_v3_2,Time
+herbal2_v2_3,2.  NAME
+ae_name_8_v2_3,Adverse event name
+d28_serum_2b___1,
+s1_headache,Headache
+dc_ill_taste_10_v2_3,Loss of sense of taste Day 10
+d56_head_st_v3_2,Start date
+vacc_site_2,
+ae_sev_32_v2_3,Severity
+ae_outcome_23_v2_3,Outcome
+med_stop_date_9_v2_3,
+d182_head_st_v3_2,Start date
+d7_othsamp___1,
+d364_fever_st_v3_2,Start date
+medication_dose_unit_23_v2_3,Unit Code
+ae_related_2_v2_3,Relationship to Study Vaccine
+pospcr_cough_onset_r2,Date of onset (cough):
+ae_name_17_v2_3,Adverse event name
+fu_res1_oth,
+d42_tim_v3_2,Time
+d14_ns_2a___1,
+d7_weak_st,
+dc_ill_med8_freq_v2_3,Frequency
+sc_race_v2_3,Race:
+medco_resp_opt_v2_3___2,
+travelhist_country2_start_mo_v2_3,Start Date - Month
+exam_lymph_det_ncs_v2_3,Lymphatic - Abnormal NCS details
+demographic_and_contact_information_v2_3_complete,
+med_start_day_22_v2_3,Start Date - Day
+sc_bp_sys_v2_3,Systolic BP
+eos_death_cause_othersig_v2_3,Cause of death:
+d3_othsamp___1,
+dc_pv_rigor_3_v2_3,Day 3
+d28_family_id5,
+pospcr_tired_onset,Date of onset (Tiredness (or fatigue or weakness)):
+d42_nasal_v3_2,Nasal congestion
+exam_cv_v2_3,Cardiovascular
+med_stop_mo_34_v2_3,Stop Date - Month
+medication_frequency_25_v2_3,Frequency
+d28_rapid_st,
+vacc_route_2,
+d14_weak_st,
+s1_skin,Skin
+s1_tenderness,Tenderness
+pospcr_nasal,pospcr_nasal
+dc_ill_body_7_v2_3,Body aches Day 7
+dc_ill_naus_vom_7_v2_3,Nausea and/or vomitting Day 7
+ev_inject,
+icf_re_stor_tim_v3_0,Time of consent
+ae_name_31_v2_3,Adverse event name
+medication_dose_unit_16_v2_3,Unit Code
+pospcr_spo2_r2,pospcr_spo2
+d56_weak_v3_2,Fatigue/Weakness
+dem_crf_status_v2_3,CRF Status
+dc_pv_muscle_2_v2_3,Day 2
+ae_name_14_v2_3,Adverse event name
+e1_locked_date_r1,Locked date
+d14_oth1,
+s1_fatigue,Fatigue/Weakness
+d3_chest,
+pospcr_lrtd_qresol_r2,Is symptom (radiographic findings consistent with LRTD) resolution date known?
+d7_oxy,
+ev_inject0,
+dc_pv_temp_med_v2_3,Medication
+med_start_date_16_v2_3,
+med_start_date_20_v2_3,
+d364_head_v3_2,Headache
+s1_lymph,Lymphatic
+ae_yes_sae_17_v2_3___1,
+s1_sys_2,Systolic BP
+dc_ill_adm_2_v2_3,Admission Day 2
+icf_ad_tel_ques_sp_v1_0,Specify any questions or concerns raised: 
+ae_sae_29_v2_3,"If ticked, specify reason"
+d56_dia_v3_2,Diastolic BP
+s1_swelling,Swelling
+pospcr_other_dur,How long was the 'Other' symptom present (needs not be contiguous days)? 
+d7_locked_date,
+ae_sdate_34_v2_3,Stop Date
+travelhist_country1_start_yr_v2_3,Start Date - Year
+exam_ent_v2_3,ENT
+pospcr_condition___3,
+d3_dia,
+pospcr_throat_resol_r2,Date of symptom resolution (sore throat):
+medhist_autoimm_det_v2_3,Details
+ev_gen_det_ncs,
+sc_gender_v2_3,Gender
+d7_induration_comment,
+dc_ill_med6_dose_v2_3,Dosage
+icf_und_v2_3,"4. Does the participant understand the study, study procedures and what is expected of them? "
+dc_ill_chill_9_v2_3,Chills Day 9
+pospcr_spo2_onset,Date of onset (spo2):
+medication_frequency_14_v2_3,Frequency
+d56_crf_status_v3_2,CRF Status
+icf_sc_stor_dat_v3_0,Date of consent
+dc_ill_temp_am_2_v2_3,"Temperature, morning Day 2"
+medhist_family_det3_v2_3,3. Details
+pospcr_myalgia_qresol,Is symptom (myalgia) resolution date known?
+d364_app_v3_2,Loss of appetite
+medical_history_meddra_codes_complete,
+ev_gen_det_cs,
+excl23,
+sx_ns___1,
+d28_taste,
+d14_chest,
+s6_inject_det_cs,Injection site - Abnormal CS details
+s1_serum_tim,Time
+med_stop_date_32_v2_3,
+d28_smell,
+sc_hba1c_1___1,
+pospcr_spo2_resol_r2,Date of symptom resolution (spo2):
+med_start_mo_1_v2_3,Start Date - Month
+medication_route_23_v2_3,Route Code
+d14_oth2_sp,
+ev_chills_st,
+vs_un_scr_tim_v2_3,Time
+medication_dose_unit_2_v2_3,Unit Code
+icf_re_main_date_v3_0,Date
+dc_pv_joint_4_v2_3,Day 4
+dc_ill_med6_freq_v2_3,Frequency
+medco_resp_opt_v2_3___1,
+med_stop_date_13_v2_3,
+medco_cv_opt_v2_3___7,
+medication_name_25_v2_3,Mediation Name or Therapy
+pospcr_nasal_dur,How long was the 'Nasal congestion' symptom present (needs not be contiguous days)? 
+med_stop_date_3_v2_3,
+med_stop_yr_16_v2_3,Stop Date - Year
+d364_taste_v3_2,Loss of sense of taste
+pospcr_hospitalised_r2,Was participant Hospitalised?
+pospcr_fever_qresol,Is symptom (fever) resolution date known?
+d182_run_v3_2,Runny nose
+dc_pv_breath_3_v2_3,Day 3
+d28_conmed,
+d7_taste_st,
+d14_nasal_st,
+medication_name_34_v2_3,Mediation Name or Therapy
+pospcr_nose_dur_r2,How long was the 'Runny nose' symptom present (needs not be contiguous days)? 
+d364_chills_st_v3_2,Start date
+med_ongoing_end_32_v2_3___1,
+eos_death_date_official_v2_3,Date of death:
+icf_re_wit_sign_v3_0,"      If yes, did witness sign ICF?"
+icf_sc_hiv_vers_v3_0,Version
+icf_stor_oth_v2_3,Other version of ICF
+med_stop_day_7_v2_3,Stop Date - Day
+d3_naus_vom_st,
+med_stop_date_28_v2_3,
+d7_reglymph_comment,
+icf_ad_tel_dat2_v1_0,9. Date of telephonic consent
+ev_naus_vom,
+dc_ill_crf_status_v2_3,CRF Status
+icf_re_both_v3_0,12. Was a copy of both signed ICF's placed in the participant file?
+med_ongoing_end_5_v2_3___1,
+medication_dose_30_v2_3,Dose
+pospcr_adjud_date,Date of review:
+medication_dis_28_v2_3,Disease Indication
+medication_dis_17_v2_3,Disease Indication
+pospcr_nose_dur,How long was the 'Runny nose' symptom present (needs not be contiguous days)? 
+medhist_surgery_det3_v2_3,3. Details
+medication_frequency_16_v2_3,Frequency
+d7_oth1_st,
+ae_og_23_v2_3___1,
+pv60_induration,
+ur_protein_v2_3,Protein
+d3_head,
+d364_oth2_st_v3_2,Start date
+dc_ill_breath_6_v2_3,Shortness of breath Day 6
+vacc_tim,
+medication_dose_unit_24_v2_3,Unit Code
+s6_oth_det_ncs,Other - Abnormal NCS details
+ev_sys,
+d7_run,
+ae_outcome_11_v2_3,Outcome
+d7_dia,
+pospcr_data_sources___3,
+icf_re_locked_date_v3_0,Locked date 
+ev_chest,
+d42_head_v3_2,Headache
+conmeds6_st_day_v2_3,Start Date - Day
+pospcr_symptoms___19,
+dc_ill_med8_dat_v2_3,Date taken
+ae_yes_sae_23_v2_3___1,
+ae_og_11_v2_3___1,
+dc_ill_oth1_2_v2_3,Other 1 Day 2
+s1_ns___1,
+d7_tim,
+dc_ill_smell_8_v2_3,Loss of sense of smell Day 8
+med_stop_date_11_v2_3,
+ae_name_34_v2_3,Adverse event name
+d42_taste_v3_2,Loss of sense of taste
+d56_body_st_v3_2,Start date
+ae_og_26_v2_3___1,
+excl22,
+pospcr_spo2_qresol_r2,Is symptom (spo2) resolution date known?
+s1_lymph_det_ncs,Lymphatic - Abnormal NCS details
+dc_ill_oth1_6_v2_3,Other 1 Day 6
+icf_sc_und_v3_0,"4. Does the participant understand the study, study procedures and what is expected of them? "
+med_stop_mo_10_v2_3,Stop Date - Month
+ae_date_23_v2_3,Start Date
+med_start_day_25_v2_3,Start Date - Day
+d42_head_st_v3_2,Start date
+pv60_sys_2,
+d42_weak_v3_2,Fatigue/Weakness
+pospcr_cough_resol,Date of symptom resolution (cough):
+day_56_post_vaccination_v3_2_complete,
+ev_weak,
+ev_taste,
+medication_tmt_11_v2_3,Prophylaxis or Treatment
+d364_neut_1_v3_2___1,
+dc_pv_locked_date_v2_3,Locked date
+d14_oth1_sp,
+pospcr_aguesia_r2,pospcr_aguesia
+medhist_gi_v2_3,Gastro-intestinal
+icf_re_oth_comm_v3_0,Comments
+s6_fatigue,Fatigue/Weakness
+s6_tenderness,Tenderness
+s1_complain,"7. Current complaints: if any COVID-related symptoms are reported, complete illness visit source and collect samples as per illness visit."
+ev_smell_st,
+travelhist_country1_oth_v2_3,Country/Province
+sx_dia,Diastolic BP
+d182_dia_v3_2,Diastolic BP
+medication_name_10_v2_3,Mediation Name or Therapy
+d56_fbc_13_v3_2___1,
+icf_vc_dat_v3_0,Date of main consent
+d42_nasal_st_v3_2,Start date
+d7_lft_13___1,
+ae_og_31_v2_3___1,
+pospcr_myalgia_resol_r2,Date of symptom resolution (myalgia):
+d42_serum_2b_tim_v3_2,Time
+pospcr_symptoms_r2___1,
+medication_name_29_v2_3,Mediation Name or Therapy
+med_start_day_1_v2_3,Start Date - Day
+medication_dose_unit_32_v2_3,Unit Code
+d7_fever,
+prevac_pax_1___1,
+ae_sdate_1_v2_3,Stop Date
+med_ongoing_end_3_v2_3___1,
+icf_stor_copy_v2_3,14. Was a copy of the sample storage form given to the participant?
+medco_cv_opt_v2_3___2,
+med_stop_day_28_v2_3,Stop Date - Day
+d364_ns_2a_tim_v3_2,Time
+icf_sc_hiv_oth_sp_v3_0,Other version of ICF
+ae_sev_33_v2_3,Severity
+dc_pv_sweat_6_v2_3,Day 6
+d14_naus_vom_st,
+medco_cv_opt_v2_3___4,
+d3_fever_st,
+med_stop_day_35_v2_3,Stop Date - Day
+med_stop_mo_8_v2_3,Stop Date - Month
+med_stop_date_10_v2_3,
+ev_run.1,
+conmeds1_st_yr_v2_3,Start Date Year
+prevac_ns_1_tim,
+ae_sdate_12_v2_3,Stop Date
+ae_og_8_v2_3___1,
+dc_ill_med8_dose_v2_3,Dosage
+d14_othsamp_sp,
+ae_sdate_29_v2_3,Stop Date
+travelhist_country2_end_yr_v2_3,End Date - Year
+fu_vs_datetime3,
+medication_dose_8_v2_3,Dose
+pospcr_norb_onset_r2,Date of onset (New onset rapid breathing):
+s1_oxy,Oxygen saturation
+conmeds6_st_mo_v2_3,Start Date Month
+pv60_jointpains_2,
+medication_dose_19_v2_3,Dose
+d14_serum_2a_tim,
+d56_breath_v3_2,Shortness of breath
+ur_glucose_v2_3,Glucose
+s1_ent_det_cs,ENT - Abnormal CS details
+s1_vacc_tim,Time of vaccination
+med_start_mo_23_v2_3,Start Date - Month
+ae_name_22_v2_3,Adverse event name
+icf_ad_tel_na_v1_0___1,
+med_stop_date_24_v2_3,
+medco_diabetes___1,
+ae_outcome_2_v2_3,Outcome
+ae_related_24_v2_3,Relationship to Study Vaccine
+d182_body_st_v3_2,Start date
+dc_ill_naus_vom_6_v2_3,Nausea and/or vomitting Day 6
+med_stop_day_15_v2_3,Stop Date - Day
+d42_loc_v3_2,3. Where is this visit taking place?
+non_primary_symptomatic_r2,Non-primary symptomatic outcome:
+dc_ill_temp_pm_7_v2_3,"Temperature, afternoon Day 7"
+s1_skin_det_cs,Skin - Abnormal CS details
+med_stop_day_19_v2_3,Stop Date - Day
+icf_sc_lang_v3_0,7. Preferred language for signing ICF
+ae_sdate_4_v2_3,Stop Date
+ae_date_25_v2_3,Start Date
+s1_warmth,Warmth
+med_start_yr_4_v2_3,Start Date - Year
+s1_inject_det_ncs,Injection site - Abnormal NCS details
+prevac_hla_1___1,
+d14_eyes_st,
+dc_ill_cough_2_v2_3,Cough Day 2
+vital_signs_screening_visit_v2_3_complete,
+excl7,
+d3_tim,
+eos_death_certificate_v2_3,Death certificate available?
+icf_re_stor_v3_0,10. Did the participant give permission for samples storage for future use?
+s1_fever,Feverish
+pospcr_condition___0,
+med_start_mo_32_v2_3,Start Date - Month
+pospcr_data_sources___7,
+d182_diarr_st_v3_2,Start date
+d28_throat,
+sx_dat,Date:
+dc_pv_taste_4_v2_3,Day 4
+med_ongoing_end_28_v2_3___1,
+d42_diarr_v3_2,Diarrhoea
+pospcr_lrtd_dur,How long was the 'Radiographic findings consistent with LRTD' symptom present (needs not be contiguous days)? 
+d42_oth2_st_v3_2,Start date
+med_start_yr_19_v2_3,Start Date - Year
+dc_ill_smell_10_v2_3,Loss of sense of smell Day 10
+vs_un_pulse_v2_3,Pulse rate
+ev_oth3_sp,
+dc_pv_redness_visit_v2_3,Medical visit
+med_start_yr_32_v2_3,Start Date - Year
+med_stop_yr_2_v2_3,Stop Date - Year
+d182_tim_v3_2,Time
+med_stop_day_4_v2_3,Stop Date - Day
+pospcr_cough,pospcr_cough
+icf_copy_v2_3,10. Was a copy of the main informed consent form given to the participant?
+ae_related_23_v2_3,Relationship to Study Vaccine
+d14_dat,
+ae_sev_15_v2_3,Severity
+med_start_yr_26_v2_3,Start Date - Year
+d56_cough_st_v3_2,Start date
+d7_sys,
+medication_route_3_v2_3,Route Code
+d28_cough,
+ae_sae_1_v2_3,"If ticked, specify reason"
+icf_vc_locked_date_v3_0,Locked date 
+ae_related_16_v2_3,Relationship to Study Vaccine
+med_start_yr_20_v2_3,Start Date - Year
+ae_name_6_v2_3,Adverse event name
+ae_pt_v3,PT
+d14_chills_st,
+dc_ill_cough_3_v2_3,Cough Day 3
+pospcr_symptoms___18,
+pospcr_condition___2,
+s6_pulse,Pulse rate
+analysis_inclusion,Analysis inclusion based on start date of event:
+ae_sae_32_v2_3,"If ticked, specify reason"
+dc_pv_cough_6_v2_3,Day 6
+herbal3_st_mo_v2_3,Start Date Month
+medhist_resp_v2_3,Respiratory
+medication_route_28_v2_3,Route Code
+medication_dis_31_v2_3,Disease Indication
+dc_pv_weak_visit_v2_3,Medical visit
+d3_resp,
+dc_pv_breath_visit_v2_3,Medical visit
+dc_ill_throat_4_v2_3,Sore throat Day 4
+dc_ill_adm_3_v2_3,Admission Day 3
+med_ongoing_end_19_v2_3___1,
+pospcr_fever_onset,Date of onset (fever):
+sc_hba1c_3___1,
+prevac_serum_1___1,
+vacc_date_2_r2,Second vaccination date
+travelhist_country3_oth_v2_3,Country/Province
+medication_dis_15_v2_3,Disease Indication
+vacc_tim_2,
+ae_outcome_3_v2_3,Outcome
+dc_pv_cough_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+d14_eyes,
+d182_breath_v3_2,Shortness of breath
+medication_route_9_v2_3,Route Code
+dc_ill_naus_vom_8_v2_3,Nausea and/or vomitting Day 8
+dc_ill_adm_5_v2_3,Admission Day 5
+e1_crf_status_r1,CRF Status
+d364_breath_v3_2,Shortness of breath
+d28_ns_2b___1,
+d3_chills_st,
+pospcr_diarr_resol_r2,Date of symptom resolution (diarrhea):
+med_start_day_30_v2_3,Start Date - Day
+med_start_day_33_v2_3,Start Date - Day
+inclusion_exclusion_criteria_complete,
+d182_weak_st_v3_2,Start date
+icf_hiv_vers_v2_3,Version
+ae_date_1_v2_3,Start Date
+pospcr_chestpain_resol,Date of symptom resolution (chest pain):
+icf_trans_v2_3,9. Was a translator used?
+s6_lymph_det_ncs,Lymphatic - Abnormal NCS details
+medhist_neuro_v2_3,Neurological
+d364_hiv_2a_v3_2___1,
+pospcr_anosmia_qresol,Is symptom (anosmia) resolution date known?
+medication_dis_33_v2_3,Disease Indication
+prevac_resp,
+icf_ques_sp_v2_3,Specify any questions or concerns raised
+pospcr_cough_dur_r2,How long was the 'persistent cough' symptom present (needs not be contiguous days)? 
+ae_date_20_v2_3,Start Date
+medication_route_13_v2_3,Route Code
+icf_re_copy_v3_0,Was a copy of the main informed consent form given to the participant?
+travelhist_country2_end_day_v2_3,End Date - day
+s6_gen_det_ncs,General - Abnormal NCS details
+pospcr_anosmia_onset,Date of onset (anosmia):
+d3_taste,
+ae_outcome_12_v2_3,Outcome
+ae_yes_sae_6_v2_3___1,
+dc_ill_fatigure_5_v2_3,Fatigue/weakness Day 5
+sc_bp_dia_v2_3,Diastolic BP
+pospcr_headache_resol_r2,Date of symptom resolution (headache):
+dc_pv_cough_4_v2_3,Day 4
+ae_og_10_v2_3___1,
+herbal3_v2_3,3.  NAME
+d14_oth1_st,
+mh_hlgt,HLGT
+pospcr_condition___7,
+dc_ill_diarr_7_v2_3,Diarrhoea Day 7
+medication_route_31_v2_3,Route Code
+d42_sys_v3_2,Systolic BP
+pospcr_symptoms___2,
+vacc_para,
+un_unblind,Was participant unblinded according to unblinding SOP?
+d364_oth1_v3_2,Other
+ae_name_5_v2_3,Adverse event name
+d364_run_st_v3_2,Start date
+d28_locked_date,
+eos_death_postmortem_av_v2_3,Post mortem report available?
+d28_ns_2b_tim,
+ev_resp_pe,
+pospcr_diarr_qresol_r2,Is symptom (diarrhea) resolution date known?
+d364_head_st_v3_2,Start date
+d182_eyes_v3_2,Redness of the eyes
+vs_un_ur_pregnancy_result_v2_3,Result
+pospcr_symptoms_r2___4,
+dc_pv_joint_med_v2_3,Medication
+d56_chills_st_v3_2,Start date
+sx_sys,Systolic BP
+dc_ill_smell_2_v2_3,Loss of sense of smell Day 2
+med_stop_day_31_v2_3,Stop Date - Day
+ev_cough_st,
+d56_ns_2b_tim_v3_2,Time
+d3_diarr_st,
+d364_crf_status_v3_2,CRF Status
+ae_yes_sae_5_v2_3___1,
+d56_diarr_v3_2,Diarrhoea
+icf_sc_pre_hiv_v3_0,14. Was adequate pre-test HIV counselling given to the participant?
+medication_dose_5_v2_3,Dose
+dc_ill_throat_7_v2_3,Sore throat Day 7
+cm_medication,Medication
+med_stop_date_27_v2_3,
+dc_pv_tenderness_visit_v2_3,Medical visit
+ae_outcome_16_v2_3,Outcome
+dc_ill_naus_vom_2_v2_3,Nausea and/or vomitting Day 2
+ae_outcome_15_v2_3,Outcome
+day_364_post_vaccination_v3_2_complete,
+pv60_resp,
+eos_death_related_pos_v2_3,Possible relation to IP?
+icf_cons_v2_3,7. Was informed consent obtained from the participant for their participation in the study?
+s1_induration,Induration
+dc_pv_weak_1_v2_3,Day 1
+ae_sae_14_v2_3,"If ticked, specify reason"
+dc_ill_adm_6_v2_3,Admission Day 6
+medication_name_6_v2_3,Mediation Name or Therapy
+d7_ns_2a___1,
+dc_pv_head_visit_v2_3,Medical visit
+s6_sal___1,
+ev_resp,
+d364_ns_3_tim_v3_2,Time
+excl18,
+dc_ill_eyes_4_v2_3,Redness of the eyes Day 4
+d182_taste_st_v3_2,Start date
+med_stop_day_8_v2_3,Stop Date - Day
+medication_route_29_v2_3,Route Code
+vacc_para_2,
+med_start_mo_18_v2_3,Start Date - Month
+med_start_date_35_v2_3,
+dc_pv_smell_5_v2_3,Day 5
+medication_dis_27_v2_3,Disease Indication
+med_stop_mo_35_v2_3,Stop Date - Month
+icf_re_oth_file_v3_0,Was a copy of the ICF placed in the participant file
+med_ongoing_end_4_v2_3___1,
+icf_vc_crf_status_v3_0,CRF Status
+d3_smell_st,
+d364_serum_3_v3_2___1,
+d14_serum_13___1,
+d7_taste,
+illness_visit_complete,
+med_stop_mo_33_v2_3,Stop Date - Month
+d42_naus_vom_v3_2,Nausea and/or vomitting
+medication_name_19_v2_3,Mediation Name or Therapy
+icf_re_vers_v3_0,Version
+d56_nasal_v3_2,Nasal congestion
+d7_naus_vom_st,
+dc_pv_cough_1_v2_3,Day 1
+icf_re_und_v3_0," Does the participant understand the study, study procedures and what is expected of them? "
+med_start_yr_30_v2_3,Start Date - Year
+household_vulnerability_v2_3,"4. Does participant live in a household with someone who may be vulnerable to severe COVID disease? (pregnant, >65 year old, comorbid factors (hypertensive, diabetic, cancer) ?)"
+ae_date_31_v2_3,Start Date
+dc_pv_smell_visit_v2_3,Medical visit
+ae_sae_17_v2_3,"If ticked, specify reason"
+icf_re_crf_vers_v3_0,What version of the CRF is this? 
+med_stop_date_33_v2_3,
+medication_dose_24_v2_3,Dose
+dc_pv_itch_1_v2_3,Day 1
+medication_name_18_v2_3,Mediation Name or Therapy
+ae_outcome_13_v2_3,Outcome
+d14_head_st,
+ev_oth_det_ncs,
+ae_sdate_10_v2_3,Stop Date
+med_stop_date_14_v2_3,
+ae_outcome_9_v2_3,Outcome
+d182_cough_v3_2,Cough
+d364_neut_2b_v3_2___1,
+excl25,
+med_start_yr_15_v2_3,Start Date - Year
+s6_pulse_2,Pulse rate
+medication_frequency_6_v2_3,Frequency
+ev_skin_det_cs,
+ae_related_8_v2_3,Relationship to Study Vaccine
+d182_temp_v3_2,Oral temperature
+ae_yes_sae_27_v2_3___1,
+ae_sdate_20_v2_3,Stop Date
+pospcr_myalgia_dur_r2,How long was the 'Myalgia' symptom present (needs not be contiguous days)? 
+dc_ill_med3_v2_3,Name of medication
+icf_trans_comm_v2_3,Translator comments
+exam_gen_det_cs_v2_3,General - Abnormal CS details
+dc_pv_med5_v2_3,Name of medication
+d28_dia,
+medication_dis_11_v2_3,Disease Indication
+dc_pv_sweat_2_v2_3,Day 2
+med_start_mo_6_v2_3,Start Date - Month
+d3_weak_st,
+med_start_yr_22_v2_3,Start Date - Year
+exam_gen_det_ncs_v2_3,General - Abnormal NCS details
+med_stop_mo_26_v2_3,Stop Date - Month
+pe_crf_status_v2_3,CRF Status
+age_calc,
+d182_ns_2b_v3_2___1,
+dc_ill_temp_am_10_v2_3,"Temperature, morning Day 10"
+pospcr_spo2_onset_r2,Date of onset (spo2):
+ae_yes_sae_28_v2_3___1,
+sc_diabetes_v2_3,Any diabetes?
+dc_ill_chest_10_v2_3,Chest pain Day 10
+dc_pv_tenderness_6_v2_3,Day 6
+icf_dat_v2_3,Date of main consent
+conmeds5_ind_v2_3,Indication
+sc_ue_3___1,
+med_ongoing_end_9_v2_3___1,
+ae_date_29_v2_3,Start Date
+icf_re_comm_v3_0,Comments
+medication_frequency_32_v2_3,Frequency
+dc_ill_med5_dat_v2_3,Date taken
+conmeds3_st_yr_v2_3,Start Date Year
+ae_sae_30_v2_3,"If ticked, specify reason"
+dc_ill_med3_dose_v2_3,Dosage
+travelhist_country2_oth_v2_3,Country/Province
+fu_ser_datetime9,
+d7_cyt_13_tim,
+primary_symptom_elig_r2,Primary Symptom Eligibility
+icf_hiv_dat_v2_3,Date of consent
+pospcr_diarr_onset,Date of onset (diarrhea):
+pospcr_symptoms_r2___3,
+med_start_day_13_v2_3,Start Date - Day
+pospcr_symptoms_r2___16,
+medhist_surgery_det1_v2_3,1. Details
+d3_sys,
+dc_pv_vacc_dat_v2_3,Date of vaccination:
+dc_pv_hard_comm_v2_3,"Comments, including stop date if symptom ongoing on day 6"
+ev_naus_vom_st,
+medhist_musc_v2_3,Musculoskeletal
+dc_ill_med12_freq_v2_3,Frequency
+d364_diarr_v3_2,Diarrhoea
+medication_route_18_v2_3,Route Code
+pospcr_symptoms___17,
+ev_conmed,
+dc_ill_chest_3_v2_3,Chest pain Day 3
+meddra_codes_v3_complete,
+s1_respiratory,Respiratory
+s6_tim_2,Time
+med_stop_yr_24_v2_3,Stop Date - Year
+dc_ill_temp_pm_10_v2_3,"Temperature, afternoon Day 10"
+dc_pv_cough_3_v2_3,Day 3
+cm_level_2,Level 2
+dc_ill_breath_5_v2_3,Shortness of breath Day 5
+fu_ser_datetime3,
+dc_ill_med2_freq_v2_3,Frequency
+icf_ad_und_v1_0,"11. Does the participant understand the updated study, study procedures and what is expected of them? "
+ae_sdate_2_v2_3,Stop Date
+incl2,
+ae_sae_8_v2_3,"If ticked, specify reason"
+medication_tmt_33_v2_3,Prophylaxis or Treatment
+sc_elisa_3___1,
+pospcr_sob_r2,pospcr_sob
+pospcr_condition___6,
+ae_sdate_11_v2_3,Stop Date
+pv60_oxy,
+d364_hiv_2b_v3_2___1,
+d56_eyes_v3_2,Redness of the eyes
+ae_yes_sae_1_v2_3___1,
+vs_un_oxy_sp_v2_3,Other oxygen
+med_start_yr_23_v2_3,Start Date - Year
+s1_rand,Initial randomization arm
+pospcr_lrtd_qresol,Is symptom (radiographic findings consistent with LRTD) resolution date known?
+ae_related_6_v2_3,Relationship to Study Vaccine
+pv60_oxy_2,
+meddra_crf_status_v3,CRF status
+ev_eyes,
+d56_oth2_sp_v3_2,Other: Specify
+pospcr_cough_dur,How long was the 'persistent cough' symptom present (needs not be contiguous days)? 
+medication_name_16_v2_3,Mediation Name or Therapy
+icf_sc_wit_v3_0,2. Is a witness needed to the informed consent process (if illiterate)?
+ae_related_30_v2_3,Relationship to Study Vaccine
+d28_oth2_st,
+d7_eyes,
+pospcr_data_sources_r2___6,
+d3_nasal,
+ae_date_34_v2_3,Start Date
+medco_cv_opt_v2_3___6,
+ae_related_7_v2_3,Relationship to Study Vaccine
+ae_name_11_v2_3,Adverse event name
+prevac_sal_2b___1,
+dc_ill_chill_3_v2_3,Chills Day 3
+sx_tim,Time
+d14_cough,
+adverse_event_name_v3,Name
+d182_serum_2a_tim_v3_2,Time
+ae_og_32_v2_3___1,
+ev_chest_st,
+med_stop_day_6_v2_3,Stop Date - Day
+pospcr_rapid,pospcr_rapid
+med_stop_day_20_v2_3,Stop Date - Day
+dc_ill_body_4_v2_3,Body aches Day 4
+dc_ill_med2_dose_v2_3,Dosage
+ev_crf_status,

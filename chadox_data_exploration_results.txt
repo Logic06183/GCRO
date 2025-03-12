@@ -1,0 +1,566 @@
+
+==== Dataset: covid_cases ====
+Dimensions: 592 rows, 29 columns
+First 10 columns: record_id, redcap_event_name, redcap_repeat_instrument, redcap_repeat_instance, fu_dat, fu_np_datetime1, fu_res1, fu_res1_oth, fu_ser_datetime1, fu_vs_datetime1 
+
+Column types summary:
+col_types
+character 
+       29 
+
+Potential date columns: fu_dat, fu_np_datetime1, fu_ser_datetime1, fu_vs_datetime1, fu_np_datetime2, fu_ser_datetime2, fu_vs_datetime2, fu_np_datetime3, fu_ser_datetime3, fu_vs_datetime3 
+
+Potential health-related columns: covid_cases_follow_up_complete 
+
+Potential demographic columns:  
+
+Sample data for key columns:
+      fu_dat     fu_np_datetime1    fu_ser_datetime1     fu_vs_datetime1
+1 2021-07-19 2021-07-19 11:19:00                <NA>                <NA>
+2 2020-08-06 2020-08-12 11:51:00 2020-08-12 11:50:00          2020-08-12
+3 2020-07-17                <NA> 2020-07-09 11:50:00                <NA>
+4 2020-09-21 2020-09-21 11:36:00 2020-09-21 11:33:00 2020-09-21 11:27:00
+5 2021-01-06 2021-01-14 12:34:00 2021-01-14 12:30:00 2021-01-14 12:25:00
+      fu_np_datetime2    fu_ser_datetime2     fu_vs_datetime2
+1                <NA>                <NA>                <NA>
+2 2020-08-19 10:25:00 2020-08-19 10:20:00          2020-08-19
+3                <NA>                <NA>                <NA>
+4                <NA>                <NA>                <NA>
+5 2021-01-19 13:00:00 2021-01-19 12:55:00 2021-01-19 12:50:00
+      fu_np_datetime3    fu_ser_datetime3     fu_vs_datetime3
+1                <NA>                <NA>                <NA>
+2 2020-09-03 12:08:00 2020-09-03 12:05:00 2020-09-03 11:49:00
+3                <NA> 2020-07-17 13:02:00                <NA>
+4                <NA>                <NA>                <NA>
+5                <NA>                <NA>                <NA>
+  covid_cases_follow_up_complete
+1                              2
+2                              2
+3                              2
+4                              2
+5                              2
+
+==== Dataset: illness_visit ====
+Dimensions: 4445 rows, 115 columns
+First 10 columns: record_id, redcap_event_name, redcap_repeat_instrument, redcap_repeat_instance, ev_dat, ev_fever, ev_fever.1, ev_fever_st, ev_throat, ev_throat.1 
+
+Column types summary:
+col_types
+character 
+      115 
+
+Potential date columns: ev_dat, ev_fever_st, ev_throat_st, ev_breath_st, ev_rapid_st, ev_nasal_st, ev_run_st, ev_cough_st, ev_chest_st, ev_body_st, ev_chills_st, ev_weak_st, ev_head_st, ev_naus_vom_st, ev_diarr_st, ev_app_st, ev_eyes_st, ev_smell_st, ev_taste_st, ev_inject0_st, ev_oth1_st, ev_oth2_st, ev_oth3_st, ev_oth4_st 
+
+Potential health-related columns: ev_fever, ev_fever.1, ev_fever_st, ev_breath, ev_breath.1, ev_breath_st, ev_cough, ev_cough.1, ev_cough_st, ev_chills, ev_chills.1, ev_chills_st, ev_smell, ev_smell_st, ev_taste, ev_taste_st, ev_temp, illness_visit_complete 
+
+Potential demographic columns:  
+
+Sample data for key columns:
+      ev_dat ev_fever_st ev_throat_st ev_breath_st ev_rapid_st ev_nasal_st
+1 2020-12-29  2020-12-21         <NA>         <NA>        <NA>        <NA>
+2 2021-05-04        <NA>   2021-05-02         <NA>        <NA>        <NA>
+3 2021-06-25        <NA>         <NA>         <NA>        <NA>        <NA>
+4 2020-08-12        <NA>         <NA>         <NA>        <NA>        <NA>
+5 2020-08-19        <NA>         <NA>         <NA>        <NA>        <NA>
+  ev_run_st ev_cough_st ev_chest_st ev_body_st ev_chills_st ev_weak_st
+1      <NA>        <NA>        <NA>       <NA>         <NA> 2020-12-21
+2      <NA>  2021-05-02        <NA>       <NA>   2021-05-02       <NA>
+3      <NA>  2021-06-21  2021-06-21 2021-06-21   2021-06-21 2021-06-21
+4      <NA>        <NA>        <NA>       <NA>         <NA>       <NA>
+5      <NA>        <NA>        <NA>       <NA>         <NA>       <NA>
+  ev_head_st ev_naus_vom_st ev_diarr_st ev_app_st ev_eyes_st ev_smell_st
+1 2020-12-21           <NA>        <NA>      <NA>       <NA>        <NA>
+2 2021-05-02           <NA>        <NA>      <NA>       <NA>        <NA>
+3 2021-06-21     2021-06-21        <NA>      <NA>       <NA>        <NA>
+4       <NA>           <NA>        <NA>      <NA>       <NA>        <NA>
+5       <NA>           <NA>        <NA>      <NA>       <NA>        <NA>
+  ev_taste_st ev_inject0_st ev_oth1_st ev_oth2_st ev_oth3_st ev_oth4_st
+1        <NA>          <NA> 2020-12-21       <NA>       <NA>       <NA>
+2        <NA>          <NA> 2021-05-02 2021-05-02       <NA>       <NA>
+3        <NA>          <NA>       <NA>       <NA>       <NA>       <NA>
+4        <NA>          <NA>       <NA>       <NA>       <NA>       <NA>
+5        <NA>          <NA>       <NA>       <NA>       <NA>       <NA>
+  ev_fever ev_fever.1 ev_breath ev_breath.1 ev_cough ev_cough.1 ev_chills
+1     <NA>       <NA>      <NA>        <NA>     <NA>       <NA>      <NA>
+2     <NA>       <NA>      <NA>        <NA>     <NA>       <NA>      <NA>
+3     <NA>       <NA>      <NA>        <NA>     <NA>       <NA>      <NA>
+4     <NA>       <NA>      <NA>        <NA>     <NA>       <NA>      <NA>
+5     <NA>       <NA>      <NA>        <NA>     <NA>       <NA>      <NA>
+  ev_chills.1 ev_smell ev_taste ev_temp illness_visit_complete
+1        <NA>        0        0    36.6                      2
+2        <NA>        0        0    36.4                      2
+3        <NA>        0        0   036.6                      2
+4        <NA>        0        0    36.4                      2
+5        <NA>        0        0    36.0                      2
+
+==== Dataset: diary_card_illness_v2_3 ====
+Dimensions: 2805 rows, 230 columns
+First 10 columns: record_id, redcap_event_name, redcap_repeat_instrument, redcap_repeat_instance, dc_ill_date_v2_3, dc_ill_temp_am_1_v2_3, dc_ill_temp_am_2_v2_3, dc_ill_temp_am_3_v2_3, dc_ill_temp_am_4_v2_3, dc_ill_temp_am_5_v2_3 
+
+Column types summary:
+col_types
+character      Date    factor   numeric   POSIXct 
+       62        13         1       153         1 
+
+Potential date columns: dc_ill_date_v2_3, dc_ill_med1_dat_v2_3, dc_ill_med2_dat_v2_3, dc_ill_med3_dat_v2_3, dc_ill_med4_dat_v2_3, dc_ill_med5_dat_v2_3, dc_ill_med6_dat_v2_3, dc_ill_med7_dat_v2_3, dc_ill_med8_dat_v2_3, dc_ill_med9_dat_v2_3, dc_ill_med10_dat_v2_3, dc_ill_med11_dat_v2_3, dc_ill_med12_dat_v2_3 
+
+Potential health-related columns: dc_ill_date_v2_3, dc_ill_temp_am_1_v2_3, dc_ill_temp_am_2_v2_3, dc_ill_temp_am_3_v2_3, dc_ill_temp_am_4_v2_3, dc_ill_temp_am_5_v2_3, dc_ill_temp_am_6_v2_3, dc_ill_temp_am_7_v2_3, dc_ill_temp_am_8_v2_3, dc_ill_temp_am_9_v2_3, dc_ill_temp_am_10_v2_3, dc_ill_temp_pm_1_v2_3, dc_ill_temp_pm_2_v2_3, dc_ill_temp_pm_3_v2_3, dc_ill_temp_pm_4_v2_3, dc_ill_temp_pm_5_v2_3, dc_ill_temp_pm_6_v2_3, dc_ill_temp_pm_7_v2_3, dc_ill_temp_pm_8_v2_3, dc_ill_temp_pm_9_v2_3, dc_ill_temp_pm_10_v2_3, dc_ill_throat_1_v2_3, dc_ill_throat_2_v2_3, dc_ill_throat_3_v2_3, dc_ill_throat_4_v2_3, dc_ill_throat_5_v2_3, dc_ill_throat_6_v2_3, dc_ill_throat_7_v2_3, dc_ill_throat_8_v2_3, dc_ill_throat_9_v2_3, dc_ill_throat_10_v2_3, dc_ill_cough_1_v2_3, dc_ill_cough_2_v2_3, dc_ill_cough_3_v2_3, dc_ill_cough_4_v2_3, dc_ill_cough_5_v2_3, dc_ill_cough_6_v2_3, dc_ill_cough_7_v2_3, dc_ill_cough_8_v2_3, dc_ill_cough_9_v2_3, dc_ill_cough_10_v2_3, dc_ill_breath_1_v2_3, dc_ill_breath_2_v2_3, dc_ill_breath_3_v2_3, dc_ill_breath_4_v2_3, dc_ill_breath_5_v2_3, dc_ill_breath_6_v2_3, dc_ill_breath_7_v2_3, dc_ill_breath_8_v2_3, dc_ill_breath_9_v2_3, dc_ill_breath_10_v2_3, dc_ill_chest_1_v2_3, dc_ill_chest_2_v2_3, dc_ill_chest_3_v2_3, dc_ill_chest_4_v2_3, dc_ill_chest_5_v2_3, dc_ill_chest_6_v2_3, dc_ill_chest_7_v2_3, dc_ill_chest_8_v2_3, dc_ill_chest_9_v2_3, dc_ill_chest_10_v2_3, dc_ill_body_1_v2_3, dc_ill_body_2_v2_3, dc_ill_body_3_v2_3, dc_ill_body_4_v2_3, dc_ill_body_5_v2_3, dc_ill_body_6_v2_3, dc_ill_body_7_v2_3, dc_ill_body_8_v2_3, dc_ill_body_9_v2_3, dc_ill_body_10_v2_3, dc_ill_chill_1_v2_3, dc_ill_chill_2_v2_3, dc_ill_chill_3_v2_3, dc_ill_chill_4_v2_3, dc_ill_chill_5_v2_3, dc_ill_chill_6_v2_3, dc_ill_chill_7_v2_3, dc_ill_chill_8_v2_3, dc_ill_chill_9_v2_3, dc_ill_chill_10_v2_3, dc_ill_fatigure_1_v2_3, dc_ill_fatigure_2_v2_3, dc_ill_fatigure_3_v2_3, dc_ill_fatigure_4_v2_3, dc_ill_fatigure_5_v2_3, dc_ill_fatigure_6_v2_3, dc_ill_fatigure_7_v2_3, dc_ill_fatigure_8_v2_3, dc_ill_fatigure_9_v2_3, dc_ill_fatigure_10_v2_3, dc_ill_smell_1_v2_3, dc_ill_smell_2_v2_3, dc_ill_smell_3_v2_3, dc_ill_smell_4_v2_3, dc_ill_smell_5_v2_3, dc_ill_smell_6_v2_3, dc_ill_smell_7_v2_3, dc_ill_smell_8_v2_3, dc_ill_smell_9_v2_3, dc_ill_smell_10_v2_3, dc_ill_taste_1_v2_3, dc_ill_taste_2_v2_3, dc_ill_taste_3_v2_3, dc_ill_taste_4_v2_3, dc_ill_taste_5_v2_3, dc_ill_taste_6_v2_3, dc_ill_taste_7_v2_3, dc_ill_taste_8_v2_3, dc_ill_taste_9_v2_3, dc_ill_taste_10_v2_3, dc_ill_eyes_1_v2_3, dc_ill_eyes_2_v2_3, dc_ill_eyes_3_v2_3, dc_ill_eyes_4_v2_3, dc_ill_eyes_5_v2_3, dc_ill_eyes_6_v2_3, dc_ill_eyes_7_v2_3, dc_ill_eyes_8_v2_3, dc_ill_eyes_9_v2_3, dc_ill_eyes_10_v2_3, dc_ill_naus_vom_1_v2_3, dc_ill_naus_vom_2_v2_3, dc_ill_naus_vom_3_v2_3, dc_ill_naus_vom_4_v2_3, dc_ill_naus_vom_5_v2_3, dc_ill_naus_vom_6_v2_3, dc_ill_naus_vom_7_v2_3, dc_ill_naus_vom_8_v2_3, dc_ill_naus_vom_9_v2_3, dc_ill_naus_vom_10_v2_3, dc_ill_diarr_1_v2_3, dc_ill_diarr_2_v2_3, dc_ill_diarr_3_v2_3, dc_ill_diarr_4_v2_3, dc_ill_diarr_5_v2_3, dc_ill_diarr_6_v2_3, dc_ill_diarr_7_v2_3, dc_ill_diarr_8_v2_3, dc_ill_diarr_9_v2_3, dc_ill_diarr_10_v2_3, dc_ill_oth1_sp_v2_3, dc_ill_oth1_1_v2_3, dc_ill_oth1_2_v2_3, dc_ill_oth1_3_v2_3, dc_ill_oth1_4_v2_3, dc_ill_oth1_5_v2_3, dc_ill_oth1_6_v2_3, dc_ill_oth1_7_v2_3, dc_ill_oth1_8_v2_3, dc_ill_oth1_9_v2_3, dc_ill_oth1_10_v2_3, dc_ill_oth2_sp_v2_3, dc_ill_oth2_1_v2_3, dc_ill_oth2_2_v2_3, dc_ill_oth2_3_v2_3, dc_ill_oth2_4_v2_3, dc_ill_oth2_5_v2_3, dc_ill_oth2_6_v2_3, dc_ill_oth2_7_v2_3, dc_ill_oth2_8_v2_3, dc_ill_oth2_9_v2_3, dc_ill_oth2_10_v2_3, dc_ill_adm_1_v2_3, dc_ill_adm_2_v2_3, dc_ill_adm_3_v2_3, dc_ill_adm_4_v2_3, dc_ill_adm_5_v2_3, dc_ill_adm_6_v2_3, dc_ill_adm_7_v2_3, dc_ill_adm_8_v2_3, dc_ill_adm_9_v2_3, dc_ill_adm_10_v2_3, dc_ill_add_det_v2_3, dc_ill_med1_dat_v2_3, dc_ill_med1_v2_3, dc_ill_med1_dose_v2_3, dc_ill_med1_freq_v2_3, dc_ill_med2_dat_v2_3, dc_ill_med2_v2_3, dc_ill_med2_dose_v2_3, dc_ill_med2_freq_v2_3, dc_ill_med3_dat_v2_3, dc_ill_med3_v2_3, dc_ill_med3_dose_v2_3, dc_ill_med3_freq_v2_3, dc_ill_med4_dat_v2_3, dc_ill_med4_v2_3, dc_ill_med4_dose_v2_3, dc_ill_med4_freq_v2_3, dc_ill_med5_dat_v2_3, dc_ill_med5_v2_3, dc_ill_med5_dose_v2_3, dc_ill_med5_freq_v2_3, dc_ill_med6_dat_v2_3, dc_ill_med6_v2_3, dc_ill_med6_dose_v2_3, dc_ill_med6_freq_v2_3, dc_ill_med7_dat_v2_3, dc_ill_med7_v2_3, dc_ill_med7_dose_v2_3, dc_ill_med7_freq_v2_3, dc_ill_med8_dat_v2_3, dc_ill_med8_v2_3, dc_ill_med8_dose_v2_3, dc_ill_med8_freq_v2_3, dc_ill_med9_v2_3, dc_ill_med9_dat_v2_3, dc_ill_med9_dose_v2_3, dc_ill_med9_freq_v2_3, dc_ill_med10_v2_3, dc_ill_med10_dat_v2_3, dc_ill_med10_dose_v2_3, dc_ill_med10_freq_v2_3, dc_ill_med11_v2_3, dc_ill_med11_dat_v2_3, dc_ill_med11_dose_v2_3, dc_ill_med11_freq_v2_3, dc_ill_med12_v2_3, dc_ill_med12_dat_v2_3, dc_ill_med12_dose_v2_3, dc_ill_med12_freq_v2_3, dc_ill_crf_status_v2_3, dc_ill_locked_date_v2_3, dc_ill_comm_v2_3, diary_card_illness_v2_3_complete 
+
+Potential demographic columns:  
+
+Sample data for key columns:
+   dc_ill_date_v2_3 dc_ill_med1_dat_v2_3 dc_ill_med2_dat_v2_3
+18       2020-06-24                 <NA>                 <NA>
+19             <NA>                 <NA>                 <NA>
+20       2021-02-02                 <NA>                 <NA>
+21       2021-03-15                 <NA>                 <NA>
+22       2021-03-15                 <NA>                 <NA>
+   dc_ill_med3_dat_v2_3 dc_ill_med4_dat_v2_3 dc_ill_med5_dat_v2_3
+18                 <NA>                 <NA>                 <NA>
+19                 <NA>                 <NA>                 <NA>
+20                 <NA>                 <NA>                 <NA>
+21                 <NA>                 <NA>                 <NA>
+22                 <NA>                 <NA>                 <NA>
+   dc_ill_med6_dat_v2_3 dc_ill_med7_dat_v2_3 dc_ill_med8_dat_v2_3
+18                 <NA>                 <NA>                 <NA>
+19                 <NA>                 <NA>                 <NA>
+20                 <NA>                 <NA>                 <NA>
+21                 <NA>                 <NA>                 <NA>
+22                 <NA>                 <NA>                 <NA>
+   dc_ill_med9_dat_v2_3 dc_ill_med10_dat_v2_3 dc_ill_med11_dat_v2_3
+18                 <NA>                  <NA>                  <NA>
+19                 <NA>                  <NA>                  <NA>
+20                 <NA>                  <NA>                  <NA>
+21                 <NA>                  <NA>                  <NA>
+22                 <NA>                  <NA>                  <NA>
+   dc_ill_med12_dat_v2_3 dc_ill_temp_am_1_v2_3 dc_ill_temp_am_2_v2_3
+18                  <NA>                  36.1                  36.0
+19                  <NA>                  <NA>                  36.3
+20                  <NA>                  37.1                  36.9
+21                  <NA>                  36.8                  36.1
+22                  <NA>                  36.4                  36.0
+   dc_ill_temp_am_3_v2_3 dc_ill_temp_am_4_v2_3 dc_ill_temp_am_5_v2_3
+18                  36.4                  36.0                  36.1
+19                  36.7                  36.4                  36.3
+20                  36.0                  37.1                  36.0
+21                  36.8                  36.1                  36.9
+22                  36.7                  36.8                  37.2
+   dc_ill_temp_am_6_v2_3 dc_ill_temp_am_7_v2_3 dc_ill_temp_am_8_v2_3
+18                  37.0                  37.0                  36.1
+19                  36.4                  36.5                  36.3
+20                  37.0                  36.1                  36.2
+21                  37.0                  36.8                  36.2
+22                  36.8                  36.1                  36.4
+   dc_ill_temp_am_9_v2_3 dc_ill_temp_am_10_v2_3 dc_ill_temp_pm_1_v2_3
+18                  36.0                   36.1                  36.4
+19                  36.4                   36.4                  <NA>
+20                  36.7                   36.1                  36.7
+21                  36.7                   36.0                  36.4
+22                  36.8                   36.0                  36.7
+   dc_ill_temp_pm_2_v2_3 dc_ill_temp_pm_3_v2_3 dc_ill_temp_pm_4_v2_3
+18                  36.7                  36.0                  36.8
+19                  36.8                  36.0                  36.4
+20                  36.4                  36.8                  36.8
+21                  37.1                  36.4                  36.2
+22                  36.3                  36.2                  37.1
+   dc_ill_temp_pm_5_v2_3 dc_ill_temp_pm_6_v2_3 dc_ill_temp_pm_7_v2_3
+18                  36.1                  36.4                  36.2
+19                  36.0                  36.8                  36.6
+20                  36.4                  36.9                  36.8
+21                  36.0                  36.8                  36.1
+22                  36.3                  36.4                  37.1
+   dc_ill_temp_pm_8_v2_3 dc_ill_temp_pm_9_v2_3 dc_ill_temp_pm_10_v2_3
+18                  36.1                  36.7                   36.7
+19                  36.3                  36.0                   <NA>
+20                  36.1                  36.4                   36.0
+21                  36.4                  36.9                   36.7
+22                  36.4                  37.1                   37.4
+   dc_ill_throat_1_v2_3 dc_ill_throat_2_v2_3 dc_ill_throat_3_v2_3
+18                    0                    0                    0
+19                    0                    0                    0
+20                    0                    0                    0
+21                    0                    0                    0
+22                    0                    0                    0
+   dc_ill_throat_4_v2_3 dc_ill_throat_5_v2_3 dc_ill_throat_6_v2_3
+18                    0                    0                    0
+19                    0                    0                    0
+20                    0                    0                    0
+21                    0                    0                    0
+22                    0                    0                    0
+   dc_ill_throat_7_v2_3 dc_ill_throat_8_v2_3 dc_ill_throat_9_v2_3
+18                    0                    0                    0
+19                    0                    0                    0
+20                    0                    0                    0
+21                    0                    0                    0
+22                    0                    0                    0
+   dc_ill_throat_10_v2_3 dc_ill_cough_1_v2_3 dc_ill_cough_2_v2_3
+18                     0                   0                   0
+19                    NA                   0                   0
+20                     0                   0                   0
+21                     0                   3                   3
+22                     0                   0                   0
+   dc_ill_cough_3_v2_3 dc_ill_cough_4_v2_3 dc_ill_cough_5_v2_3
+18                   0                   0                   0
+19                   0                   0                   0
+20                   0                   0                   0
+21                   3                   2                   2
+22                   0                   0                   0
+   dc_ill_cough_6_v2_3 dc_ill_cough_7_v2_3 dc_ill_cough_8_v2_3
+18                   0                   0                   0
+19                   0                   0                   0
+20                   0                   0                   0
+21                   2                   2                   0
+22                   0                   0                   0
+   dc_ill_cough_9_v2_3 dc_ill_cough_10_v2_3 dc_ill_breath_1_v2_3
+18                   0                    0                    0
+19                   0                   NA                    0
+20                   0                    0                    0
+21                   0                    0                    0
+22                   0                    0                    0
+   dc_ill_breath_2_v2_3 dc_ill_breath_3_v2_3 dc_ill_breath_4_v2_3
+18                    0                    0                    0
+19                    0                    0                    0
+20                    0                    0                    0
+21                    0                    0                    0
+22                    0                    0                    0
+   dc_ill_breath_5_v2_3 dc_ill_breath_6_v2_3 dc_ill_breath_7_v2_3
+18                    0                    0                    0
+19                    0                    0                    0
+20                    0                    0                    0
+21                    0                    0                    0
+22                    0                    0                    0
+   dc_ill_breath_8_v2_3 dc_ill_breath_9_v2_3 dc_ill_breath_10_v2_3
+18                    0                    0                     0
+19                    0                    0                    NA
+20                    0                    0                     0
+21                    0                    0                     0
+22                    0                    0                     0
+   dc_ill_chest_1_v2_3 dc_ill_chest_2_v2_3 dc_ill_chest_3_v2_3
+18                   0                   0                   0
+19                   0                   0                   0
+20                   0                   0                   0
+21                   2                   2                   2
+22                   0                   0                   0
+   dc_ill_chest_4_v2_3 dc_ill_chest_5_v2_3 dc_ill_chest_6_v2_3
+18                   0                   0                   0
+19                   0                   0                   0
+20                   0                   0                   0
+21                   2                   2                   1
+22                   0                   0                   0
+   dc_ill_chest_7_v2_3 dc_ill_chest_8_v2_3 dc_ill_chest_9_v2_3
+18                   0                   0                   0
+19                   0                   0                   0
+20                   0                   0                   0
+21                   1                   0                   0
+22                   0                   0                   0
+   dc_ill_chest_10_v2_3 dc_ill_body_1_v2_3 dc_ill_body_2_v2_3
+18                    0                  0                  0
+19                   NA                  0                  0
+20                    0                  0                  0
+21                    0                  0                  0
+22                    0                  0                  0
+   dc_ill_body_3_v2_3 dc_ill_body_4_v2_3 dc_ill_body_5_v2_3 dc_ill_body_6_v2_3
+18                  0                  0                  0                  0
+19                  0                  0                  0                  0
+20                  0                  0                  0                  0
+21                  0                  0                  0                  0
+22                  0                  0                  0                  0
+   dc_ill_body_7_v2_3 dc_ill_body_8_v2_3 dc_ill_body_9_v2_3 dc_ill_body_10_v2_3
+18                  0                  0                  0                   0
+19                  0                  0                  0                  NA
+20                  0                  0                  0                   0
+21                  0                  0                  0                   0
+22                  0                  0                  0                   0
+   dc_ill_chill_1_v2_3 dc_ill_chill_2_v2_3 dc_ill_chill_3_v2_3
+18                   0                   0                   0
+19                   0                   0                   0
+20                   0                   0                   0
+21                   0                   0                   0
+22                   0                   0                   0
+   dc_ill_chill_4_v2_3 dc_ill_chill_5_v2_3 dc_ill_chill_6_v2_3
+18                   0                   0                   0
+19                   0                   0                   0
+20                   0                   0                   0
+21                   0                   0                   0
+22                   0                   0                   0
+   dc_ill_chill_7_v2_3 dc_ill_chill_8_v2_3 dc_ill_chill_9_v2_3
+18                   0                   0                   0
+19                   0                   0                   0
+20                   0                   0                   0
+21                   0                   0                   0
+22                   0                   0                   0
+   dc_ill_chill_10_v2_3 dc_ill_fatigure_1_v2_3 dc_ill_fatigure_2_v2_3
+18                    0                      0                      0
+19                   NA                     NA                      0
+20                    0                      0                      0
+21                    0                      0                      0
+22                    0                      0                      0
+   dc_ill_fatigure_3_v2_3 dc_ill_fatigure_4_v2_3 dc_ill_fatigure_5_v2_3
+18                      0                      0                      0
+19                      0                      0                      0
+20                      0                      0                      0
+21                      0                      0                      0
+22                      0                      0                      0
+   dc_ill_fatigure_6_v2_3 dc_ill_fatigure_7_v2_3 dc_ill_fatigure_8_v2_3
+18                      0                      0                      0
+19                      0                      0                      0
+20                      0                      0                      0
+21                      0                      0                      0
+22                      0                      0                      0
+   dc_ill_fatigure_9_v2_3 dc_ill_fatigure_10_v2_3 dc_ill_smell_1_v2_3
+18                      0                       0                   2
+19                      0                      NA                   1
+20                      0                       0                   0
+21                      0                       0                   0
+22                      0                       0                   0
+   dc_ill_smell_2_v2_3 dc_ill_smell_3_v2_3 dc_ill_smell_4_v2_3
+18                   2                   2                   2
+19                   1                   1                   1
+20                   0                   0                   0
+21                   0                   0                   0
+22                   0                   0                   0
+   dc_ill_smell_5_v2_3 dc_ill_smell_6_v2_3 dc_ill_smell_7_v2_3
+18                   1                   1                   1
+19                   1                   1                   1
+20                   0                   0                   0
+21                   0                   0                   0
+22                   0                   0                   0
+   dc_ill_smell_8_v2_3 dc_ill_smell_9_v2_3 dc_ill_smell_10_v2_3
+18                   1                   1                    1
+19                   1                   1                   NA
+20                   0                   0                    0
+21                   0                   0                    0
+22                   0                   0                    0
+   dc_ill_taste_1_v2_3 dc_ill_taste_2_v2_3 dc_ill_taste_3_v2_3
+18                   2                   2                   2
+19                   1                   1                   1
+20                   0                   0                   0
+21                   0                   0                   0
+22                   0                   0                   0
+   dc_ill_taste_4_v2_3 dc_ill_taste_5_v2_3 dc_ill_taste_6_v2_3
+18                   2                   1                   1
+19                   1                   1                   1
+20                   0                   0                   0
+21                   0                   0                   0
+22                   0                   0                   0
+   dc_ill_taste_7_v2_3 dc_ill_taste_8_v2_3 dc_ill_taste_9_v2_3
+18                   1                   1                   1
+19                   1                   1                   1
+20                   0                   0                   0
+21                   0                   0                   0
+22                   0                   0                   0
+   dc_ill_taste_10_v2_3 dc_ill_eyes_1_v2_3 dc_ill_eyes_2_v2_3
+18                    1                  0                  0
+19                   NA                  0                  0
+20                    0                  0                  0
+21                    0                  0                  0
+22                    0                  0                  0
+   dc_ill_eyes_3_v2_3 dc_ill_eyes_4_v2_3 dc_ill_eyes_5_v2_3 dc_ill_eyes_6_v2_3
+18                  0                  0                  0                  0
+19                  0                  0                  0                  0
+20                  0                  0                  0                  0
+21                  0                  0                  0                  0
+22                  0                  0                  0                  0
+   dc_ill_eyes_7_v2_3 dc_ill_eyes_8_v2_3 dc_ill_eyes_9_v2_3 dc_ill_eyes_10_v2_3
+18                  0                  0                  0                   0
+19                  0                  0                  0                  NA
+20                  0                  0                  0                   0
+21                  0                  0                  0                   0
+22                  0                  0                  0                   0
+   dc_ill_naus_vom_1_v2_3 dc_ill_naus_vom_2_v2_3 dc_ill_naus_vom_3_v2_3
+18                      0                      0                      0
+19                      0                      0                      0
+20                      0                      0                      0
+21                      0                      0                      0
+22                      0                      0                      0
+   dc_ill_naus_vom_4_v2_3 dc_ill_naus_vom_5_v2_3 dc_ill_naus_vom_6_v2_3
+18                      0                      0                      0
+19                      0                      0                      0
+20                      0                      0                      0
+21                      0                      0                      0
+22                      0                      0                      0
+   dc_ill_naus_vom_7_v2_3 dc_ill_naus_vom_8_v2_3 dc_ill_naus_vom_9_v2_3
+18                      0                      0                      0
+19                      0                      0                      0
+20                      0                      0                      0
+21                      0                      0                      0
+22                      0                      0                      0
+   dc_ill_naus_vom_10_v2_3 dc_ill_diarr_1_v2_3 dc_ill_diarr_2_v2_3
+18                       0                   0                   0
+19                      NA                   0                   0
+20                       0                   0                   0
+21                       0                   0                   0
+22                       0                   0                   0
+   dc_ill_diarr_3_v2_3 dc_ill_diarr_4_v2_3 dc_ill_diarr_5_v2_3
+18                   0                   0                   0
+19                   0                   0                   0
+20                   0                   0                   0
+21                   0                   0                   0
+22                   0                   0                   0
+   dc_ill_diarr_6_v2_3 dc_ill_diarr_7_v2_3 dc_ill_diarr_8_v2_3
+18                   0                   0                   0
+19                   0                   0                   0
+20                   0                   0                   0
+21                   0                   0                   0
+22                   0                   0                   0
+   dc_ill_diarr_9_v2_3 dc_ill_diarr_10_v2_3 dc_ill_oth1_sp_v2_3
+18                   0                    0                <NA>
+19                   0                   NA                <NA>
+20                   0                    0            HEADACHE
+21                   0                    0        BLOCKED NOSE
+22                   0                    0        BLOCKED NOSE
+   dc_ill_oth1_1_v2_3 dc_ill_oth1_2_v2_3 dc_ill_oth1_3_v2_3 dc_ill_oth1_4_v2_3
+18                 NA                 NA                 NA                 NA
+19                 NA                 NA                 NA                 NA
+20                  3                  2                  2                  1
+21                  2                  2                  2                  2
+22                  1                  1                  0                  1
+   dc_ill_oth1_5_v2_3 dc_ill_oth1_6_v2_3 dc_ill_oth1_7_v2_3 dc_ill_oth1_8_v2_3
+18                 NA                 NA                 NA                 NA
+19                 NA                 NA                 NA                 NA
+20                  0                  0                  0                  0
+21                  2                  2                  2                  2
+22                  1                  1                  1                  0
+   dc_ill_oth1_9_v2_3 dc_ill_oth1_10_v2_3 dc_ill_oth2_sp_v2_3
+18                 NA                  NA                <NA>
+19                 NA                  NA                <NA>
+20                  0                   0                <NA>
+21                  1                   1                <NA>
+22                  0                   0                <NA>
+   dc_ill_oth2_1_v2_3 dc_ill_oth2_2_v2_3 dc_ill_oth2_3_v2_3 dc_ill_oth2_4_v2_3
+18                 NA                 NA                 NA                 NA
+19                 NA                 NA                 NA                 NA
+20                 NA                 NA                 NA                 NA
+21                 NA                 NA                 NA                 NA
+22                 NA                 NA                 NA                 NA
+   dc_ill_oth2_5_v2_3 dc_ill_oth2_6_v2_3 dc_ill_oth2_7_v2_3 dc_ill_oth2_8_v2_3
+18                 NA                 NA                 NA                 NA
+19                 NA                 NA                 NA                 NA
+20                 NA                 NA                 NA                 NA
+21                 NA                 NA                 NA                 NA
+22                 NA                 NA                 NA                 NA
+   dc_ill_oth2_9_v2_3 dc_ill_oth2_10_v2_3 dc_ill_adm_1_v2_3 dc_ill_adm_2_v2_3
+18                 NA                  NA                 0                 0
+19                 NA                  NA                 0                 0
+20                 NA                  NA                 0                 0
+21                 NA                  NA                 0                 0
+22                 NA                  NA                 0                 0
+   dc_ill_adm_3_v2_3 dc_ill_adm_4_v2_3 dc_ill_adm_5_v2_3 dc_ill_adm_6_v2_3
+18                 0                 0                 0                 0
+19                 0                 0                 0                 0
+20                 0                 0                 0                 0
+21                 0                 0                 0                 0
+22                 0                 0                 0                 0
+   dc_ill_adm_7_v2_3 dc_ill_adm_8_v2_3 dc_ill_adm_9_v2_3 dc_ill_adm_10_v2_3
+18                 0                 0                 0                  0
+19                 0                 0                 0                 NA
+20                 0                 0                 0                  0
+21                 0                 0                 0                  0
+22                 0                 0                 0                  0
+   dc_ill_add_det_v2_3 dc_ill_med1_v2_3 dc_ill_med1_dose_v2_3
+18                <NA>             <NA>                  <NA>
+19                <NA>             <NA>                  <NA>
+20                <NA>             <NA>                  <NA>
+21                <NA>             <NA>                  <NA>
+22                <NA>             <NA>                  <NA>
+   dc_ill_med1_freq_v2_3 dc_ill_med2_v2_3 dc_ill_med2_dose_v2_3
+18                  <NA>             <NA>                  <NA>
+19                  <NA>             <NA>                  <NA>
+20                  <NA>             <NA>                  <NA>
+21                  <NA>             <NA>                  <NA>
+22                  <NA>             <NA>                  <NA>
+   dc_ill_med2_freq_v2_3 dc_ill_med3_v2_3 dc_ill_med3_dose_v2_3
+18                  <NA>             <NA>                  <NA>
+19                  <NA>             <NA>                  <NA>
+20                  <NA>             <NA>                  <NA>
+21                  <NA>             <NA>                  <NA>
+22                  <NA>             <NA>                  <NA>
+   dc_ill_med3_freq_v2_3 dc_ill_med4_v2_3 dc_ill_med4_dose_v2_3
+18                  <NA>             <NA>                  <NA>
+19                  <NA>             <NA>                  <NA>
+20                  <NA>             <NA>                  <NA>
+21                  <NA>             <NA>                  <NA>
+22                  <NA>             <NA>                  <NA>
+   dc_ill_med4_freq_v2_3 dc_ill_med5_v2_3 dc_ill_med5_dose_v2_3
+18                  <NA>             <NA>                  <NA>
+19                  <NA>             <NA>                  <NA>
+20                  <NA>             <NA>                  <NA>
+21                  <NA>             <NA>                  <NA>
+22                  <NA>             <NA>                  <NA>
+   dc_ill_med5_freq_v2_3 dc_ill_med6_v2_3 dc_ill_med6_dose_v2_3
+18                  <NA>             <NA>                  <NA>
+19                  <NA>             <NA>                  <NA>
+20                  <NA>             <NA>                  <NA>
+21                  <NA>             <NA>                  <NA>
+22                  <NA>             <NA>                  <NA>
+   dc_ill_med6_freq_v2_3 dc_ill_med7_v2_3 dc_ill_med7_dose_v2_3
+18                  <NA>             <NA>                  <NA>
+19                  <NA>             <NA>                  <NA>
+20                  <NA>             <NA>                  <NA>
+21                  <NA>             <NA>                  <NA>
+22                  <NA>             <NA>                  <NA>
+   dc_ill_med7_freq_v2_3 dc_ill_med8_v2_3 dc_ill_med8_dose_v2_3
+18                  <NA>             <NA>                  <NA>
+19                  <NA>             <NA>                  <NA>
+20                  <NA>             <NA>                  <NA>
+21                  <NA>             <NA>                  <NA>
+22                  <NA>             <NA>                  <NA>
+   dc_ill_med8_freq_v2_3 dc_ill_med9_v2_3 dc_ill_med9_dose_v2_3
+18                  <NA>             <NA>                  <NA>
+19                  <NA>             <NA>                  <NA>
+20                  <NA>             <NA>                  <NA>
+21                  <NA>             <NA>                  <NA>
+22                  <NA>             <NA>                  <NA>
+   dc_ill_med9_freq_v2_3 dc_ill_med10_v2_3 dc_ill_med10_dose_v2_3
+18                  <NA>              <NA>                   <NA>
+19                  <NA>              <NA>                   <NA>
+20                  <NA>              <NA>                   <NA>
+21                  <NA>              <NA>                   <NA>
+22                  <NA>              <NA>                   <NA>
+   dc_ill_med10_freq_v2_3 dc_ill_med11_v2_3 dc_ill_med11_dose_v2_3
+18                   <NA>              <NA>                   <NA>
+19                   <NA>              <NA>                   <NA>
+20                   <NA>              <NA>                   <NA>
+21                   <NA>              <NA>                   <NA>
+22                   <NA>              <NA>                   <NA>
+   dc_ill_med11_freq_v2_3 dc_ill_med12_v2_3 dc_ill_med12_dose_v2_3
+18                   <NA>              <NA>                   <NA>
+19                   <NA>              <NA>                   <NA>
+20                   <NA>              <NA>                   <NA>
+21                   <NA>              <NA>                   <NA>
+22                   <NA>              <NA>                   <NA>
+   dc_ill_med12_freq_v2_3 dc_ill_crf_status_v2_3 dc_ill_locked_date_v2_3
+18                   <NA>                     NA                    <NA>
+19                   <NA>                     NA                    <NA>
+20                   <NA>                     NA                    <NA>
+21                   <NA>                     NA                    <NA>
+22                   <NA>                     NA                    <NA>
+   dc_ill_comm_v2_3 diary_card_illness_v2_3_complete
+18             <NA>                                2
+19             <NA>                                2
+20             <NA>                                2
+21             <NA>                                2
+22             <NA>                                2
+
+==== Dataset: demographic_and_contact_information_v2_3 ====
+Dimensions: 2130 rows, 14 columns
+First 10 columns: record_id, redcap_event_name, redcap_repeat_instrument, redcap_repeat_instance, age_calc, sc_id_v2_3, sc_age_v2_3, sc_gender_v2_3, sc_childbear_v2_3, sc_proof_contr_v2_3 
+
+Column types summary:
+col_types
+character    factor   numeric   POSIXct 
+        3         1         9         1 
+
+Potential date columns:  
+
+Potential health-related columns:  
+
+Potential demographic columns: age_calc, sc_age_v2_3, sc_gender_v2_3, sc_race_v2_3 
+
+Sample data for key columns:
+      age_calc sc_age_v2_3 sc_gender_v2_3 sc_race_v2_3
+18381       55          55              2            1
+18383       29          29              1            1
+18385       31          31              1            1
+18387       32          32              1            1
+18389       29          29              1            1
