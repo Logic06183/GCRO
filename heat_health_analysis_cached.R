@@ -1,5 +1,5 @@
 # Heat, Air Pollution, and COVID-19 Health Outcomes Analysis
-# Using real ChAdOx, GCRO, and Earth Engine data
+# Using real ChAdOx, GCRO, and Earth Engine data with caching
 # Focus: Heat Center Project - Environmental Justice Implications
 
 # Load necessary libraries
@@ -12,6 +12,9 @@ library(reticulate)  # For Python integration with Earth Engine
 
 # Configure reticulate to use conda environment
 use_condaenv("base", required = TRUE)
+
+# Source the batch processing function
+source("heat_health_batch_processing.R")
 
 #----- 1. LOAD AND PREPARE DATA -----#
 
@@ -160,164 +163,6 @@ cat("Combined dataset dimensions:", nrow(chadox_combined), "rows,", ncol(chadox_
 
 #----- 2. EARTH ENGINE CLIMATE DATA -----#
 
-# Function to fetch climate data from Earth Engine
-fetch_climate_data_ee <- function(start_date, end_date, location = "Soweto") {
-  cat("Fetching climate data from Earth Engine for", location, "from", start_date, "to", end_date, "\n")
-  
-  tryCatch({
-    # Initialize Earth Engine
-    ee <- reticulate::import("ee")
-    
-    # Authenticate - use the service account method
-    ee$Initialize()
-    cat("Earth Engine initialized successfully\n")
-    
-    # Define location (Soweto coordinates)
-    soweto_point <- ee$Geometry$Point(c(27.8579, -26.2485))  # longitude, latitude
-    
-    # Convert dates to EE format
-    start_date_ee <- ee$Date(as.character(as.Date(start_date)))
-    end_date_ee <- ee$Date(as.character(as.Date(end_date)))
-    
-    # Get ERA5 temperature data
-    cat("Retrieving ERA5 temperature data...\n")
-    era5_dataset <- ee$ImageCollection('ECMWF/ERA5/DAILY')$
-      filterDate(start_date_ee, end_date_ee)
-    
-    # Get temperature data
-    temp_data <- era5_dataset$select(c('mean_2m_air_temperature', 'minimum_2m_air_temperature', 'maximum_2m_air_temperature'))
-    
-    # Get CAMS air quality data
-    cat("Retrieving CAMS air quality data...\n")
-    cams_dataset <- ee$ImageCollection('ECMWF/CAMS/NRT')$
-      filterDate(start_date_ee, end_date_ee)
-    
-    # Get PM2.5 and NO2 data
-    air_quality_data <- cams_dataset$select(c('particulate_matter_d_less_than_2_5_um_surface', 'nitrogen_dioxide_surface'))
-    
-    # Function to extract data at a point
-    extract_data <- function(image) {
-      data <- image$reduceRegion(
-        reducer = ee$Reducer$mean(),
-        geometry = soweto_point,
-        scale = 10000  # Scale in meters
-      )
-      return(ee$Feature(NULL, data))
-    }
-    
-    # Apply extraction function to collections
-    temp_features <- temp_data$map(extract_data)
-    air_quality_features <- air_quality_data$map(extract_data)
-    
-    # Convert to lists
-    temp_list <- temp_features$toList(temp_data$size())
-    air_quality_list <- air_quality_features$toList(air_quality_data$size())
-    
-    # Create a sequence of dates
-    dates <- seq(as.Date(start_date), as.Date(end_date), by = "day")
-    
-    # Create an empty dataframe
-    climate_data <- data.frame(
-      date = dates,
-      temp_mean = NA,
-      temp_min = NA,
-      temp_max = NA,
-      pm25 = NA,
-      no2 = NA
-    )
-    
-    # Process temperature data
-    cat("Processing temperature data...\n")
-    temp_size <- as.integer(temp_data$size()$getInfo())
-    for (i in 1:min(temp_size, length(dates))) {
-      feature <- ee$Feature(temp_list$get(i - 1))
-      props <- feature$getInfo()$properties
-      
-      if (!is.null(props)) {
-        # Find the matching date index
-        date_str <- names(props)[grep("system:time_start", names(props))]
-        if (length(date_str) > 0) {
-          timestamp <- as.numeric(props[[date_str]]) / 1000  # Convert from milliseconds to seconds
-          date_index <- which(abs(as.numeric(dates) - as.numeric(as.Date(as.POSIXct(timestamp, origin = "1970-01-01")))) < 1)
-          
-          if (length(date_index) > 0) {
-            climate_data$temp_mean[date_index] <- props[["mean_2m_air_temperature"]] - 273.15  # Convert from K to C
-            climate_data$temp_min[date_index] <- props[["minimum_2m_air_temperature"]] - 273.15
-            climate_data$temp_max[date_index] <- props[["maximum_2m_air_temperature"]] - 273.15
-          }
-        }
-      }
-    }
-    
-    # Process air quality data
-    cat("Processing air quality data...\n")
-    aq_size <- as.integer(air_quality_data$size()$getInfo())
-    for (i in 1:min(aq_size, length(dates))) {
-      feature <- ee$Feature(air_quality_list$get(i - 1))
-      props <- feature$getInfo()$properties
-      
-      if (!is.null(props)) {
-        # Find the matching date index
-        date_str <- names(props)[grep("system:time_start", names(props))]
-        if (length(date_str) > 0) {
-          timestamp <- as.numeric(props[[date_str]]) / 1000  # Convert from milliseconds to seconds
-          date_index <- which(abs(as.numeric(dates) - as.numeric(as.Date(as.POSIXct(timestamp, origin = "1970-01-01")))) < 1)
-          
-          if (length(date_index) > 0) {
-            climate_data$pm25[date_index] <- props[["particulate_matter_d_less_than_2_5_um_surface"]]
-            climate_data$no2[date_index] <- props[["nitrogen_dioxide_surface"]]
-          }
-        }
-      }
-    }
-    
-    # Calculate heat index
-    cat("Calculating heat index...\n")
-    climate_data$heat_index <- with(climate_data, {
-      # Simplified heat index calculation
-      # HI = 0.5 * (T + 61.0 + ((T-68.0)*1.2) + (RH*0.094))
-      # Using a simplified version since we don't have humidity
-      temp_mean + (temp_max - temp_mean) * 0.2
-    })
-    
-    cat("Climate data retrieval complete\n")
-    return(climate_data)
-  }, error = function(e) {
-    cat("Error retrieving climate data from Earth Engine:", e$message, "\n")
-    cat("Generating simulated climate data as fallback...\n")
-    
-    # Generate simulated climate data as fallback
-    dates <- seq(as.Date(start_date), as.Date(end_date), by = "day")
-    n_days <- length(dates)
-    
-    # Create seasonal patterns for temperature
-    month_indices <- month(dates)
-    seasonal_temp <- 25 + 10 * sin((month_indices - 1) * pi/6)  # Peak in summer (January)
-    
-    # Add some random variation
-    set.seed(123)  # For reproducibility
-    random_var <- rnorm(n_days, 0, 3)
-    
-    # Create simulated climate data
-    climate_data <- data.frame(
-      date = dates,
-      temp_mean = seasonal_temp + random_var,
-      temp_min = seasonal_temp + random_var - runif(n_days, 3, 7),
-      temp_max = seasonal_temp + random_var + runif(n_days, 3, 7),
-      pm25 = 15 + 10 * sin((month_indices - 1) * pi/6) + rnorm(n_days, 0, 5),  # Higher in winter
-      no2 = 20 + 15 * sin((month_indices - 1) * pi/6) + rnorm(n_days, 0, 8)    # Higher in winter
-    )
-    
-    # Calculate heat index
-    climate_data$heat_index <- with(climate_data, {
-      temp_mean + (temp_max - temp_mean) * 0.2
-    })
-    
-    cat("Simulated climate data generated\n")
-    return(climate_data)
-  })
-}
-
 # Determine date range from ChAdOx data
 date_range <- range(chadox_combined$visit_date, na.rm = TRUE)
 start_date <- date_range[1]
@@ -325,8 +170,14 @@ end_date <- date_range[2]
 
 cat("ChAdOx data date range:", start_date, "to", end_date, "\n")
 
-# Fetch climate data for the same period
-climate_data <- fetch_climate_data_ee(start_date, end_date, "Soweto")
+# Fetch climate data for the same period using batch processing
+climate_data <- fetch_climate_data_batch(
+  start_date, 
+  end_date, 
+  location = "Soweto", 
+  batch_size = 30,  # Process 30 days at a time
+  cache_file = "climate_data_cache.RData"
+)
 
 #----- 3. MERGE HEALTH AND CLIMATE DATA -----#
 
@@ -362,6 +213,10 @@ analysis_data <- analysis_data %>%
     )
   )
 
+# Save the merged dataset for future use
+save(analysis_data, file = "heat_health_merged_data.RData")
+cat("Merged dataset saved to 'heat_health_merged_data.RData'\n")
+
 #----- 4. ANALYSIS -----#
 
 # 1. Correlation analysis
@@ -370,7 +225,7 @@ health_vars <- c("avg_temperature", "avg_oxygen", "avg_respiratory",
                 "fever_cases", "resp_cases", "hosp_cases", 
                 "cough_cases", "smell_loss_cases", "taste_loss_cases")
 
-climate_vars <- c("temp_mean", "temp_max", "temp_min", "heat_index", "pm25", "no2")
+climate_vars <- c("temp_mean", "temp_max", "temp_min", "heat_index", "pm25")
 
 # Create correlation matrix
 correlation_data <- analysis_data %>%
@@ -392,7 +247,6 @@ seasonal_summary <- analysis_data %>%
     avg_max_temp = mean(temp_max, na.rm = TRUE),
     avg_heat_index = mean(heat_index, na.rm = TRUE),
     avg_pm25 = mean(pm25, na.rm = TRUE),
-    avg_no2 = mean(no2, na.rm = TRUE),
     fever_rate = sum(fever_cases, na.rm = TRUE) / sum(total_visits, na.rm = TRUE) * 100,
     respiratory_rate = sum(resp_cases, na.rm = TRUE) / sum(total_visits, na.rm = TRUE) * 100,
     hospitalization_rate = sum(hosp_cases, na.rm = TRUE) / sum(total_visits, na.rm = TRUE) * 100,
@@ -496,7 +350,7 @@ ggsave("temperature_fever_timeseries.png", plot = p1, width = 10, height = 6)
 # 2. Seasonal comparison
 cat("\nCreating seasonal comparison visualization...\n")
 seasonal_long <- seasonal_summary %>%
-  pivot_longer(cols = c(avg_temp, avg_max_temp, avg_heat_index, avg_pm25, avg_no2),
+  pivot_longer(cols = c(avg_temp, avg_max_temp, avg_heat_index, avg_pm25),
               names_to = "climate_variable", values_to = "value")
 
 p2 <- ggplot(seasonal_long, aes(x = season, y = value, fill = climate_variable)) +
