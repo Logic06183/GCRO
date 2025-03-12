@@ -1,0 +1,6 @@
+
+Air Quality Assessment for Johannesburg (January-February 2024)
+
+Analysis of satellite-derived air quality data for Johannesburg from January to February 2024 revealed consistent patterns in particulate matter concentrations. Measurements from the ECMWF/CAMS/NRT dataset showed that PM2.5 levels averaged 25.29 ug/m3 with maximum readings of 75.27 ug/m3, while PM10 concentrations averaged 36.26 ug/m3 with peaks reaching 107.66 ug/m3. These values remain below the WHO's 24-hour guidelines of 15 ug/m3 for PM2.5 and 45 ug/m3 for PM10, suggesting relatively good air quality in the region during this period. Data availability was strong, with 88.3% of days having valid measurements, providing a robust dataset for environmental assessment.
+
+[Generated on March 12, 2025]
