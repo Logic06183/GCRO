@@ -12,6 +12,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import ee
+import geemap
 
 # Initialize Earth Engine
 try:
@@ -20,6 +21,20 @@ try:
 except Exception as e:
     print(f"Error initializing Earth Engine: {e}")
     raise Exception("Earth Engine initialization failed. Please check your authentication.")
+
+def ee_to_pandas(fc):
+    """Convert Earth Engine FeatureCollection to pandas DataFrame"""
+    # Get the feature collection as a list
+    features = fc.getInfo()['features']
+    
+    # Extract properties from each feature
+    data = []
+    for feature in features:
+        properties = feature['properties']
+        data.append(properties)
+    
+    # Convert to pandas DataFrame
+    return pd.DataFrame(data)
 
 def fetch_climate_data(region_name, coordinates, start_date_str, end_date_str, output_dir="data"):
     """
@@ -438,38 +453,218 @@ def fetch_climate_data(region_name, coordinates, start_date_str, end_date_str, o
     
     return climate_data
 
+def collect_soweto_extended_data():
+    """Collect extended climate data for Soweto from 2015 to 2022"""
+    print("Starting collection of extended climate data for Soweto...")
+    
+    # Define the Soweto region
+    soweto_coords = [
+        [27.8500, -26.2500],
+        [27.8500, -26.3500],
+        [27.9500, -26.3500],
+        [27.9500, -26.2500]
+    ]
+    soweto_region = ee.Geometry.Polygon([soweto_coords])
+    
+    # Define the extended date range to match your health data
+    start_date = '2015-01-01'
+    end_date = '2022-03-31'  # Extended to cover your health data period
+    
+    print(f"Collecting ERA5 data for Soweto from {start_date} to {end_date}...")
+    
+    # Process in one-year chunks to avoid memory issues
+    years = range(2015, 2023)
+    all_data = []
+    
+    for year in years:
+        year_start = f"{year}-01-01"
+        year_end = f"{year}-12-31" if year < 2022 else "2022-03-31"
+        
+        print(f"Processing year {year} ({year_start} to {year_end})...")
+        
+        # Choose dataset based on year
+        # Use ERA5 for 2015-2020, ERA5-Land for 2021-2022
+        if year <= 2020:
+            print(f"  Using ERA5 dataset for {year}")
+            era5_dataset = ee.ImageCollection('ECMWF/ERA5/DAILY')
+            
+            # Select relevant climate variables for ERA5
+            climate_vars = [
+                'mean_2m_air_temperature',
+                'minimum_2m_air_temperature', 
+                'maximum_2m_air_temperature',
+                'total_precipitation',
+                'mean_sea_level_pressure',
+                'u_component_of_wind_10m',
+                'v_component_of_wind_10m'
+            ]
+        else:
+            print(f"  Using ERA5-Land dataset for {year}")
+            era5_dataset = ee.ImageCollection('ECMWF/ERA5_LAND/DAILY_RAW')
+            
+            # Select relevant climate variables for ERA5-Land
+            # Updated with correct band names from the error message
+            climate_vars = [
+                'temperature_2m',  # Mean 2m air temperature
+                'temperature_2m_min', 
+                'temperature_2m_max',
+                'total_precipitation_sum',  # Note the _sum suffix
+                # ERA5-Land doesn't have sea level pressure
+                'u_component_of_wind_10m',  # Same name
+                'v_component_of_wind_10m'   # Same name
+            ]
+        
+        # Filter by date and region
+        era5_filtered = era5_dataset.filterDate(year_start, year_end).filterBounds(soweto_region)
+        
+        era5_selected = era5_filtered.select(climate_vars)
+        
+        # Function to calculate statistics for each day
+        def calculate_stats(image):
+            date = ee.Date(image.get('system:time_start')).format('YYYY-MM-dd')
+            stats = image.reduceRegion(
+                reducer=ee.Reducer.mean(),
+                geometry=soweto_region,
+                scale=30000,
+                maxPixels=1e9
+            )
+            
+            # Create a feature with properties, handling different variable names
+            if year <= 2020:
+                return ee.Feature(None, {
+                    'date': date,
+                    'mean_2m_air_temperature': stats.get('mean_2m_air_temperature'),
+                    'minimum_2m_air_temperature': stats.get('minimum_2m_air_temperature'),
+                    'maximum_2m_air_temperature': stats.get('maximum_2m_air_temperature'),
+                    'total_precipitation': stats.get('total_precipitation'),
+                    'mean_sea_level_pressure': stats.get('mean_sea_level_pressure'),
+                    'u_component_of_wind_10m': stats.get('u_component_of_wind_10m'),
+                    'v_component_of_wind_10m': stats.get('v_component_of_wind_10m')
+                })
+            else:
+                # For ERA5-Land, map to consistent column names with updated band names
+                return ee.Feature(None, {
+                    'date': date,
+                    'mean_2m_air_temperature': stats.get('temperature_2m'),
+                    'minimum_2m_air_temperature': stats.get('temperature_2m_min'),
+                    'maximum_2m_air_temperature': stats.get('temperature_2m_max'),
+                    'total_precipitation': stats.get('total_precipitation_sum'),
+                    'mean_sea_level_pressure': None,  # Not available in ERA5-Land
+                    'u_component_of_wind_10m': stats.get('u_component_of_wind_10m'),
+                    'v_component_of_wind_10m': stats.get('v_component_of_wind_10m')
+                })
+        
+        # Map over the collection
+        stats_collection = era5_selected.map(calculate_stats)
+        
+        try:
+            # Convert to pandas DataFrame with retries
+            max_attempts = 3
+            for attempt in range(max_attempts):
+                try:
+                    # Use our custom function instead of geemap.ee_to_pandas
+                    year_data = ee_to_pandas(stats_collection)
+                    print(f"  Successfully retrieved {len(year_data)} days of data for {year}")
+                    all_data.append(year_data)
+                    break
+                except Exception as e:
+                    if attempt < max_attempts - 1:
+                        print(f"  Attempt {attempt+1} failed: {e}. Retrying...")
+                        time.sleep(5)  # Wait 5 seconds before retrying
+                    else:
+                        print(f"  Failed to retrieve data for {year} after {max_attempts} attempts: {e}")
+                        raise
+        except Exception as e:
+            print(f"Error processing year {year}: {e}")
+            # Continue with next year instead of stopping completely
+            continue
+    
+    if all_data:
+        # Combine all years
+        era5_data = pd.concat(all_data)
+        
+        # Save to CSV
+        era5_data.to_csv('soweto_era5_climate_data_extended.csv', index=False)
+        print(f"Extended ERA5 data saved to soweto_era5_climate_data_extended.csv with {len(era5_data)} records")
+        
+        # Create a map visualization
+        try:
+            print("Creating interactive map visualization...")
+            Map = geemap.Map()
+            Map.centerObject(soweto_region, 10)
+            
+            # Access the ERA5 dataset for visualization (full period)
+            # Use ERA5 for visualization as it covers most of the period
+            era5_dataset = ee.ImageCollection('ECMWF/ERA5/DAILY')
+            era5_filtered = era5_dataset.filterDate('2015-01-01', '2020-12-31').filterBounds(soweto_region)
+            
+            # Add the mean temperature layer
+            mean_temp = era5_filtered.select('mean_2m_air_temperature').mean()
+            mean_temp_vis = {
+                'min': 270,
+                'max': 305,
+                'palette': ['blue', 'purple', 'cyan', 'green', 'yellow', 'red']
+            }
+            Map.addLayer(mean_temp, mean_temp_vis, 'Mean Temperature')
+            
+            # Add the precipitation layer
+            precip = era5_filtered.select('total_precipitation').mean()
+            precip_vis = {
+                'min': 0,
+                'max': 0.01,
+                'palette': ['white', 'blue', 'purple']
+            }
+            Map.addLayer(precip, precip_vis, 'Precipitation')
+            
+            # Add the Soweto region
+            Map.addLayer(soweto_region, {}, 'Soweto')
+            
+            # Save the map
+            Map.to_html('soweto_climate_map.html')
+            print("Interactive map saved to soweto_climate_map.html")
+        except Exception as e:
+            print(f"Error creating map visualization: {e}")
+    else:
+        print("No data was collected. Cannot create output files.")
+
 # Example usage
 if __name__ == "__main__":
-    # Define region of interest (example: Johannesburg)
-    region_name = "Johannesburg"
-    coordinates = [28.0473, -26.2041]  # [longitude, latitude]
+    # Choose which function to run
+    mode = "extended"  # Change to "original" if you want to run the original example
     
-    # Define date range
-    start_date = "2023-01-01"
-    end_date = "2023-12-31"
-    
-    # Fetch climate data
-    try:
-        climate_data = fetch_climate_data(
-            region_name=region_name,
-            coordinates=coordinates,
-            start_date_str=start_date,
-            end_date_str=end_date,
-            output_dir="climate_data"
-        )
+    if mode == "extended":
+        collect_soweto_extended_data()
+    else:
+        # Original example code
+        region_name = "Johannesburg"
+        coordinates = [28.0473, -26.2041]  # [longitude, latitude]
         
-        # Display summary
-        print("\nClimate Data Summary:")
-        print(f"Total days: {len(climate_data)}")
-        for column in climate_data.columns:
-            if column not in ['date', 'region']:
-                not_null = climate_data[column].notna().sum()
-                percent = not_null/len(climate_data)*100
-                print(f"{column}: {not_null} days ({percent:.1f}%)")
+        # Define date range
+        start_date = "2023-01-01"
+        end_date = "2023-12-31"
         
-        # Display head of the dataframe
-        print("\nSample data:")
-        print(climate_data.head())
-    except Exception as e:
-        print(f"ERROR: {e}")
-        print("Data collection failed. Please check your Earth Engine setup and try again.")
+        # Fetch climate data
+        try:
+            climate_data = fetch_climate_data(
+                region_name=region_name,
+                coordinates=coordinates,
+                start_date_str=start_date,
+                end_date_str=end_date,
+                output_dir="climate_data"
+            )
+            
+            # Display summary
+            print("\nClimate Data Summary:")
+            print(f"Total days: {len(climate_data)}")
+            for column in climate_data.columns:
+                if column not in ['date', 'region']:
+                    not_null = climate_data[column].notna().sum()
+                    percent = not_null/len(climate_data)*100
+                    print(f"{column}: {not_null} days ({percent:.1f}%)")
+            
+            # Display head of the dataframe
+            print("\nSample data:")
+            print(climate_data.head())
+        except Exception as e:
+            print(f"ERROR: {e}")
+            print("Data collection failed. Please check your Earth Engine setup and try again.")
